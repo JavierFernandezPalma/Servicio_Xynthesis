@@ -1,0 +1,14 @@
+D:\Innovacion\XynthesisExtraccion\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\Axede.Xynthesis.IpcProcess.dll.config
+D:\Innovacion\XynthesisExtraccion\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\Axede.Xynthesis.IpcProcess.dll
+D:\Innovacion\XynthesisExtraccion\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\Axede.Xynthesis.IpcProcess.pdb
+D:\Innovacion\XynthesisExtraccion\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\Axede.Xynthesis.Log.dll
+D:\Innovacion\XynthesisExtraccion\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\CommonProcessLibrary.dll
+D:\Innovacion\XynthesisExtraccion\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\MySql.Data.dll
+D:\Innovacion\XynthesisExtraccion\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\Newtonsoft.Json.dll
+D:\Innovacion\XynthesisExtraccion\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\log4net.dll
+D:\Innovacion\XynthesisExtraccion\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\Axede.Xynthesis.Log.pdb
+D:\Innovacion\XynthesisExtraccion\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\CommonProcessLibrary.pdb
+D:\Innovacion\XynthesisExtraccion\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\MySql.Data.xml
+D:\Innovacion\XynthesisExtraccion\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\Newtonsoft.Json.xml
+D:\Innovacion\XynthesisExtraccion\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.IpcProcess\obj\Debug\Axede.Xynthesis.IpcProcess.dll
+D:\Innovacion\XynthesisExtraccion\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.IpcProcess\obj\Debug\Axede.Xynthesis.IpcProcess.pdb

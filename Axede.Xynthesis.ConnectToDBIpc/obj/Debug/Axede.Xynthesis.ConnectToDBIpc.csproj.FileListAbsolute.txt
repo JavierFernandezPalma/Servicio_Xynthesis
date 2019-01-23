@@ -1,0 +1,25 @@
+D:\Innovacion\XynthesisExtraccion\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.ConnectToDBIpc\bin\Debug\Axede.Xynthesis.ConnectToDBIpc.dll.config
+D:\Innovacion\XynthesisExtraccion\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.ConnectToDBIpc\bin\Debug\Axede.Xynthesis.ConnectToDBIpc.dll
+D:\Innovacion\XynthesisExtraccion\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.ConnectToDBIpc\bin\Debug\Axede.Xynthesis.ConnectToDBIpc.pdb
+D:\Innovacion\XynthesisExtraccion\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.ConnectToDBIpc\bin\Debug\Axede.Xynthesis.Log.dll
+D:\Innovacion\XynthesisExtraccion\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.ConnectToDBIpc\bin\Debug\CommonProcessLibrary.dll
+D:\Innovacion\XynthesisExtraccion\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.ConnectToDBIpc\bin\Debug\MySql.Data.dll
+D:\Innovacion\XynthesisExtraccion\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.ConnectToDBIpc\bin\Debug\log4net.dll
+D:\Innovacion\XynthesisExtraccion\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.ConnectToDBIpc\bin\Debug\Axede.Xynthesis.Log.pdb
+D:\Innovacion\XynthesisExtraccion\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.ConnectToDBIpc\bin\Debug\CommonProcessLibrary.pdb
+D:\Innovacion\XynthesisExtraccion\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.ConnectToDBIpc\bin\Debug\MySql.Data.xml
+D:\Innovacion\XynthesisExtraccion\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.ConnectToDBIpc\obj\Debug\Axede.Xynthesis.ConnectToDBIpc.dll
+D:\Innovacion\XynthesisExtraccion\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.ConnectToDBIpc\obj\Debug\Axede.Xynthesis.ConnectToDBIpc.pdb
+D:\OneDrive - AXEDE\Users\jafernandez\Documentos\Visual Studio 2015\Projects\Xynthesis\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.ConnectToDBIpc\bin\Debug\Axede.Xynthesis.ConnectToDBIpc.dll.config
+D:\OneDrive - AXEDE\Users\jafernandez\Documentos\Visual Studio 2015\Projects\Xynthesis\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.ConnectToDBIpc\bin\Debug\Axede.Xynthesis.ConnectToDBIpc.dll
+D:\OneDrive - AXEDE\Users\jafernandez\Documentos\Visual Studio 2015\Projects\Xynthesis\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.ConnectToDBIpc\bin\Debug\Axede.Xynthesis.ConnectToDBIpc.pdb
+D:\OneDrive - AXEDE\Users\jafernandez\Documentos\Visual Studio 2015\Projects\Xynthesis\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.ConnectToDBIpc\bin\Debug\MySql.Data.dll
+D:\OneDrive - AXEDE\Users\jafernandez\Documentos\Visual Studio 2015\Projects\Xynthesis\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.ConnectToDBIpc\bin\Debug\log4net.dll
+D:\OneDrive - AXEDE\Users\jafernandez\Documentos\Visual Studio 2015\Projects\Xynthesis\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.ConnectToDBIpc\bin\Debug\Axede.Xynthesis.Log.pdb
+D:\OneDrive - AXEDE\Users\jafernandez\Documentos\Visual Studio 2015\Projects\Xynthesis\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.ConnectToDBIpc\bin\Debug\CommonProcessLibrary.pdb
+D:\OneDrive - AXEDE\Users\jafernandez\Documentos\Visual Studio 2015\Projects\Xynthesis\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.ConnectToDBIpc\bin\Debug\MySql.Data.xml
+D:\OneDrive - AXEDE\Users\jafernandez\Documentos\Visual Studio 2015\Projects\Xynthesis\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.ConnectToDBIpc\obj\Debug\Axede.Xynthesis.ConnectToDBIpc.csprojAssemblyReference.cache
+D:\OneDrive - AXEDE\Users\jafernandez\Documentos\Visual Studio 2015\Projects\Xynthesis\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.ConnectToDBIpc\obj\Debug\Axede.Xynthesis.ConnectToDBIpc.csproj.CoreCompileInputs.cache
+D:\OneDrive - AXEDE\Users\jafernandez\Documentos\Visual Studio 2015\Projects\Xynthesis\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.ConnectToDBIpc\obj\Debug\Axede.Xynthesis.ConnectToDBIpc.csproj.CopyComplete
+D:\OneDrive - AXEDE\Users\jafernandez\Documentos\Visual Studio 2015\Projects\Xynthesis\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.ConnectToDBIpc\obj\Debug\Axede.Xynthesis.ConnectToDBIpc.dll
+D:\OneDrive - AXEDE\Users\jafernandez\Documentos\Visual Studio 2015\Projects\Xynthesis\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Axede.Xynthesis.ConnectToDBIpc\obj\Debug\Axede.Xynthesis.ConnectToDBIpc.pdb

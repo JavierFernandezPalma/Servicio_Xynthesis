@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:CreateSession xmlns:ns1="http://www.ipc.com/bw">
+  <ns1:SessionInfo>
+    <ns1:ClientType>CTI</ns1:ClientType>
+  </ns1:SessionInfo>
+</ns1:CreateSession>
