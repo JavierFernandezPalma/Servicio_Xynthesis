@@ -25,5 +25,6 @@ namespace Modelo
             throw new UnintentionalCodeFirstException();
         }
     
+        public DbSet<xy_ipc_communicationhistory> xy_ipc_communicationhistory { get; set; }
     }
 }

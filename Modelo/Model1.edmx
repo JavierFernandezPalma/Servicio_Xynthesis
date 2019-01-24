@@ -4,20 +4,207 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="xynthesisModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-        <EntityContainer Name="xynthesisModelStoreContainer" />
-      </Schema>
-    </edmx:StorageModels>
+    <Schema Namespace="xynthesisModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'def.xynthesis.xy_ipc_communicationhistory' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <EntityType Name="xy_ipc_communicationhistory">
+          <Key>
+            <PropertyRef Name="cLIName" />
+            <PropertyRef Name="cLINumber" />
+            <PropertyRef Name="callType" />
+            <PropertyRef Name="connectionId" />
+            <PropertyRef Name="duration" />
+            <PropertyRef Name="eventType" />
+            <PropertyRef Name="pttDuration" />
+            <PropertyRef Name="ringTime" />
+            <PropertyRef Name="startTime" />
+            <PropertyRef Name="EndTime" />
+          </Key>
+          <Property Name="id" Type="varchar" MaxLength="45" />
+          <Property Name="answeringPartyName" Type="varchar" MaxLength="45" />
+          <Property Name="buttonNumber" Type="varchar" MaxLength="45" />
+          <Property Name="cLIName" Type="varchar" MaxLength="45" Nullable="false" />
+          <Property Name="cLINumber" Type="varchar" MaxLength="45" Nullable="false" />
+          <Property Name="callType" Type="varchar" MaxLength="45" Nullable="false" />
+          <Property Name="callUsage" Type="varchar" MaxLength="45" />
+          <Property Name="connectionId" Type="varchar" MaxLength="45" Nullable="false" />
+          <Property Name="destination" Type="varchar" MaxLength="45" />
+          <Property Name="deviceChannel" Type="varchar" MaxLength="45" />
+          <Property Name="deviceChannelType" Type="varchar" MaxLength="45" />
+          <Property Name="deviceIdId" Type="varchar" MaxLength="45" />
+          <Property Name="displayInCallHistory" Type="varchar" MaxLength="45" />
+          <Property Name="duration" Type="varchar" MaxLength="45" Nullable="false" />
+          <Property Name="e164Destination" Type="varchar" MaxLength="45" />
+          <Property Name="enterpriseCallId" Type="varchar" MaxLength="45" />
+          <Property Name="eventType" Type="varchar" MaxLength="45" Nullable="false" />
+          <Property Name="personalPointOfContactId" Type="varchar" MaxLength="45" />
+          <Property Name="pointOfContactId" Type="varchar" MaxLength="45" />
+          <Property Name="priority" Type="varchar" MaxLength="45" />
+          <Property Name="pttDuration" Type="varchar" MaxLength="45" Nullable="false" />
+          <Property Name="reasonForDisconnect" Type="varchar" MaxLength="45" />
+          <Property Name="resourceAORId" Type="varchar" MaxLength="45" />
+          <Property Name="ringTime" Type="varchar" MaxLength="45" Nullable="false" />
+          <Property Name="rolloverAppearance" Type="varchar" MaxLength="45" />
+          <Property Name="routedDestination" Type="varchar" MaxLength="45" />
+          <Property Name="schemaDifference_blob_reserved" Type="varchar" MaxLength="45" />
+          <Property Name="schemaDifference_reserved" Type="varchar" MaxLength="45" />
+          <Property Name="startTime" Type="varchar" MaxLength="45" Nullable="false" />
+          <Property Name="trunkId" Type="varchar" MaxLength="45" />
+          <Property Name="trunkBChannel" Type="varchar" MaxLength="45" />
+          <Property Name="userId" Type="varchar" MaxLength="45" />
+          <Property Name="lastModified" Type="varchar" MaxLength="45" />
+          <Property Name="parentUserCDIId" Type="varchar" MaxLength="45" />
+          <Property Name="EndTime" Type="varchar" MaxLength="25" Nullable="false" />
+          <Property Name="EffectiveCallDuration" Type="varchar" MaxLength="10" />
+        </EntityType>
+        <EntityContainer Name="xynthesisModelStoreContainer">
+          <EntitySet Name="xy_ipc_communicationhistory" EntityType="Self.xy_ipc_communicationhistory" store:Type="Tables" store:Schema="xynthesis">
+            <DefiningQuery>SELECT
+`xy_ipc_communicationhistory`.`id`, 
+`xy_ipc_communicationhistory`.`answeringPartyName`, 
+`xy_ipc_communicationhistory`.`buttonNumber`, 
+`xy_ipc_communicationhistory`.`cLIName`, 
+`xy_ipc_communicationhistory`.`cLINumber`, 
+`xy_ipc_communicationhistory`.`callType`, 
+`xy_ipc_communicationhistory`.`callUsage`, 
+`xy_ipc_communicationhistory`.`connectionId`, 
+`xy_ipc_communicationhistory`.`destination`, 
+`xy_ipc_communicationhistory`.`deviceChannel`, 
+`xy_ipc_communicationhistory`.`deviceChannelType`, 
+`xy_ipc_communicationhistory`.`deviceIdId`, 
+`xy_ipc_communicationhistory`.`displayInCallHistory`, 
+`xy_ipc_communicationhistory`.`duration`, 
+`xy_ipc_communicationhistory`.`e164Destination`, 
+`xy_ipc_communicationhistory`.`enterpriseCallId`, 
+`xy_ipc_communicationhistory`.`eventType`, 
+`xy_ipc_communicationhistory`.`personalPointOfContactId`, 
+`xy_ipc_communicationhistory`.`pointOfContactId`, 
+`xy_ipc_communicationhistory`.`priority`, 
+`xy_ipc_communicationhistory`.`pttDuration`, 
+`xy_ipc_communicationhistory`.`reasonForDisconnect`, 
+`xy_ipc_communicationhistory`.`resourceAORId`, 
+`xy_ipc_communicationhistory`.`ringTime`, 
+`xy_ipc_communicationhistory`.`rolloverAppearance`, 
+`xy_ipc_communicationhistory`.`routedDestination`, 
+`xy_ipc_communicationhistory`.`schemaDifference_blob_reserved`, 
+`xy_ipc_communicationhistory`.`schemaDifference_reserved`, 
+`xy_ipc_communicationhistory`.`startTime`, 
+`xy_ipc_communicationhistory`.`trunkId`, 
+`xy_ipc_communicationhistory`.`trunkBChannel`, 
+`xy_ipc_communicationhistory`.`userId`, 
+`xy_ipc_communicationhistory`.`lastModified`, 
+`xy_ipc_communicationhistory`.`parentUserCDIId`, 
+`xy_ipc_communicationhistory`.`EndTime`, 
+`xy_ipc_communicationhistory`.`EffectiveCallDuration`
+FROM `xy_ipc_communicationhistory` AS `xy_ipc_communicationhistory`</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="xynthesisModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-        <EntityContainer Name="xynthesisEntities" annotation:LazyLoadingEnabled="true" />
+        <EntityContainer Name="xynthesisEntities" annotation:LazyLoadingEnabled="true" >
+          <EntitySet Name="xy_ipc_communicationhistory" EntityType="xynthesisModel.xy_ipc_communicationhistory" />
+        </EntityContainer>
+        <EntityType Name="xy_ipc_communicationhistory">
+          <Key>
+            <PropertyRef Name="cLIName" />
+            <PropertyRef Name="cLINumber" />
+            <PropertyRef Name="callType" />
+            <PropertyRef Name="connectionId" />
+            <PropertyRef Name="duration" />
+            <PropertyRef Name="eventType" />
+            <PropertyRef Name="pttDuration" />
+            <PropertyRef Name="ringTime" />
+            <PropertyRef Name="startTime" />
+            <PropertyRef Name="EndTime" />
+          </Key>
+          <Property Name="id" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="answeringPartyName" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="buttonNumber" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="cLIName" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="cLINumber" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="callType" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="callUsage" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="connectionId" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="destination" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="deviceChannel" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="deviceChannelType" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="deviceIdId" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="displayInCallHistory" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="duration" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="e164Destination" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="enterpriseCallId" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="eventType" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="personalPointOfContactId" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="pointOfContactId" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="priority" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="pttDuration" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="reasonForDisconnect" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="resourceAORId" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="ringTime" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="rolloverAppearance" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="routedDestination" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="schemaDifference_blob_reserved" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="schemaDifference_reserved" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="startTime" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="trunkId" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="trunkBChannel" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="userId" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="lastModified" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="parentUserCDIId" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="EndTime" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="false" />
+          <Property Name="EffectiveCallDuration" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="xynthesisModelStoreContainer" CdmEntityContainer="xynthesisEntities" />
+        <EntityContainerMapping StorageEntityContainer="xynthesisModelStoreContainer" CdmEntityContainer="xynthesisEntities" >
+          <EntitySetMapping Name="xy_ipc_communicationhistory">
+            <EntityTypeMapping TypeName="xynthesisModel.xy_ipc_communicationhistory">
+              <MappingFragment StoreEntitySet="xy_ipc_communicationhistory">
+                <ScalarProperty Name="EffectiveCallDuration" ColumnName="EffectiveCallDuration" />
+                <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+                <ScalarProperty Name="parentUserCDIId" ColumnName="parentUserCDIId" />
+                <ScalarProperty Name="lastModified" ColumnName="lastModified" />
+                <ScalarProperty Name="userId" ColumnName="userId" />
+                <ScalarProperty Name="trunkBChannel" ColumnName="trunkBChannel" />
+                <ScalarProperty Name="trunkId" ColumnName="trunkId" />
+                <ScalarProperty Name="startTime" ColumnName="startTime" />
+                <ScalarProperty Name="schemaDifference_reserved" ColumnName="schemaDifference_reserved" />
+                <ScalarProperty Name="schemaDifference_blob_reserved" ColumnName="schemaDifference_blob_reserved" />
+                <ScalarProperty Name="routedDestination" ColumnName="routedDestination" />
+                <ScalarProperty Name="rolloverAppearance" ColumnName="rolloverAppearance" />
+                <ScalarProperty Name="ringTime" ColumnName="ringTime" />
+                <ScalarProperty Name="resourceAORId" ColumnName="resourceAORId" />
+                <ScalarProperty Name="reasonForDisconnect" ColumnName="reasonForDisconnect" />
+                <ScalarProperty Name="pttDuration" ColumnName="pttDuration" />
+                <ScalarProperty Name="priority" ColumnName="priority" />
+                <ScalarProperty Name="pointOfContactId" ColumnName="pointOfContactId" />
+                <ScalarProperty Name="personalPointOfContactId" ColumnName="personalPointOfContactId" />
+                <ScalarProperty Name="eventType" ColumnName="eventType" />
+                <ScalarProperty Name="enterpriseCallId" ColumnName="enterpriseCallId" />
+                <ScalarProperty Name="e164Destination" ColumnName="e164Destination" />
+                <ScalarProperty Name="duration" ColumnName="duration" />
+                <ScalarProperty Name="displayInCallHistory" ColumnName="displayInCallHistory" />
+                <ScalarProperty Name="deviceIdId" ColumnName="deviceIdId" />
+                <ScalarProperty Name="deviceChannelType" ColumnName="deviceChannelType" />
+                <ScalarProperty Name="deviceChannel" ColumnName="deviceChannel" />
+                <ScalarProperty Name="destination" ColumnName="destination" />
+                <ScalarProperty Name="connectionId" ColumnName="connectionId" />
+                <ScalarProperty Name="callUsage" ColumnName="callUsage" />
+                <ScalarProperty Name="callType" ColumnName="callType" />
+                <ScalarProperty Name="cLINumber" ColumnName="cLINumber" />
+                <ScalarProperty Name="cLIName" ColumnName="cLIName" />
+                <ScalarProperty Name="buttonNumber" ColumnName="buttonNumber" />
+                <ScalarProperty Name="answeringPartyName" ColumnName="answeringPartyName" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>
   </edmx:Runtime>

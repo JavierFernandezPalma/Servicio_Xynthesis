@@ -198,12 +198,20 @@ namespace Axede.Xynthesis.IpcProcess
 
                         if (esEncabezado)
                         {
-                            if (values[0].IndexOf(Axede.Xynthesis.IpcProcess.IpcConstants.sIdenllamada) >= 0)
+
+                            var a = values.Length;
+                            var b = int.Parse(nroCampos);
+                            var c = values[0].IndexOf(IpcConstants.sIdenllamada);
+                            var e = IpcConstants.sOmitirRegistro;
+                            var d = values[0];
+
+
+                            if (values[0].IndexOf(IpcConstants.sIdenllamada) >= 0)
                             {
                                 //linea que identifica la llamada
-                                idLlamada = values[1];
+                                idLlamada = values[0];
                             }
-                            if (values.Length == int.Parse(nroCampos) && values[0].IndexOf(Axede.Xynthesis.IpcProcess.IpcConstants.sIdenllamada) == -1 && linea > lineEncabezado && values[3].IndexOf(Axede.Xynthesis.IpcProcess.IpcConstants.sOmitirRegistro) == -1)
+                            if (values.Length == int.Parse(nroCampos) && values[0].IndexOf(IpcConstants.sIdenllamada) == -1 && linea > lineEncabezado && values[0].IndexOf(IpcConstants.sOmitirRegistro) == -1)
                             {
                                 // Validacion de la data
 
@@ -264,7 +272,7 @@ namespace Axede.Xynthesis.IpcProcess
                                 n.EndTime = EndTime_.ToString("yyyyMMdd HH:mm:ss");
                                 n.EffectiveCallDuration = duracion.ToString();
                                 listaIpc.Add(n);
-                               
+
                             }
                             else
                             {
@@ -305,7 +313,7 @@ namespace Axede.Xynthesis.IpcProcess
                 if (ErrorMensage.Equals(""))
                 {
                     //cargar desde la lista a la base tabla temporal
-                    for (int v=0; v<listaIpc.Count; v++)
+                    for (int v = 0; v < listaIpc.Count; v++)
                     {
                         oMysqlDB.OpenConnection();
                         List<object> param = new List<object>
@@ -358,7 +366,7 @@ namespace Axede.Xynthesis.IpcProcess
                 }
                 else
                 {
-                    lg.EscribaLog("ServicioIpc", "ServicioIpc; fallido el proceso de cargue con errores :: "+ ErrorMensage, "Administrador");
+                    lg.EscribaLog("ServicioIpc", "ServicioIpc; fallido el proceso de cargue con errores :: " + ErrorMensage, "Administrador");
                 }
 
             }

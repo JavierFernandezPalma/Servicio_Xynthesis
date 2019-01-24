@@ -4,7 +4,9 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="6670b455a69145b4a73649cd799bd8ea" Name="Diagram1" />
+      <Diagram DiagramId="6670b455a69145b4a73649cd799bd8ea" Name="Diagram1" ZoomLevel="56" >
+        <EntityTypeShape EntityType="xynthesisModel.xy_ipc_communicationhistory" Width="1.5" PointX="0.75" PointY="0.75" />
+      </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
 </edmx:Edmx>

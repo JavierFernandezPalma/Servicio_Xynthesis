@@ -1,0 +1,6 @@
+D:\SwDeviceIpc\ServicioXynthesis.Utilidades\obj\Debug\ServicioXynthesis.Utilidades.csproj.CoreCompileInputs.cache
+D:\SwDeviceIpc\ServicioXynthesis.Utilidades\bin\Debug\ServicioXynthesis.Utilidades.dll
+D:\SwDeviceIpc\ServicioXynthesis.Utilidades\bin\Debug\ServicioXynthesis.Utilidades.pdb
+D:\SwDeviceIpc\ServicioXynthesis.Utilidades\obj\Debug\ServicioXynthesis.Utilidades.csprojAssemblyReference.cache
+D:\SwDeviceIpc\ServicioXynthesis.Utilidades\obj\Debug\ServicioXynthesis.Utilidades.dll
+D:\SwDeviceIpc\ServicioXynthesis.Utilidades\obj\Debug\ServicioXynthesis.Utilidades.pdb

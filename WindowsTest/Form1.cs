@@ -20,8 +20,11 @@ namespace WindowsTest
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            ServicioXynthesis.Service1 serv = new ServicioXynthesis.Service1();
-            serv.WindowsTest();
+            //ServicioXynthesis.Service1 serv = new ServicioXynthesis.Service1();
+            //serv.WindowsTest();
+
+            Axede.Xynthesis.IpcProcess.IpcProcess2 prueba = new Axede.Xynthesis.IpcProcess.IpcProcess2();
+            prueba.ExtracInfoCsv();
 
             //Axede.Xynthesis.IpcProcess.IpcProcess i = new Axede.Xynthesis.IpcProcess.IpcProcess();
             //i.Execute("NORMAL");

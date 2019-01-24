@@ -1,5 +1,0 @@
-D:\OneDrive - AXEDE\Users\jafernandez\Documentos\Visual Studio 2015\Projects\Xynthesis\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Utilidades\obj\Debug\Utilidades.csproj.CoreCompileInputs.cache
-D:\OneDrive - AXEDE\Users\jafernandez\Documentos\Visual Studio 2015\Projects\Xynthesis\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Utilidades\bin\Debug\Utilidades.dll
-D:\OneDrive - AXEDE\Users\jafernandez\Documentos\Visual Studio 2015\Projects\Xynthesis\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Utilidades\bin\Debug\Utilidades.pdb
-D:\OneDrive - AXEDE\Users\jafernandez\Documentos\Visual Studio 2015\Projects\Xynthesis\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Utilidades\obj\Debug\Utilidades.dll
-D:\OneDrive - AXEDE\Users\jafernandez\Documentos\Visual Studio 2015\Projects\Xynthesis\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\Utilidades\obj\Debug\Utilidades.pdb

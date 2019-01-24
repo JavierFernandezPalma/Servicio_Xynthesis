@@ -4,13 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CDD2FA52-B0DF-4697-ABE4-4DE940B02A17}</ProjectGuid>
+    <ProjectGuid>{4F22AFFD-0FEC-4FA7-8FA5-6D727ABD7657}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>ServicioXynthesis</RootNamespace>
     <AssemblyName>ServicioXynthesis</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -33,10 +32,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -57,14 +62,19 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Axede.Xynthesis.IpcProcess\Axede.Xynthesis.IpcProcess.csproj">
       <Project>{79ae3c59-549a-4ecc-becd-e19d9eeda411}</Project>
       <Name>Axede.Xynthesis.IpcProcess</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Utilidades\ServicioXynthesis.Utilidades.csproj">
-      <Project>{f75cc74f-6410-4ce6-b8c5-ff3c7b0585b2}</Project>
+    <ProjectReference Include="..\Modelo\Modelo.csproj">
+      <Project>{191b23bc-32a1-468a-8c73-fdf13865efab}</Project>
+      <Name>Modelo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServicioXynthesis.Utilidades\ServicioXynthesis.Utilidades.csproj">
+      <Project>{240eeba1-5731-4e2d-9a60-599b7e41f86c}</Project>
       <Name>ServicioXynthesis.Utilidades</Name>
     </ProjectReference>
   </ItemGroup>

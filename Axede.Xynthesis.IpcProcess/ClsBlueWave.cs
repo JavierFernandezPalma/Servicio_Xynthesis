@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Axede.Xynthesis.Log;
 using System.Net.Http;
 using System.Net;
 using System.IO;
 using Newtonsoft.Json;
 using System.Xml.Linq;
+using ServicioXynthesis.Utilidades;
+using System.Configuration;
 
 namespace Axede.Xynthesis.IpcProcess
 {
@@ -53,12 +54,12 @@ namespace Axede.Xynthesis.IpcProcess
     }
     public class ClsBlueWave
     {
-        CommonProcessLibrary.DataAccess.MySQLConnection oMysqlDB = new CommonProcessLibrary.DataAccess.MySQLConnection(System.Configuration.ConfigurationSettings.AppSettings["URLDataBaseXynthesis"].ToString());
+        CommonProcessLibrary.DataAccess.MySQLConnection oMysqlDB = new CommonProcessLibrary.DataAccess.MySQLConnection(ConfigurationManager.AppSettings["URLDataBaseXynthesis"].ToString());
         List<nodo> nod;
-        string blueWaveUrlsession = System.Configuration.ConfigurationSettings.AppSettings["blueWaveUrlsession"].ToString();
-        string blueWaveUrlHistorico = System.Configuration.ConfigurationSettings.AppSettings["blueWaveUrlHistorico"].ToString();
+        string blueWaveUrlsession = ConfigurationManager.AppSettings["blueWaveUrlsession"].ToString();
+        string blueWaveUrlHistorico = ConfigurationManager.AppSettings["blueWaveUrlHistorico"].ToString();
 
-        LogError lg = new LogError();
+        LogServicioXynthesis lg = new LogServicioXynthesis();
         public ClsBlueWave()
         {
 
@@ -132,7 +133,7 @@ namespace Axede.Xynthesis.IpcProcess
         public List<nodo> obtenerHistorico(string IPCAuthToken)
         {
                 
-            String fullFilePath = @"XMLsession.xml";//Application.StartupPath + "\\" + @"XMLsession.xml";
+            //String fullFilePath = @"XMLsession.xml";//Application.StartupPath + "\\" + @"XMLsession.xml";
             String uri = @blueWaveUrlHistorico + "?FilterType=datepage&starttime=3703017600&timezone=EST&timeformat=absolute";
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(uri);
             List<nodo> listaNodos = new List<nodo>();

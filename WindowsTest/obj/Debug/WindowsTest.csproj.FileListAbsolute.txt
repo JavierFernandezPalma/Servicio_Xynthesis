@@ -24,3 +24,31 @@ D:\OneDrive - AXEDE\Users\jafernandez\Documentos\Visual Studio 2015\Projects\Xyn
 D:\OneDrive - AXEDE\Users\jafernandez\Documentos\Visual Studio 2015\Projects\Xynthesis\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\WindowsTest\bin\Debug\MySql.Data.xml
 D:\OneDrive - AXEDE\Users\jafernandez\Documentos\Visual Studio 2015\Projects\Xynthesis\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\WindowsTest\bin\Debug\Utilidades.dll
 D:\OneDrive - AXEDE\Users\jafernandez\Documentos\Visual Studio 2015\Projects\Xynthesis\Axede.Xynthesis.Device.Ipc\SwDeviceIpc\WindowsTest\bin\Debug\Utilidades.pdb
+D:\SwDeviceIpc\WindowsTest\bin\Debug\WindowsTest.exe.config
+D:\SwDeviceIpc\WindowsTest\bin\Debug\WindowsTest.exe
+D:\SwDeviceIpc\WindowsTest\bin\Debug\WindowsTest.pdb
+D:\SwDeviceIpc\WindowsTest\bin\Debug\Axede.Xynthesis.IpcProcess.dll
+D:\SwDeviceIpc\WindowsTest\bin\Debug\MySql.Data.dll
+D:\SwDeviceIpc\WindowsTest\bin\Debug\ServicioXynthesis.Utilidades.dll
+D:\SwDeviceIpc\WindowsTest\bin\Debug\CommonProcessLibrary.dll
+D:\SwDeviceIpc\WindowsTest\bin\Debug\log4net.dll
+D:\SwDeviceIpc\WindowsTest\bin\Debug\Axede.Xynthesis.Log.dll
+D:\SwDeviceIpc\WindowsTest\bin\Debug\Axede.Xynthesis.IpcProcess.pdb
+D:\SwDeviceIpc\WindowsTest\bin\Debug\ServicioXynthesis.Utilidades.pdb
+D:\SwDeviceIpc\WindowsTest\bin\Debug\MySql.Data.xml
+D:\SwDeviceIpc\WindowsTest\bin\Debug\CommonProcessLibrary.pdb
+D:\SwDeviceIpc\WindowsTest\bin\Debug\Axede.Xynthesis.Log.pdb
+D:\SwDeviceIpc\WindowsTest\obj\Debug\WindowsTest.Form1.resources
+D:\SwDeviceIpc\WindowsTest\obj\Debug\WindowsTest.Properties.Resources.resources
+D:\SwDeviceIpc\WindowsTest\obj\Debug\WindowsTest.csproj.GenerateResource.cache
+D:\SwDeviceIpc\WindowsTest\obj\Debug\WindowsTest.exe
+D:\SwDeviceIpc\WindowsTest\obj\Debug\WindowsTest.pdb
+D:\SwDeviceIpc\WindowsTest\bin\Debug\Axede.Xynthesis.IpcProcess.dll.config
+D:\SwDeviceIpc\WindowsTest\obj\Debug\WindowsTest.csprojAssemblyReference.cache
+D:\SwDeviceIpc\WindowsTest\obj\Debug\WindowsTest.csproj.CoreCompileInputs.cache
+D:\SwDeviceIpc\WindowsTest\obj\Debug\WindowsTest.csproj.CopyComplete
+D:\SwDeviceIpc\WindowsTest\bin\Debug\Modelo.dll
+D:\SwDeviceIpc\WindowsTest\bin\Debug\EntityFramework.dll
+D:\SwDeviceIpc\WindowsTest\bin\Debug\Modelo.pdb
+D:\SwDeviceIpc\WindowsTest\bin\Debug\Modelo.dll.config
+D:\SwDeviceIpc\WindowsTest\bin\Debug\EntityFramework.xml

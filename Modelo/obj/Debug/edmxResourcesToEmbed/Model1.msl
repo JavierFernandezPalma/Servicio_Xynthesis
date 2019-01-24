@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="xynthesisModelStoreContainer" CdmEntityContainer="xynthesisEntities">
+    <EntitySetMapping Name="xy_ipc_communicationhistory">
+      <EntityTypeMapping TypeName="xynthesisModel.xy_ipc_communicationhistory">
+        <MappingFragment StoreEntitySet="xy_ipc_communicationhistory">
+          <ScalarProperty Name="EffectiveCallDuration" ColumnName="EffectiveCallDuration" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="parentUserCDIId" ColumnName="parentUserCDIId" />
+          <ScalarProperty Name="lastModified" ColumnName="lastModified" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="trunkBChannel" ColumnName="trunkBChannel" />
+          <ScalarProperty Name="trunkId" ColumnName="trunkId" />
+          <ScalarProperty Name="startTime" ColumnName="startTime" />
+          <ScalarProperty Name="schemaDifference_reserved" ColumnName="schemaDifference_reserved" />
+          <ScalarProperty Name="schemaDifference_blob_reserved" ColumnName="schemaDifference_blob_reserved" />
+          <ScalarProperty Name="routedDestination" ColumnName="routedDestination" />
+          <ScalarProperty Name="rolloverAppearance" ColumnName="rolloverAppearance" />
+          <ScalarProperty Name="ringTime" ColumnName="ringTime" />
+          <ScalarProperty Name="resourceAORId" ColumnName="resourceAORId" />
+          <ScalarProperty Name="reasonForDisconnect" ColumnName="reasonForDisconnect" />
+          <ScalarProperty Name="pttDuration" ColumnName="pttDuration" />
+          <ScalarProperty Name="priority" ColumnName="priority" />
+          <ScalarProperty Name="pointOfContactId" ColumnName="pointOfContactId" />
+          <ScalarProperty Name="personalPointOfContactId" ColumnName="personalPointOfContactId" />
+          <ScalarProperty Name="eventType" ColumnName="eventType" />
+          <ScalarProperty Name="enterpriseCallId" ColumnName="enterpriseCallId" />
+          <ScalarProperty Name="e164Destination" ColumnName="e164Destination" />
+          <ScalarProperty Name="duration" ColumnName="duration" />
+          <ScalarProperty Name="displayInCallHistory" ColumnName="displayInCallHistory" />
+          <ScalarProperty Name="deviceIdId" ColumnName="deviceIdId" />
+          <ScalarProperty Name="deviceChannelType" ColumnName="deviceChannelType" />
+          <ScalarProperty Name="deviceChannel" ColumnName="deviceChannel" />
+          <ScalarProperty Name="destination" ColumnName="destination" />
+          <ScalarProperty Name="connectionId" ColumnName="connectionId" />
+          <ScalarProperty Name="callUsage" ColumnName="callUsage" />
+          <ScalarProperty Name="callType" ColumnName="callType" />
+          <ScalarProperty Name="cLINumber" ColumnName="cLINumber" />
+          <ScalarProperty Name="cLIName" ColumnName="cLIName" />
+          <ScalarProperty Name="buttonNumber" ColumnName="buttonNumber" />
+          <ScalarProperty Name="answeringPartyName" ColumnName="answeringPartyName" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

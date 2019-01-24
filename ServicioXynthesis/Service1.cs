@@ -16,6 +16,7 @@ namespace ServicioXynthesis
     public partial class Service1 : ServiceBase
     {
 
+
         private System.Timers.Timer m_mainTimer;
         private bool m_timerTaskSuccess;
         private LogServicioXynthesis lg = new LogServicioXynthesis();
@@ -73,30 +74,30 @@ namespace ServicioXynthesis
         private void ProcesoIpc()
         {
 
-            IpcProcess moMultiple = new IpcProcess();
+            IpcProcess2 moMultiple = new IpcProcess2();
 
             try
             {
-                DateTime dt = DateTime.Now;
-                string HrActual = dt.ToString("yyyy/MM/dd  HH:mm:ss");
+                //DateTime dt = DateTime.Now;
+                //string HrActual = dt.ToString("yyyy/MM/dd  HH:mm:ss");
 
-                if (Convert.ToDateTime(HrActual) >= Convert.ToDateTime(horaTrabajo) || periodicidad == "H")
-                {
-                    if (fechaEje <= DateTime.Now)
-                    {
-                        if (periodicidad == "D")
-                            fechaEje = Convert.ToDateTime(DateTime.Now.ToString("yyyy/MM/dd") + " " + horas).AddDays(1);
-                        else
-                            fechaEje = Convert.ToDateTime(DateTime.Now.ToString("yyyy/MM/dd") + " " + horas).AddMilliseconds(m_mainTimer.Interval);
-                        m_mainTimer.Stop();
-                        lg.EscribaLog("ServicioIpc", "ServicioIpc; iniciando el proceso", "Administrador");
-                        moMultiple.ExecuteETL(OpcionCargue);
-                        lg.EscribaLog("ServicioIpc", "ServicioIpc; termino el proceso con exito", "Administrador");
-                        m_mainTimer.Enabled = true;
-                        m_mainTimer.Start();
-                    }
-                }
-
+                //if (Convert.ToDateTime(HrActual) >= Convert.ToDateTime(horaTrabajo) || periodicidad == "H")
+                //{
+                //    if (fechaEje <= DateTime.Now)
+                //    {
+                //        if (periodicidad == "D")
+                //            fechaEje = Convert.ToDateTime(DateTime.Now.ToString("yyyy/MM/dd") + " " + horas).AddDays(1);
+                //        else
+                //            fechaEje = Convert.ToDateTime(DateTime.Now.ToString("yyyy/MM/dd") + " " + horas).AddMilliseconds(m_mainTimer.Interval);
+                //        m_mainTimer.Stop();
+                //        lg.EscribaLog("ServicioIpc", "ServicioIpc; iniciando el proceso", "Administrador");
+                //        moMultiple.ExecuteETL(OpcionCargue);
+                //        lg.EscribaLog("ServicioIpc", "ServicioIpc; termino el proceso con exito", "Administrador");
+                //        m_mainTimer.Enabled = true;
+                //        m_mainTimer.Start();
+                //    }
+                //}
+                moMultiple.ExtracInfoCsv();
 
             }
             catch (Exception ex)
