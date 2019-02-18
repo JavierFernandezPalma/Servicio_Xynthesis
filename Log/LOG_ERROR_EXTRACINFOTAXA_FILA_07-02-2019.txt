@@ -1,0 +1,24 @@
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAYLFH; proceso línea = 2205; Mensaje: Se produjo un error al ejecutar la definición del comando. Vea la excepción interna para obtener detalles.
+
+
+Registrado el : 07/02/2019 08:22:30
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXOUM; proceso línea = 2; Mensaje: Índice fuera de los límites de la matriz.
+
+
+Registrado el : 07/02/2019 03:46:23
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXOUM; proceso línea = 2; Mensaje: Índice fuera de los límites de la matriz.
+
+
+Registrado el : 07/02/2019 03:47:43
+
+=================================================================================================

@@ -1,5 +1,4 @@
-﻿using Axede.Xynthesis.IpcProcess;
-using ServicioXynthesis.Utilidades;
+﻿using ServicioXynthesis.Utilidades;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -7,9 +6,12 @@ using System.Configuration;
 using System.Data;
 using System.Diagnostics;
 using System.Linq;
-using System.ServiceProcess;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
+using System.ServiceProcess;
+using Axede.Xynthesis.Process;
+using System.Threading;
 
 namespace ServicioXynthesis
 {
@@ -17,130 +19,162 @@ namespace ServicioXynthesis
     {
 
 
-        private System.Timers.Timer m_mainTimer;
-        private bool m_timerTaskSuccess;
-        private LogServicioXynthesis lg = new LogServicioXynthesis();
-        public DateTime fechaEje = Convert.ToDateTime(DateTime.Now.ToString("yyyy/MM/dd") + " 00:00:00");
-        string periodicidad = ConfigurationManager.AppSettings["Periodicidad"].ToString();
-        string horaTrabajo = DateTime.Now.ToString("yyyy/MM/dd ") + ConfigurationManager.AppSettings["horaTrabajo"].ToString();
-        string ruta_ipc_csv = ConfigurationManager.AppSettings["ruta_ipc_csv"].ToString();
-        string horas = ConfigurationManager.AppSettings["horaTrabajo"].ToString();
-        string OpcionCargue = ConfigurationManager.AppSettings["OpcionCargue"].ToString();
-        string origenCargue = ConfigurationManager.AppSettings["origenCargue"].ToString();
+        private LogServicioXynthesis Log = new LogServicioXynthesis();
+
+        //string ruta_ipc_csv = ConfigurationManager.AppSettings["ruta_ipc_csv"].ToString();
+        readonly string fecha_inicial_cargue = ConfigurationManager.AppSettings["fecha_inicial_cargue"].ToString();
+        readonly string rutaArchplano = ConfigurationManager.AppSettings["ruta_taxa_data"].ToString();
+        readonly string nombre_archivo = ConfigurationManager.AppSettings["nombre_archivo"].ToString();
+        readonly int numero_archivos = Convert.ToInt32(ConfigurationManager.AppSettings["numero_archivos"]);
+        Timer Schedular;
+        IpcProcess2 moMultiple = new IpcProcess2();
+
         public Service1()
         {
             InitializeComponent();
         }
 
+        private void SchedularCallback(object e)
+        {
+            this.VerificarFicheros();
+            Log.EscribaLog("SchedularCallback()", "Ejecutando Servicio Xynthesis Oxe");
+        }
+
         protected override void OnStart(string[] args)
         {
+            try
+            {
+                //Log.EscribaLog("OnStart()", "Inicia el metodo OnStart()");
+                //Schedular = new Timer();
+                //Schedular.Interval = 60000 * Convert.ToDouble(ConfigurationManager.AppSettings["intervalo_tiempo"]);
+                //Schedular.Elapsed += new ElapsedEventHandler(metodo_elapsed);
+                //Schedular.Enabled = true;
+                //Schedular.Start();
+                //Log.EscribaLog("OnStart()", "Termino de ejecutarse el metodo OnStart()");
+
+                Log.EscribaLog("OnStart()", "Inicia el metodo OnStart()");
+                this.VerificarFicheros();
+                EventLog.WriteEntry("Inicia el Servicio Xynthesis Oxe.");
+            }
+            catch (Exception ex)
+            {
+                Log.EscribaLog("OnStart()_Error", "El error es : " + ex.ToString());
+            }
+
         }
 
         protected override void OnStop()
         {
-        }
-
-
-        void MainTimer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
-        {
             try
             {
-                if (origenCargue.ToUpper().Equals("A"))// A= archivo plano; BW=desde Blue Wave
-                    ProcesoIpc();
-                else
-                    // procesoIpcBueWave();
-
-                    m_timerTaskSuccess = true;
+                this.Schedular.Dispose();
+                Log.EscribaLog("OnStop()", "Finalizo el Servicio Xynthesis Oxe.");
+                EventLog.WriteEntry("Finalizo el Servicio Xynthesis Oxe.");
             }
             catch (Exception ex)
             {
-                if (periodicidad == "D")
-                    fechaEje = Convert.ToDateTime(DateTime.Now.ToString("yyyy/MM/dd") + " " + horas).AddDays(1);
-                else
-                    fechaEje = Convert.ToDateTime(DateTime.Now.ToString("yyyy/MM/dd") + " " + horas).AddMilliseconds(m_mainTimer.Interval);
-                m_timerTaskSuccess = false;
-                lg.EscribaLog("ServicioIpc", "Error en metodo m_mainTimer_Elapsed " + ex.Message, "Administrador");
+                Log.EscribaLog("OnStop()_Error", "El error es : " + ex.ToString());
             }
-            finally
+        }
+
+
+
+        //private void metodo_elapsed(object sender, ElapsedEventArgs e)
+        //{
+
+        //    try
+        //    {
+        //        Schedular.Enabled = false;
+        //        Schedular.Stop();
+        //        VerificarFicheros();
+        //        Schedular.Enabled = true;
+        //        Schedular.Start();
+        //        EventLog.WriteEntry("Servicio AgendaCSJ completo el ciclo correctamente.");
+        //        Log.EscribaLog("ServicioAgendaCSJ", "Servicio AgendaCSJ completo el ciclo correctamente.");
+
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        Log.EscribaLog("metodo_elapsed()_Error", "El error es : " + ex.ToString());
+        //    }
+        //}
+
+        private void VerificarFicheros()
+        {
+            try
             {
-                if (m_timerTaskSuccess)
+                string directorio = rutaArchplano;
+                string[] ficheros = Directory.GetFiles(directorio).Take(numero_archivos).ToArray();
+                List<string> listFicherosTaxa = new List<string>();
+
+                for (int i = 0; i < ficheros.Count(); i++)
                 {
-                    m_mainTimer.Start();
+                    int longitudFichero = ficheros[i].Length;
+                    int posicionTaxa = ficheros[i].IndexOf(nombre_archivo);
+                    if (posicionTaxa != -1)
+                    {
+                        int diferenciaFicheroTaxa = longitudFichero - posicionTaxa;
+                        string taxaValidar = ficheros[i].Substring(posicionTaxa, diferenciaFicheroTaxa);
+                        listFicherosTaxa.Add(taxaValidar);
+                    }
+
+                }
+
+                if (listFicherosTaxa.Count != 0)
+                {
+                    ProcesarFicheros(listFicherosTaxa);
+                }
+                else
+                {
+                    Schedular = new Timer(new TimerCallback(SchedularCallback));
+                    Schedular.Change(Convert.ToInt64(1000 * Convert.ToDouble(ConfigurationManager.AppSettings["intervalo_tiempo"])), Timeout.Infinite);
                 }
             }
+            catch (Exception ex)
+            {
+                Log.EscribaLog("ValidarTaxa()_Error", ex.Message);
+                //throw ex;
+            }
         }
 
-
-        private void ProcesoIpc()
+        private void ProcesarFicheros(List<string> Ficheros)
         {
-
-            IpcProcess2 moMultiple = new IpcProcess2();
-
             try
             {
-                //DateTime dt = DateTime.Now;
-                //string HrActual = dt.ToString("yyyy/MM/dd  HH:mm:ss");
+                int MaximaContadorTickets = moMultiple.ExtracInfoTaxa(Ficheros);
 
-                //if (Convert.ToDateTime(HrActual) >= Convert.ToDateTime(horaTrabajo) || periodicidad == "H")
-                //{
-                //    if (fechaEje <= DateTime.Now)
-                //    {
-                //        if (periodicidad == "D")
-                //            fechaEje = Convert.ToDateTime(DateTime.Now.ToString("yyyy/MM/dd") + " " + horas).AddDays(1);
-                //        else
-                //            fechaEje = Convert.ToDateTime(DateTime.Now.ToString("yyyy/MM/dd") + " " + horas).AddMilliseconds(m_mainTimer.Interval);
-                //        m_mainTimer.Stop();
-                //        lg.EscribaLog("ServicioIpc", "ServicioIpc; iniciando el proceso", "Administrador");
-                //        moMultiple.ExecuteETL(OpcionCargue);
-                //        lg.EscribaLog("ServicioIpc", "ServicioIpc; termino el proceso con exito", "Administrador");
-                //        m_mainTimer.Enabled = true;
-                //        m_mainTimer.Start();
-                //    }
-                //}
-                moMultiple.ExtracInfoCsv();
+                if (MaximaContadorTickets != 0)
+                {
+                    moMultiple.EliminarFilasTaxaViejas(MaximaContadorTickets);
+                }
 
+                moMultiple.AgregarUsuarios();
+                moMultiple.LlenarTickets(Convert.ToDateTime(fecha_inicial_cargue), DateTime.Today);
+                moMultiple.LlenarCalls(Convert.ToDateTime(DateTime.Today));
+
+                Schedular = new Timer(new TimerCallback(SchedularCallback));
+                Schedular.Change(Convert.ToInt64(1000 * Convert.ToDouble(ConfigurationManager.AppSettings["intervalo_tiempo"])), Timeout.Infinite);
             }
             catch (Exception ex)
             {
-                //fechaEje = Convert.ToDateTime(DateTime.Now.ToString("yyyy/MM/dd") + " 00:00:00");
-                if (periodicidad == "D")
-                    fechaEje = Convert.ToDateTime(DateTime.Now.ToString("yyyy/MM/dd") + " " + horas).AddDays(1);
-                else
-                    fechaEje = Convert.ToDateTime(DateTime.Now.ToString("yyyy/MM/dd") + " " + horas).AddMilliseconds(m_mainTimer.Interval);
-                m_mainTimer.Start();
-                lg.EscribaLog("ServicioIpc", "Ocurrrio un error en el proceso metodo procesoIpc " + ex.Message, "Administrador");
+                Log.EscribaLog("ServicioIpc", "Ocurrrio un error en ProcesarFicheros " + ex.Message, "Administrador");
                 throw ex;
             }
 
         }
 
-        protected int ConvertiraMiliSegundos(int h, int m, int s)
-        {
-            return (h * 3600 + m * 60 + s) * 1000;
-        }
 
         public void WindowsTest()
         {
             try
             {
-                fechaEje = Convert.ToDateTime(DateTime.Now.ToString("yyyy/MM/dd") + " " + horas);
-                m_mainTimer = new System.Timers.Timer();
-                if (periodicidad == "D")   //intervalo dias
-                    m_mainTimer.Interval = 5000;  //5 Segundos
-                else
-                    m_mainTimer.Interval = ConvertiraMiliSegundos(Convert.ToInt32(horas.Substring(0, 2)), Convert.ToInt32(horas.Substring(3, 2)), Convert.ToInt32(horas.Substring(6, 2)));    // intervalo HORAS
-
-                m_mainTimer.Elapsed += MainTimer_Elapsed;
-                m_mainTimer.AutoReset = false;  // makes it fire only once
-                m_mainTimer.Start(); // Start
-
-                m_timerTaskSuccess = false;
+                Log.EscribaLog("OnStart()", "Inicia el metodo OnStart()");
+                this.VerificarFicheros();
+                //EventLog.WriteEntry("Inicia el servicio Windows Reportes programado.");
             }
             catch (Exception ex)
             {
-                lg.EscribaLog("ServicioIpc", "OnStart " + ex.Message, "Administrador");
-                // omitted
-
+                Log.EscribaLog("OnStart()_Error", "El error es : " + ex.ToString());
             }
         }
     }

@@ -43,5 +43,37 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="xyp_inscommunicationhistory" FunctionName="xynthesisModel.Store.xyp_inscommunicationhistory" />
+    <FunctionImportMapping FunctionImportName="xyp_Add_xy_ticketsoxe" FunctionName="xynthesisModel.Store.xyp_Add_xy_ticketsoxe" />
+    <FunctionImportMapping FunctionImportName="xyp_TransTicketsOXE" FunctionName="xynthesisModel.Store.xyp_TransTicketsOXE" />
+    <FunctionImportMapping FunctionImportName="xyp_LoadTickets" FunctionName="xynthesisModel.Store.xyp_LoadTickets" />
+    <FunctionImportMapping FunctionImportName="xyp_ExtractionTicketsIPC" FunctionName="xynthesisModel.Store.xyp_ExtractionTicketsIPC" />
+    <FunctionImportMapping FunctionImportName="xyp_Execute_ETL_OXE" FunctionName="xynthesisModel.Store.xyp_Execute_ETL_OXE" />
+    <EntitySetMapping Name="xy_ticketsoxe">
+      <EntityTypeMapping TypeName="xynthesisModel.xy_ticketsoxe">
+        <MappingFragment StoreEntitySet="xy_ticketsoxe">
+          <ScalarProperty Name="Linea_Taxa" ColumnName="Linea_Taxa" />
+          <ScalarProperty Name="Taxa" ColumnName="Taxa" />
+          <ScalarProperty Name="ChargedCostCenter" ColumnName="ChargedCostCenter" />
+          <ScalarProperty Name="CallingNumber" ColumnName="CallingNumber" />
+          <ScalarProperty Name="WaitingDuration" ColumnName="WaitingDuration" />
+          <ScalarProperty Name="EffectiveCallDuration" ColumnName="EffectiveCallDuration" />
+          <ScalarProperty Name="Ide_Ticket" ColumnName="Ide_Ticket" />
+          <ScalarProperty Name="TrunkIdentity" ColumnName="TrunkIdentity" />
+          <ScalarProperty Name="AccessCode" ColumnName="AccessCode" />
+          <ScalarProperty Name="PersonalOrBusiness" ColumnName="PersonalOrBusiness" />
+          <ScalarProperty Name="Duration" ColumnName="Duration" />
+          <ScalarProperty Name="StartDateTime" ColumnName="StartDateTime" />
+          <ScalarProperty Name="CallType" ColumnName="CallType" />
+          <ScalarProperty Name="CalledNumber" ColumnName="CalledNumber" />
+          <ScalarProperty Name="ChargedNumber" ColumnName="ChargedNumber" />
+          <ScalarProperty Name="ChargedUserName" ColumnName="ChargedUserName" />
+          <ScalarProperty Name="Ide_TicketsOxe" ColumnName="Ide_TicketsOxe" />
+          <ScalarProperty Name="Contador" ColumnName="Contador" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="xyp_DelFilasTicketsOld" FunctionName="xynthesisModel.Store.xyp_DelFilasTicketsOld" />
+    <FunctionImportMapping FunctionImportName="xyp_FechaMaxTicketsOxe" FunctionName="xynthesisModel.Store.xyp_FechaMaxTicketsOxe" />
   </EntityContainerMapping>
 </Mapping>

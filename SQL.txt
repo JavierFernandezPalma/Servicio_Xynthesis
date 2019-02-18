@@ -1,0 +1,72 @@
+
+-------------xyp_ExtractionTicketsIPC------------------
+
+//Inserción en ticketinfo
+
+  Insert Into xy_ticketInfo
+
+  (
+
+   TicketVersion,
+
+   ChargedUserName,
+
+   ChargedNumber,
+
+   CalledNumber,
+
+   CallType,
+
+   EndDateTime,
+
+   Duration,
+
+   StartDateTime,
+
+   WaitingDuration,
+
+   EffectiveCallDuration
+
+  )
+
+  SELECT
+
+   id,
+
+   cLIName as usuario,
+
+   cLINumber as origen,
+
+   destination as destino,
+
+   if(eventType = 'Initiated', 1,  if(eventType = 'Received', 2, if(eventType = 'Missed',5 , if(eventType = 'Interval',6 , if(eventType = 'ReceivedByOther',7 ,9 ))))) as callType,
+
+   replace(EndTime,'/','-') as  fec_date,
+
+   substring(duration,1,10) as duracion,
+
+   -- concat(substring(startTime,7,4),substring(startTime,4,2),substring(startTime,1,2),' ',substring(startTime,12,5), ':00') as  fec_date_,
+   
+   startTime as  fec_date_,
+
+   substring(ringTime,1,5),
+
+   EffectiveCallDuration
+
+  FROM  xy_ipc_communicationhistory h
+
+  WHERE   if(startTime='',DATE_FORMAT('1900-01-01','%Y-%m-%d'), DATE_FORMAT(concat(substring(startTime,1,4),'-',+substring(startTime,5,2),'-',substring(startTime,7,2),' ',substring(startTime,10,5), ':00'),'%Y-%m-%d %H:%i:%s')) >
+
+      DATE_FORMAT('2018-01-01 00:00:00','%Y-%m-%d %H:%i:%s');
+
+
+------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+-------------xyp_ExtractionTicketsIPC------------------

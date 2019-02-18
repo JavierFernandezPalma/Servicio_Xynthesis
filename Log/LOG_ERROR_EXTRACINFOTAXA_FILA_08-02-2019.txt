@@ -1,0 +1,40 @@
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXOUM; proceso línea = 2; Mensaje: Índice fuera de los límites de la matriz.
+
+
+Registrado el : 08/02/2019 10:20:01
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXOUM; proceso línea = 2; Mensaje: Índice fuera de los límites de la matriz.
+
+
+Registrado el : 08/02/2019 10:21:56
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXOUM; proceso línea = 2; Mensaje: Índice fuera de los límites de la matriz.
+
+
+Registrado el : 08/02/2019 10:24:23
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXOUM; proceso línea = 2; Mensaje: Índice fuera de los límites de la matriz.
+
+
+Registrado el : 08/02/2019 10:26:52
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXOUM; proceso línea = 2; Mensaje: Índice fuera de los límites de la matriz.
+
+
+Registrado el : 08/02/2019 11:10:15
+
+=================================================================================================

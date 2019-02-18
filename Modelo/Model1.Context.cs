@@ -12,6 +12,9 @@ namespace Modelo
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
+    using System.Data.Objects;
+    using System.Data.Objects.DataClasses;
+    using System.Linq;
     
     public partial class xynthesisEntities : DbContext
     {
@@ -26,5 +29,274 @@ namespace Modelo
         }
     
         public DbSet<xy_ipc_communicationhistory> xy_ipc_communicationhistory { get; set; }
+        public DbSet<xy_ticketsoxe> xy_ticketsoxe { get; set; }
+    
+        public virtual int xyp_inscommunicationhistory(string id_, string answeringPartyName_, string buttonNumber_, string cLIName_, string cLINumber_, string callType_, string callUsage_, string connectionId_, string destination_, string deviceChannel_, string deviceChannelType_, string deviceIdId_, string displayInCallHistory_, string duration_, string e164Destination_, string enterpriseCallId_, string eventType_, string personalPointOfContactId_, string pointOfContactId_, string priority_, string pttDuration_, string reasonForDisconnect_, string resourceAORId_, string ringTime_, string rolloverAppearance_, string routedDestination_, string schemaDifference_blob_reserved_, string schemaDifference_reserved_, string startTime_, string trunkId_, string trunkBChannel_, string userId_, string lastModified_, string parentUserCDIId_, string endTime_, string effectiveCallDuration_)
+        {
+            var id_Parameter = id_ != null ?
+                new ObjectParameter("id_", id_) :
+                new ObjectParameter("id_", typeof(string));
+    
+            var answeringPartyName_Parameter = answeringPartyName_ != null ?
+                new ObjectParameter("answeringPartyName_", answeringPartyName_) :
+                new ObjectParameter("answeringPartyName_", typeof(string));
+    
+            var buttonNumber_Parameter = buttonNumber_ != null ?
+                new ObjectParameter("buttonNumber_", buttonNumber_) :
+                new ObjectParameter("buttonNumber_", typeof(string));
+    
+            var cLIName_Parameter = cLIName_ != null ?
+                new ObjectParameter("cLIName_", cLIName_) :
+                new ObjectParameter("cLIName_", typeof(string));
+    
+            var cLINumber_Parameter = cLINumber_ != null ?
+                new ObjectParameter("cLINumber_", cLINumber_) :
+                new ObjectParameter("cLINumber_", typeof(string));
+    
+            var callType_Parameter = callType_ != null ?
+                new ObjectParameter("callType_", callType_) :
+                new ObjectParameter("callType_", typeof(string));
+    
+            var callUsage_Parameter = callUsage_ != null ?
+                new ObjectParameter("callUsage_", callUsage_) :
+                new ObjectParameter("callUsage_", typeof(string));
+    
+            var connectionId_Parameter = connectionId_ != null ?
+                new ObjectParameter("connectionId_", connectionId_) :
+                new ObjectParameter("connectionId_", typeof(string));
+    
+            var destination_Parameter = destination_ != null ?
+                new ObjectParameter("destination_", destination_) :
+                new ObjectParameter("destination_", typeof(string));
+    
+            var deviceChannel_Parameter = deviceChannel_ != null ?
+                new ObjectParameter("deviceChannel_", deviceChannel_) :
+                new ObjectParameter("deviceChannel_", typeof(string));
+    
+            var deviceChannelType_Parameter = deviceChannelType_ != null ?
+                new ObjectParameter("deviceChannelType_", deviceChannelType_) :
+                new ObjectParameter("deviceChannelType_", typeof(string));
+    
+            var deviceIdId_Parameter = deviceIdId_ != null ?
+                new ObjectParameter("deviceIdId_", deviceIdId_) :
+                new ObjectParameter("deviceIdId_", typeof(string));
+    
+            var displayInCallHistory_Parameter = displayInCallHistory_ != null ?
+                new ObjectParameter("displayInCallHistory_", displayInCallHistory_) :
+                new ObjectParameter("displayInCallHistory_", typeof(string));
+    
+            var duration_Parameter = duration_ != null ?
+                new ObjectParameter("duration_", duration_) :
+                new ObjectParameter("duration_", typeof(string));
+    
+            var e164Destination_Parameter = e164Destination_ != null ?
+                new ObjectParameter("e164Destination_", e164Destination_) :
+                new ObjectParameter("e164Destination_", typeof(string));
+    
+            var enterpriseCallId_Parameter = enterpriseCallId_ != null ?
+                new ObjectParameter("enterpriseCallId_", enterpriseCallId_) :
+                new ObjectParameter("enterpriseCallId_", typeof(string));
+    
+            var eventType_Parameter = eventType_ != null ?
+                new ObjectParameter("eventType_", eventType_) :
+                new ObjectParameter("eventType_", typeof(string));
+    
+            var personalPointOfContactId_Parameter = personalPointOfContactId_ != null ?
+                new ObjectParameter("personalPointOfContactId_", personalPointOfContactId_) :
+                new ObjectParameter("personalPointOfContactId_", typeof(string));
+    
+            var pointOfContactId_Parameter = pointOfContactId_ != null ?
+                new ObjectParameter("pointOfContactId_", pointOfContactId_) :
+                new ObjectParameter("pointOfContactId_", typeof(string));
+    
+            var priority_Parameter = priority_ != null ?
+                new ObjectParameter("priority_", priority_) :
+                new ObjectParameter("priority_", typeof(string));
+    
+            var pttDuration_Parameter = pttDuration_ != null ?
+                new ObjectParameter("pttDuration_", pttDuration_) :
+                new ObjectParameter("pttDuration_", typeof(string));
+    
+            var reasonForDisconnect_Parameter = reasonForDisconnect_ != null ?
+                new ObjectParameter("reasonForDisconnect_", reasonForDisconnect_) :
+                new ObjectParameter("reasonForDisconnect_", typeof(string));
+    
+            var resourceAORId_Parameter = resourceAORId_ != null ?
+                new ObjectParameter("resourceAORId_", resourceAORId_) :
+                new ObjectParameter("resourceAORId_", typeof(string));
+    
+            var ringTime_Parameter = ringTime_ != null ?
+                new ObjectParameter("ringTime_", ringTime_) :
+                new ObjectParameter("ringTime_", typeof(string));
+    
+            var rolloverAppearance_Parameter = rolloverAppearance_ != null ?
+                new ObjectParameter("rolloverAppearance_", rolloverAppearance_) :
+                new ObjectParameter("rolloverAppearance_", typeof(string));
+    
+            var routedDestination_Parameter = routedDestination_ != null ?
+                new ObjectParameter("routedDestination_", routedDestination_) :
+                new ObjectParameter("routedDestination_", typeof(string));
+    
+            var schemaDifference_blob_reserved_Parameter = schemaDifference_blob_reserved_ != null ?
+                new ObjectParameter("schemaDifference_blob_reserved_", schemaDifference_blob_reserved_) :
+                new ObjectParameter("schemaDifference_blob_reserved_", typeof(string));
+    
+            var schemaDifference_reserved_Parameter = schemaDifference_reserved_ != null ?
+                new ObjectParameter("schemaDifference_reserved_", schemaDifference_reserved_) :
+                new ObjectParameter("schemaDifference_reserved_", typeof(string));
+    
+            var startTime_Parameter = startTime_ != null ?
+                new ObjectParameter("startTime_", startTime_) :
+                new ObjectParameter("startTime_", typeof(string));
+    
+            var trunkId_Parameter = trunkId_ != null ?
+                new ObjectParameter("trunkId_", trunkId_) :
+                new ObjectParameter("trunkId_", typeof(string));
+    
+            var trunkBChannel_Parameter = trunkBChannel_ != null ?
+                new ObjectParameter("trunkBChannel_", trunkBChannel_) :
+                new ObjectParameter("trunkBChannel_", typeof(string));
+    
+            var userId_Parameter = userId_ != null ?
+                new ObjectParameter("userId_", userId_) :
+                new ObjectParameter("userId_", typeof(string));
+    
+            var lastModified_Parameter = lastModified_ != null ?
+                new ObjectParameter("lastModified_", lastModified_) :
+                new ObjectParameter("lastModified_", typeof(string));
+    
+            var parentUserCDIId_Parameter = parentUserCDIId_ != null ?
+                new ObjectParameter("parentUserCDIId_", parentUserCDIId_) :
+                new ObjectParameter("parentUserCDIId_", typeof(string));
+    
+            var endTime_Parameter = endTime_ != null ?
+                new ObjectParameter("EndTime_", endTime_) :
+                new ObjectParameter("EndTime_", typeof(string));
+    
+            var effectiveCallDuration_Parameter = effectiveCallDuration_ != null ?
+                new ObjectParameter("EffectiveCallDuration_", effectiveCallDuration_) :
+                new ObjectParameter("EffectiveCallDuration_", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("xyp_inscommunicationhistory", id_Parameter, answeringPartyName_Parameter, buttonNumber_Parameter, cLIName_Parameter, cLINumber_Parameter, callType_Parameter, callUsage_Parameter, connectionId_Parameter, destination_Parameter, deviceChannel_Parameter, deviceChannelType_Parameter, deviceIdId_Parameter, displayInCallHistory_Parameter, duration_Parameter, e164Destination_Parameter, enterpriseCallId_Parameter, eventType_Parameter, personalPointOfContactId_Parameter, pointOfContactId_Parameter, priority_Parameter, pttDuration_Parameter, reasonForDisconnect_Parameter, resourceAORId_Parameter, ringTime_Parameter, rolloverAppearance_Parameter, routedDestination_Parameter, schemaDifference_blob_reserved_Parameter, schemaDifference_reserved_Parameter, startTime_Parameter, trunkId_Parameter, trunkBChannel_Parameter, userId_Parameter, lastModified_Parameter, parentUserCDIId_Parameter, endTime_Parameter, effectiveCallDuration_Parameter);
+        }
+    
+        public virtual int xyp_Add_xy_ticketsoxe(string ide_TicketsOxe_, string chargedUserName_, string chargedNumber_, string calledNumber_, Nullable<sbyte> callType_, Nullable<System.DateTime> startDateTime_, Nullable<int> duration_, string personalOrBusiness_, string accessCode_, string trunkIdentity_, Nullable<int> ide_Ticket_, string effectiveCallDuration_, string waitingDuration_, string callingNumber_, Nullable<decimal> chargedCostCenter_, string taxa_, Nullable<int> linea_Taxa_)
+        {
+            var ide_TicketsOxe_Parameter = ide_TicketsOxe_ != null ?
+                new ObjectParameter("Ide_TicketsOxe_", ide_TicketsOxe_) :
+                new ObjectParameter("Ide_TicketsOxe_", typeof(string));
+    
+            var chargedUserName_Parameter = chargedUserName_ != null ?
+                new ObjectParameter("ChargedUserName_", chargedUserName_) :
+                new ObjectParameter("ChargedUserName_", typeof(string));
+    
+            var chargedNumber_Parameter = chargedNumber_ != null ?
+                new ObjectParameter("ChargedNumber_", chargedNumber_) :
+                new ObjectParameter("ChargedNumber_", typeof(string));
+    
+            var calledNumber_Parameter = calledNumber_ != null ?
+                new ObjectParameter("CalledNumber_", calledNumber_) :
+                new ObjectParameter("CalledNumber_", typeof(string));
+    
+            var callType_Parameter = callType_.HasValue ?
+                new ObjectParameter("CallType_", callType_) :
+                new ObjectParameter("CallType_", typeof(sbyte));
+    
+            var startDateTime_Parameter = startDateTime_.HasValue ?
+                new ObjectParameter("StartDateTime_", startDateTime_) :
+                new ObjectParameter("StartDateTime_", typeof(System.DateTime));
+    
+            var duration_Parameter = duration_.HasValue ?
+                new ObjectParameter("Duration_", duration_) :
+                new ObjectParameter("Duration_", typeof(int));
+    
+            var personalOrBusiness_Parameter = personalOrBusiness_ != null ?
+                new ObjectParameter("PersonalOrBusiness_", personalOrBusiness_) :
+                new ObjectParameter("PersonalOrBusiness_", typeof(string));
+    
+            var accessCode_Parameter = accessCode_ != null ?
+                new ObjectParameter("AccessCode_", accessCode_) :
+                new ObjectParameter("AccessCode_", typeof(string));
+    
+            var trunkIdentity_Parameter = trunkIdentity_ != null ?
+                new ObjectParameter("TrunkIdentity_", trunkIdentity_) :
+                new ObjectParameter("TrunkIdentity_", typeof(string));
+    
+            var ide_Ticket_Parameter = ide_Ticket_.HasValue ?
+                new ObjectParameter("Ide_Ticket_", ide_Ticket_) :
+                new ObjectParameter("Ide_Ticket_", typeof(int));
+    
+            var effectiveCallDuration_Parameter = effectiveCallDuration_ != null ?
+                new ObjectParameter("EffectiveCallDuration_", effectiveCallDuration_) :
+                new ObjectParameter("EffectiveCallDuration_", typeof(string));
+    
+            var waitingDuration_Parameter = waitingDuration_ != null ?
+                new ObjectParameter("WaitingDuration_", waitingDuration_) :
+                new ObjectParameter("WaitingDuration_", typeof(string));
+    
+            var callingNumber_Parameter = callingNumber_ != null ?
+                new ObjectParameter("CallingNumber_", callingNumber_) :
+                new ObjectParameter("CallingNumber_", typeof(string));
+    
+            var chargedCostCenter_Parameter = chargedCostCenter_.HasValue ?
+                new ObjectParameter("ChargedCostCenter_", chargedCostCenter_) :
+                new ObjectParameter("ChargedCostCenter_", typeof(decimal));
+    
+            var taxa_Parameter = taxa_ != null ?
+                new ObjectParameter("Taxa_", taxa_) :
+                new ObjectParameter("Taxa_", typeof(string));
+    
+            var linea_Taxa_Parameter = linea_Taxa_.HasValue ?
+                new ObjectParameter("Linea_Taxa_", linea_Taxa_) :
+                new ObjectParameter("Linea_Taxa_", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("xyp_Add_xy_ticketsoxe", ide_TicketsOxe_Parameter, chargedUserName_Parameter, chargedNumber_Parameter, calledNumber_Parameter, callType_Parameter, startDateTime_Parameter, duration_Parameter, personalOrBusiness_Parameter, accessCode_Parameter, trunkIdentity_Parameter, ide_Ticket_Parameter, effectiveCallDuration_Parameter, waitingDuration_Parameter, callingNumber_Parameter, chargedCostCenter_Parameter, taxa_Parameter, linea_Taxa_Parameter);
+        }
+    
+        public virtual int xyp_TransTicketsOXE(Nullable<System.DateTime> dStartDate, Nullable<System.DateTime> dEndDate)
+        {
+            var dStartDateParameter = dStartDate.HasValue ?
+                new ObjectParameter("dStartDate", dStartDate) :
+                new ObjectParameter("dStartDate", typeof(System.DateTime));
+    
+            var dEndDateParameter = dEndDate.HasValue ?
+                new ObjectParameter("dEndDate", dEndDate) :
+                new ObjectParameter("dEndDate", typeof(System.DateTime));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("xyp_TransTicketsOXE", dStartDateParameter, dEndDateParameter);
+        }
+    
+        public virtual int xyp_LoadTickets(Nullable<System.DateTime> dDate)
+        {
+            var dDateParameter = dDate.HasValue ?
+                new ObjectParameter("dDate", dDate) :
+                new ObjectParameter("dDate", typeof(System.DateTime));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("xyp_LoadTickets", dDateParameter);
+        }
+    
+        public virtual int xyp_ExtractionTicketsIPC()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("xyp_ExtractionTicketsIPC");
+        }
+    
+        public virtual int xyp_Execute_ETL_OXE()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("xyp_Execute_ETL_OXE");
+        }
+    
+        public virtual int xyp_DelFilasTicketsOld(Nullable<int> maxContador)
+        {
+            var maxContadorParameter = maxContador.HasValue ?
+                new ObjectParameter("MaxContador", maxContador) :
+                new ObjectParameter("MaxContador", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("xyp_DelFilasTicketsOld", maxContadorParameter);
+        }
+    
+        public virtual int xyp_FechaMaxTicketsOxe()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("xyp_FechaMaxTicketsOxe");
+        }
     }
 }

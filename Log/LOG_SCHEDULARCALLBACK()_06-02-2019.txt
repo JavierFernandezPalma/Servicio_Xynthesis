@@ -1,0 +1,8 @@
+
+Se ha generado el siguiente LOG : 
+Ejecutando Servicio Xynthesis Oxe
+
+
+Registrado el : 06/02/2019 04:32:51
+
+=================================================================================================

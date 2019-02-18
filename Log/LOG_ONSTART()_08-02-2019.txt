@@ -1,0 +1,40 @@
+
+Se ha generado el siguiente LOG : 
+Inicia el metodo OnStart()
+
+
+Registrado el : 08/02/2019 10:19:56
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Inicia el metodo OnStart()
+
+
+Registrado el : 08/02/2019 10:21:12
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Inicia el metodo OnStart()
+
+
+Registrado el : 08/02/2019 10:24:00
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Inicia el metodo OnStart()
+
+
+Registrado el : 08/02/2019 10:26:48
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Inicia el metodo OnStart()
+
+
+Registrado el : 08/02/2019 11:10:11
+
+=================================================================================================

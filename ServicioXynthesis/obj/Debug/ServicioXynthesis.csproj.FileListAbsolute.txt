@@ -1,5 +1,3 @@
-D:\SwDeviceIpc\ServicioXynthesis\obj\Debug\ServicioXynthesis.csprojAssemblyReference.cache
-D:\SwDeviceIpc\ServicioXynthesis\obj\Debug\ServicioXynthesis.csproj.CoreCompileInputs.cache
 D:\SwDeviceIpc\ServicioXynthesis\bin\Debug\ServicioXynthesis.exe.config
 D:\SwDeviceIpc\ServicioXynthesis\bin\Debug\ServicioXynthesis.exe
 D:\SwDeviceIpc\ServicioXynthesis\bin\Debug\ServicioXynthesis.pdb
@@ -7,19 +5,48 @@ D:\SwDeviceIpc\ServicioXynthesis\bin\Debug\Axede.Xynthesis.IpcProcess.dll
 D:\SwDeviceIpc\ServicioXynthesis\bin\Debug\ServicioXynthesis.Utilidades.dll
 D:\SwDeviceIpc\ServicioXynthesis\bin\Debug\CommonProcessLibrary.dll
 D:\SwDeviceIpc\ServicioXynthesis\bin\Debug\MySql.Data.dll
-D:\SwDeviceIpc\ServicioXynthesis\bin\Debug\log4net.dll
-D:\SwDeviceIpc\ServicioXynthesis\bin\Debug\Axede.Xynthesis.Log.dll
 D:\SwDeviceIpc\ServicioXynthesis\bin\Debug\Axede.Xynthesis.IpcProcess.pdb
-D:\SwDeviceIpc\ServicioXynthesis\bin\Debug\Axede.Xynthesis.IpcProcess.dll.config
 D:\SwDeviceIpc\ServicioXynthesis\bin\Debug\ServicioXynthesis.Utilidades.pdb
-D:\SwDeviceIpc\ServicioXynthesis\bin\Debug\CommonProcessLibrary.pdb
 D:\SwDeviceIpc\ServicioXynthesis\bin\Debug\MySql.Data.xml
-D:\SwDeviceIpc\ServicioXynthesis\bin\Debug\Axede.Xynthesis.Log.pdb
-D:\SwDeviceIpc\ServicioXynthesis\obj\Debug\ServicioXynthesis.csproj.CopyComplete
 D:\SwDeviceIpc\ServicioXynthesis\obj\Debug\ServicioXynthesis.exe
 D:\SwDeviceIpc\ServicioXynthesis\obj\Debug\ServicioXynthesis.pdb
 D:\SwDeviceIpc\ServicioXynthesis\bin\Debug\EntityFramework.dll
 D:\SwDeviceIpc\ServicioXynthesis\bin\Debug\EntityFramework.xml
 D:\SwDeviceIpc\ServicioXynthesis\bin\Debug\Modelo.dll
 D:\SwDeviceIpc\ServicioXynthesis\bin\Debug\Modelo.pdb
-D:\SwDeviceIpc\ServicioXynthesis\bin\Debug\Modelo.dll.config
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\ServicioXynthesis\bin\Debug\ServicioXynthesis.exe.config
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\ServicioXynthesis\bin\Debug\ServicioXynthesis.exe
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\ServicioXynthesis\bin\Debug\ServicioXynthesis.pdb
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\ServicioXynthesis\bin\Debug\EntityFramework.dll
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\ServicioXynthesis\bin\Debug\Modelo.dll
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\ServicioXynthesis\bin\Debug\ServicioXynthesis.Utilidades.dll
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\ServicioXynthesis\bin\Debug\Modelo.pdb
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\ServicioXynthesis\bin\Debug\ServicioXynthesis.Utilidades.pdb
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\ServicioXynthesis\bin\Debug\EntityFramework.xml
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\ServicioXynthesis\obj\Debug\ServicioXynthesis.exe
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\ServicioXynthesis\obj\Debug\ServicioXynthesis.pdb
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\ServicioXynthesis\obj\Debug\ServicioXynthesis.csprojResolveAssemblyReference.cache
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\ServicioXynthesis\bin\Debug\Axede.Xynthesis.IpcProcess.dll
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\ServicioXynthesis\bin\Debug\CommonProcessLibrary.dll
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\ServicioXynthesis\bin\Debug\Axede.Xynthesis.IpcProcess.pdb
+D:\SwDeviceIpc\ServicioXynthesis\obj\Debug\ServicioXynthesis.ProjectInstaller.resources
+D:\SwDeviceIpc\ServicioXynthesis\obj\Debug\ServicioXynthesis.csproj.GenerateResource.cache
+D:\SwDeviceIpc\ServicioXynthesis\obj\Debug\ServicioXynthesis.csprojResolveAssemblyReference.cache
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\ServicioXynthesis.exe.config
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\ServicioXynthesis.exe
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\ServicioXynthesis.pdb
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\EntityFramework.dll
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\Modelo.dll
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\ServicioXynthesis.Utilidades.dll
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\CommonProcessLibrary.dll
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\MySql.Data.dll
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\Modelo.pdb
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\ServicioXynthesis.Utilidades.pdb
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\Axede.Xynthesis.IpcProcess.pdb
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\EntityFramework.xml
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\MySql.Data.xml
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\obj\Debug\ServicioXynthesis.csprojResolveAssemblyReference.cache
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\obj\Debug\ServicioXynthesis.ProjectInstaller.resources
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\obj\Debug\ServicioXynthesis.csproj.GenerateResource.Cache
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\obj\Debug\ServicioXynthesis.exe
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\obj\Debug\ServicioXynthesis.pdb

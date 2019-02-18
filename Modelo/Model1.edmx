@@ -57,7 +57,102 @@ advertencia 6002: La tabla o vista 'def.xynthesis.xy_ipc_communicationhistory' n
           <Property Name="EndTime" Type="varchar" MaxLength="25" Nullable="false" />
           <Property Name="EffectiveCallDuration" Type="varchar" MaxLength="10" />
         </EntityType>
+        <EntityType Name="xy_ticketsoxe">
+          <Key>
+            <PropertyRef Name="Contador" />
+            <PropertyRef Name="Ide_TicketsOxe" />
+          </Key>
+          <Property Name="Contador" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Ide_TicketsOxe" Type="varchar" MaxLength="45" Nullable="false" />
+          <Property Name="ChargedUserName" Type="varchar" MaxLength="60" Nullable="false" />
+          <Property Name="ChargedNumber" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="CalledNumber" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="CallType" Type="tinyint" Nullable="false" />
+          <Property Name="StartDateTime" Type="datetime" Precision="0" Nullable="false" />
+          <Property Name="Duration" Type="int" Nullable="false" />
+          <Property Name="PersonalOrBusiness" Type="varchar" MaxLength="20" />
+          <Property Name="AccessCode" Type="varchar" MaxLength="15" />
+          <Property Name="TrunkIdentity" Type="varchar" MaxLength="5" />
+          <Property Name="Ide_Ticket" Type="int" />
+          <Property Name="EffectiveCallDuration" Type="varchar" MaxLength="10" />
+          <Property Name="WaitingDuration" Type="varchar" MaxLength="5" />
+          <Property Name="CallingNumber" Type="varchar" MaxLength="30" />
+          <Property Name="ChargedCostCenter" Type="decimal" Precision="15" Scale="0" />
+          <Property Name="Taxa" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="Linea_Taxa" Type="int" Nullable="false" />
+        </EntityType>
+        <Function Name="xyp_Add_xy_ticketsoxe" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="xynthesis" StoreFunctionName="xyp_Add-xy_ticketsoxe">
+          <Parameter Name="Ide_TicketsOxe_" Type="varchar" Mode="In" />
+          <Parameter Name="ChargedUserName_" Type="varchar" Mode="In" />
+          <Parameter Name="ChargedNumber_" Type="varchar" Mode="In" />
+          <Parameter Name="CalledNumber_" Type="varchar" Mode="In" />
+          <Parameter Name="CallType_" Type="tinyint" Mode="In" />
+          <Parameter Name="StartDateTime_" Type="datetime" Mode="In" />
+          <Parameter Name="Duration_" Type="int" Mode="In" />
+          <Parameter Name="PersonalOrBusiness_" Type="varchar" Mode="In" />
+          <Parameter Name="AccessCode_" Type="varchar" Mode="In" />
+          <Parameter Name="TrunkIdentity_" Type="varchar" Mode="In" />
+          <Parameter Name="Ide_Ticket_" Type="int" Mode="In" />
+          <Parameter Name="EffectiveCallDuration_" Type="varchar" Mode="In" />
+          <Parameter Name="WaitingDuration_" Type="varchar" Mode="In" />
+          <Parameter Name="CallingNumber_" Type="varchar" Mode="In" />
+          <Parameter Name="ChargedCostCenter_" Type="decimal" Mode="In" />
+          <Parameter Name="Taxa_" Type="varchar" Mode="In" />
+          <Parameter Name="Linea_Taxa_" Type="int" Mode="In" />
+        </Function>
+        <Function Name="xyp_DelFilasTicketsOld" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="xynthesis">
+          <Parameter Name="MaxContador" Type="int" Mode="In" />
+        </Function>
+        <Function Name="xyp_Execute_ETL_OXE" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="xynthesis" />
+        <Function Name="xyp_ExtractionTicketsIPC" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="xynthesis" />
+        <Function Name="xyp_FechaMaxTicketsOxe" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="xynthesis" />
+        <Function Name="xyp_inscommunicationhistory" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="xynthesis">
+          <Parameter Name="id_" Type="varchar" Mode="In" />
+          <Parameter Name="answeringPartyName_" Type="varchar" Mode="In" />
+          <Parameter Name="buttonNumber_" Type="varchar" Mode="In" />
+          <Parameter Name="cLIName_" Type="varchar" Mode="In" />
+          <Parameter Name="cLINumber_" Type="varchar" Mode="In" />
+          <Parameter Name="callType_" Type="varchar" Mode="In" />
+          <Parameter Name="callUsage_" Type="varchar" Mode="In" />
+          <Parameter Name="connectionId_" Type="varchar" Mode="In" />
+          <Parameter Name="destination_" Type="varchar" Mode="In" />
+          <Parameter Name="deviceChannel_" Type="varchar" Mode="In" />
+          <Parameter Name="deviceChannelType_" Type="varchar" Mode="In" />
+          <Parameter Name="deviceIdId_" Type="varchar" Mode="In" />
+          <Parameter Name="displayInCallHistory_" Type="varchar" Mode="In" />
+          <Parameter Name="duration_" Type="varchar" Mode="In" />
+          <Parameter Name="e164Destination_" Type="varchar" Mode="In" />
+          <Parameter Name="enterpriseCallId_" Type="varchar" Mode="In" />
+          <Parameter Name="eventType_" Type="varchar" Mode="In" />
+          <Parameter Name="personalPointOfContactId_" Type="varchar" Mode="In" />
+          <Parameter Name="pointOfContactId_" Type="varchar" Mode="In" />
+          <Parameter Name="priority_" Type="varchar" Mode="In" />
+          <Parameter Name="pttDuration_" Type="varchar" Mode="In" />
+          <Parameter Name="reasonForDisconnect_" Type="varchar" Mode="In" />
+          <Parameter Name="resourceAORId_" Type="varchar" Mode="In" />
+          <Parameter Name="ringTime_" Type="varchar" Mode="In" />
+          <Parameter Name="rolloverAppearance_" Type="varchar" Mode="In" />
+          <Parameter Name="routedDestination_" Type="varchar" Mode="In" />
+          <Parameter Name="schemaDifference_blob_reserved_" Type="varchar" Mode="In" />
+          <Parameter Name="schemaDifference_reserved_" Type="varchar" Mode="In" />
+          <Parameter Name="startTime_" Type="varchar" Mode="In" />
+          <Parameter Name="trunkId_" Type="varchar" Mode="In" />
+          <Parameter Name="trunkBChannel_" Type="varchar" Mode="In" />
+          <Parameter Name="userId_" Type="varchar" Mode="In" />
+          <Parameter Name="lastModified_" Type="varchar" Mode="In" />
+          <Parameter Name="parentUserCDIId_" Type="varchar" Mode="In" />
+          <Parameter Name="EndTime_" Type="varchar" Mode="In" />
+          <Parameter Name="EffectiveCallDuration_" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="xyp_LoadTickets" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="xynthesis">
+          <Parameter Name="dDate" Type="datetime" Mode="In" />
+        </Function>
+        <Function Name="xyp_TransTicketsOXE" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="xynthesis">
+          <Parameter Name="dStartDate" Type="datetime" Mode="In" />
+          <Parameter Name="dEndDate" Type="datetime" Mode="In" />
+        </Function>
         <EntityContainer Name="xynthesisModelStoreContainer">
+          <EntitySet Name="xy_ticketsoxe" EntityType="Self.xy_ticketsoxe" Schema="xynthesis" store:Type="Tables" />
           <EntitySet Name="xy_ipc_communicationhistory" EntityType="Self.xy_ipc_communicationhistory" store:Type="Tables" store:Schema="xynthesis">
             <DefiningQuery>SELECT
 `xy_ipc_communicationhistory`.`id`, 
@@ -105,6 +200,78 @@ FROM `xy_ipc_communicationhistory` AS `xy_ipc_communicationhistory`</DefiningQue
       <Schema Namespace="xynthesisModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
         <EntityContainer Name="xynthesisEntities" annotation:LazyLoadingEnabled="true" >
           <EntitySet Name="xy_ipc_communicationhistory" EntityType="xynthesisModel.xy_ipc_communicationhistory" />
+          <FunctionImport Name="xyp_inscommunicationhistory">
+            <Parameter Name="id_" Mode="In" Type="String" />
+            <Parameter Name="answeringPartyName_" Mode="In" Type="String" />
+            <Parameter Name="buttonNumber_" Mode="In" Type="String" />
+            <Parameter Name="cLIName_" Mode="In" Type="String" />
+            <Parameter Name="cLINumber_" Mode="In" Type="String" />
+            <Parameter Name="callType_" Mode="In" Type="String" />
+            <Parameter Name="callUsage_" Mode="In" Type="String" />
+            <Parameter Name="connectionId_" Mode="In" Type="String" />
+            <Parameter Name="destination_" Mode="In" Type="String" />
+            <Parameter Name="deviceChannel_" Mode="In" Type="String" />
+            <Parameter Name="deviceChannelType_" Mode="In" Type="String" />
+            <Parameter Name="deviceIdId_" Mode="In" Type="String" />
+            <Parameter Name="displayInCallHistory_" Mode="In" Type="String" />
+            <Parameter Name="duration_" Mode="In" Type="String" />
+            <Parameter Name="e164Destination_" Mode="In" Type="String" />
+            <Parameter Name="enterpriseCallId_" Mode="In" Type="String" />
+            <Parameter Name="eventType_" Mode="In" Type="String" />
+            <Parameter Name="personalPointOfContactId_" Mode="In" Type="String" />
+            <Parameter Name="pointOfContactId_" Mode="In" Type="String" />
+            <Parameter Name="priority_" Mode="In" Type="String" />
+            <Parameter Name="pttDuration_" Mode="In" Type="String" />
+            <Parameter Name="reasonForDisconnect_" Mode="In" Type="String" />
+            <Parameter Name="resourceAORId_" Mode="In" Type="String" />
+            <Parameter Name="ringTime_" Mode="In" Type="String" />
+            <Parameter Name="rolloverAppearance_" Mode="In" Type="String" />
+            <Parameter Name="routedDestination_" Mode="In" Type="String" />
+            <Parameter Name="schemaDifference_blob_reserved_" Mode="In" Type="String" />
+            <Parameter Name="schemaDifference_reserved_" Mode="In" Type="String" />
+            <Parameter Name="startTime_" Mode="In" Type="String" />
+            <Parameter Name="trunkId_" Mode="In" Type="String" />
+            <Parameter Name="trunkBChannel_" Mode="In" Type="String" />
+            <Parameter Name="userId_" Mode="In" Type="String" />
+            <Parameter Name="lastModified_" Mode="In" Type="String" />
+            <Parameter Name="parentUserCDIId_" Mode="In" Type="String" />
+            <Parameter Name="EndTime_" Mode="In" Type="String" />
+            <Parameter Name="EffectiveCallDuration_" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="xyp_Add_xy_ticketsoxe">
+            <Parameter Name="Ide_TicketsOxe_" Mode="In" Type="String" />
+            <Parameter Name="ChargedUserName_" Mode="In" Type="String" />
+            <Parameter Name="ChargedNumber_" Mode="In" Type="String" />
+            <Parameter Name="CalledNumber_" Mode="In" Type="String" />
+            <Parameter Name="CallType_" Mode="In" Type="SByte" />
+            <Parameter Name="StartDateTime_" Mode="In" Type="DateTime" />
+            <Parameter Name="Duration_" Mode="In" Type="Int32" />
+            <Parameter Name="PersonalOrBusiness_" Mode="In" Type="String" />
+            <Parameter Name="AccessCode_" Mode="In" Type="String" />
+            <Parameter Name="TrunkIdentity_" Mode="In" Type="String" />
+            <Parameter Name="Ide_Ticket_" Mode="In" Type="Int32" />
+            <Parameter Name="EffectiveCallDuration_" Mode="In" Type="String" />
+            <Parameter Name="WaitingDuration_" Mode="In" Type="String" />
+            <Parameter Name="CallingNumber_" Mode="In" Type="String" />
+            <Parameter Name="ChargedCostCenter_" Mode="In" Type="Decimal" />
+            <Parameter Name="Taxa_" Mode="In" Type="String" />
+            <Parameter Name="Linea_Taxa_" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="xyp_TransTicketsOXE">
+            <Parameter Name="dStartDate" Mode="In" Type="DateTime" />
+            <Parameter Name="dEndDate" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="xyp_LoadTickets">
+          <Parameter Name="dDate" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="xyp_ExtractionTicketsIPC" />
+          <FunctionImport Name="xyp_Execute_ETL_OXE" />
+          <EntitySet Name="xy_ticketsoxe" EntityType="xynthesisModel.xy_ticketsoxe" />
+          <FunctionImport Name="xyp_DelFilasTicketsOld">
+          <Parameter Name="MaxContador" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="xyp_FechaMaxTicketsOxe" >
+          </FunctionImport>
         </EntityContainer>
         <EntityType Name="xy_ipc_communicationhistory">
           <Key>
@@ -156,6 +323,30 @@ FROM `xy_ipc_communicationhistory` AS `xy_ipc_communicationhistory`</DefiningQue
           <Property Name="EndTime" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="false" />
           <Property Name="EffectiveCallDuration" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
         </EntityType>
+        <EntityType Name="xy_ticketsoxe">
+          <Key>
+            <PropertyRef Name="Contador" />
+            <PropertyRef Name="Ide_TicketsOxe" />
+          </Key>
+          <Property Name="Contador" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Ide_TicketsOxe" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="ChargedUserName" Type="String" Nullable="false" MaxLength="60" FixedLength="false" Unicode="false" />
+          <Property Name="ChargedNumber" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="CalledNumber" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="CallType" Type="SByte" Nullable="false" />
+          <Property Name="StartDateTime" Type="DateTime" Nullable="false" />
+          <Property Name="Duration" Type="Int32" Nullable="false" />
+          <Property Name="PersonalOrBusiness" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="AccessCode" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="TrunkIdentity" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="Ide_Ticket" Type="Int32" />
+          <Property Name="EffectiveCallDuration" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="WaitingDuration" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="CallingNumber" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="ChargedCostCenter" Type="Decimal" />
+          <Property Name="Taxa" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Linea_Taxa" Type="Int32" Nullable="false" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -204,6 +395,38 @@ FROM `xy_ipc_communicationhistory` AS `xy_ipc_communicationhistory`</DefiningQue
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="xyp_inscommunicationhistory" FunctionName="xynthesisModel.Store.xyp_inscommunicationhistory" />
+          <FunctionImportMapping FunctionImportName="xyp_Add_xy_ticketsoxe" FunctionName="xynthesisModel.Store.xyp_Add_xy_ticketsoxe" />
+          <FunctionImportMapping FunctionImportName="xyp_TransTicketsOXE" FunctionName="xynthesisModel.Store.xyp_TransTicketsOXE" />
+          <FunctionImportMapping FunctionImportName="xyp_LoadTickets" FunctionName="xynthesisModel.Store.xyp_LoadTickets" />
+          <FunctionImportMapping FunctionImportName="xyp_ExtractionTicketsIPC" FunctionName="xynthesisModel.Store.xyp_ExtractionTicketsIPC" />
+          <FunctionImportMapping FunctionImportName="xyp_Execute_ETL_OXE" FunctionName="xynthesisModel.Store.xyp_Execute_ETL_OXE" />
+          <EntitySetMapping Name="xy_ticketsoxe">
+            <EntityTypeMapping TypeName="xynthesisModel.xy_ticketsoxe">
+              <MappingFragment StoreEntitySet="xy_ticketsoxe">
+                <ScalarProperty Name="Linea_Taxa" ColumnName="Linea_Taxa" />
+                <ScalarProperty Name="Taxa" ColumnName="Taxa" />
+                <ScalarProperty Name="ChargedCostCenter" ColumnName="ChargedCostCenter" />
+                <ScalarProperty Name="CallingNumber" ColumnName="CallingNumber" />
+                <ScalarProperty Name="WaitingDuration" ColumnName="WaitingDuration" />
+                <ScalarProperty Name="EffectiveCallDuration" ColumnName="EffectiveCallDuration" />
+                <ScalarProperty Name="Ide_Ticket" ColumnName="Ide_Ticket" />
+                <ScalarProperty Name="TrunkIdentity" ColumnName="TrunkIdentity" />
+                <ScalarProperty Name="AccessCode" ColumnName="AccessCode" />
+                <ScalarProperty Name="PersonalOrBusiness" ColumnName="PersonalOrBusiness" />
+                <ScalarProperty Name="Duration" ColumnName="Duration" />
+                <ScalarProperty Name="StartDateTime" ColumnName="StartDateTime" />
+                <ScalarProperty Name="CallType" ColumnName="CallType" />
+                <ScalarProperty Name="CalledNumber" ColumnName="CalledNumber" />
+                <ScalarProperty Name="ChargedNumber" ColumnName="ChargedNumber" />
+                <ScalarProperty Name="ChargedUserName" ColumnName="ChargedUserName" />
+                <ScalarProperty Name="Ide_TicketsOxe" ColumnName="Ide_TicketsOxe" />
+                <ScalarProperty Name="Contador" ColumnName="Contador" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="xyp_DelFilasTicketsOld" FunctionName="xynthesisModel.Store.xyp_DelFilasTicketsOld" />
+          <FunctionImportMapping FunctionImportName="xyp_FechaMaxTicketsOxe" FunctionName="xynthesisModel.Store.xyp_FechaMaxTicketsOxe" />
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>

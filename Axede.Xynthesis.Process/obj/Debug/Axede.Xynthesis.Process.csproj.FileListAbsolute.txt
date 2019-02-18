@@ -1,0 +1,34 @@
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\Axede.Xynthesis.IpcProcess.dll.config
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\Axede.Xynthesis.IpcProcess.dll
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\Axede.Xynthesis.IpcProcess.pdb
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\Modelo.dll
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\ServicioXynthesis.Utilidades.dll
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\Modelo.pdb
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\ServicioXynthesis.Utilidades.pdb
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\Axede.Xynthesis.IpcProcess\obj\Debug\Axede.Xynthesis.Process.csprojResolveAssemblyReference.cache
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\Axede.Xynthesis.IpcProcess\obj\Debug\Axede.Xynthesis.IpcProcess.dll
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\Axede.Xynthesis.IpcProcess\obj\Debug\Axede.Xynthesis.IpcProcess.pdb
+D:\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\Axede.Xynthesis.IpcProcess.dll.config
+D:\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\Axede.Xynthesis.IpcProcess.dll
+D:\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\Axede.Xynthesis.IpcProcess.pdb
+D:\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\Modelo.dll
+D:\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\MySql.Data.dll
+D:\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\ServicioXynthesis.Utilidades.dll
+D:\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\Modelo.pdb
+D:\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\ServicioXynthesis.Utilidades.pdb
+D:\SwDeviceIpc\Axede.Xynthesis.IpcProcess\bin\Debug\MySql.Data.xml
+D:\SwDeviceIpc\Axede.Xynthesis.IpcProcess\obj\Debug\Axede.Xynthesis.IpcProcess.dll
+D:\SwDeviceIpc\Axede.Xynthesis.IpcProcess\obj\Debug\Axede.Xynthesis.IpcProcess.pdb
+D:\SwDeviceIpc\Axede.Xynthesis.IpcProcess\obj\Debug\Axede.Xynthesis.Process.csprojResolveAssemblyReference.cache
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\bin\Debug\Axede.Xynthesis.IpcProcess.dll.config
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\bin\Debug\Axede.Xynthesis.IpcProcess.dll
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\bin\Debug\Axede.Xynthesis.IpcProcess.pdb
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\bin\Debug\Modelo.dll
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\bin\Debug\MySql.Data.dll
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\bin\Debug\ServicioXynthesis.Utilidades.dll
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\bin\Debug\Modelo.pdb
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\bin\Debug\ServicioXynthesis.Utilidades.pdb
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\bin\Debug\MySql.Data.xml
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.Process.csprojResolveAssemblyReference.cache
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.IpcProcess.dll
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.IpcProcess.pdb

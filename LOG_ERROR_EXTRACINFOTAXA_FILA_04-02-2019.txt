@@ -1,0 +1,8 @@
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXOVF; proceso línea = 456
+
+
+Registrado el : 04/02/2019 06:26:11
+
+=================================================================================================

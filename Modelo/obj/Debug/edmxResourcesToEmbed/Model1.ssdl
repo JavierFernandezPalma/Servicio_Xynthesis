@@ -52,7 +52,102 @@ advertencia 6002: La tabla o vista 'def.xynthesis.xy_ipc_communicationhistory' n
     <Property Name="EndTime" Type="varchar" MaxLength="25" Nullable="false" />
     <Property Name="EffectiveCallDuration" Type="varchar" MaxLength="10" />
   </EntityType>
+  <EntityType Name="xy_ticketsoxe">
+    <Key>
+      <PropertyRef Name="Contador" />
+      <PropertyRef Name="Ide_TicketsOxe" />
+    </Key>
+    <Property Name="Contador" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ide_TicketsOxe" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="ChargedUserName" Type="varchar" MaxLength="60" Nullable="false" />
+    <Property Name="ChargedNumber" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="CalledNumber" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="CallType" Type="tinyint" Nullable="false" />
+    <Property Name="StartDateTime" Type="datetime" Precision="0" Nullable="false" />
+    <Property Name="Duration" Type="int" Nullable="false" />
+    <Property Name="PersonalOrBusiness" Type="varchar" MaxLength="20" />
+    <Property Name="AccessCode" Type="varchar" MaxLength="15" />
+    <Property Name="TrunkIdentity" Type="varchar" MaxLength="5" />
+    <Property Name="Ide_Ticket" Type="int" />
+    <Property Name="EffectiveCallDuration" Type="varchar" MaxLength="10" />
+    <Property Name="WaitingDuration" Type="varchar" MaxLength="5" />
+    <Property Name="CallingNumber" Type="varchar" MaxLength="30" />
+    <Property Name="ChargedCostCenter" Type="decimal" Precision="15" Scale="0" />
+    <Property Name="Taxa" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Linea_Taxa" Type="int" Nullable="false" />
+  </EntityType>
+  <Function Name="xyp_Add_xy_ticketsoxe" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="xynthesis" StoreFunctionName="xyp_Add-xy_ticketsoxe">
+    <Parameter Name="Ide_TicketsOxe_" Type="varchar" Mode="In" />
+    <Parameter Name="ChargedUserName_" Type="varchar" Mode="In" />
+    <Parameter Name="ChargedNumber_" Type="varchar" Mode="In" />
+    <Parameter Name="CalledNumber_" Type="varchar" Mode="In" />
+    <Parameter Name="CallType_" Type="tinyint" Mode="In" />
+    <Parameter Name="StartDateTime_" Type="datetime" Mode="In" />
+    <Parameter Name="Duration_" Type="int" Mode="In" />
+    <Parameter Name="PersonalOrBusiness_" Type="varchar" Mode="In" />
+    <Parameter Name="AccessCode_" Type="varchar" Mode="In" />
+    <Parameter Name="TrunkIdentity_" Type="varchar" Mode="In" />
+    <Parameter Name="Ide_Ticket_" Type="int" Mode="In" />
+    <Parameter Name="EffectiveCallDuration_" Type="varchar" Mode="In" />
+    <Parameter Name="WaitingDuration_" Type="varchar" Mode="In" />
+    <Parameter Name="CallingNumber_" Type="varchar" Mode="In" />
+    <Parameter Name="ChargedCostCenter_" Type="decimal" Mode="In" />
+    <Parameter Name="Taxa_" Type="varchar" Mode="In" />
+    <Parameter Name="Linea_Taxa_" Type="int" Mode="In" />
+  </Function>
+  <Function Name="xyp_DelFilasTicketsOld" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="xynthesis">
+    <Parameter Name="MaxContador" Type="int" Mode="In" />
+  </Function>
+  <Function Name="xyp_Execute_ETL_OXE" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="xynthesis" />
+  <Function Name="xyp_ExtractionTicketsIPC" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="xynthesis" />
+  <Function Name="xyp_FechaMaxTicketsOxe" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="xynthesis" />
+  <Function Name="xyp_inscommunicationhistory" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="xynthesis">
+    <Parameter Name="id_" Type="varchar" Mode="In" />
+    <Parameter Name="answeringPartyName_" Type="varchar" Mode="In" />
+    <Parameter Name="buttonNumber_" Type="varchar" Mode="In" />
+    <Parameter Name="cLIName_" Type="varchar" Mode="In" />
+    <Parameter Name="cLINumber_" Type="varchar" Mode="In" />
+    <Parameter Name="callType_" Type="varchar" Mode="In" />
+    <Parameter Name="callUsage_" Type="varchar" Mode="In" />
+    <Parameter Name="connectionId_" Type="varchar" Mode="In" />
+    <Parameter Name="destination_" Type="varchar" Mode="In" />
+    <Parameter Name="deviceChannel_" Type="varchar" Mode="In" />
+    <Parameter Name="deviceChannelType_" Type="varchar" Mode="In" />
+    <Parameter Name="deviceIdId_" Type="varchar" Mode="In" />
+    <Parameter Name="displayInCallHistory_" Type="varchar" Mode="In" />
+    <Parameter Name="duration_" Type="varchar" Mode="In" />
+    <Parameter Name="e164Destination_" Type="varchar" Mode="In" />
+    <Parameter Name="enterpriseCallId_" Type="varchar" Mode="In" />
+    <Parameter Name="eventType_" Type="varchar" Mode="In" />
+    <Parameter Name="personalPointOfContactId_" Type="varchar" Mode="In" />
+    <Parameter Name="pointOfContactId_" Type="varchar" Mode="In" />
+    <Parameter Name="priority_" Type="varchar" Mode="In" />
+    <Parameter Name="pttDuration_" Type="varchar" Mode="In" />
+    <Parameter Name="reasonForDisconnect_" Type="varchar" Mode="In" />
+    <Parameter Name="resourceAORId_" Type="varchar" Mode="In" />
+    <Parameter Name="ringTime_" Type="varchar" Mode="In" />
+    <Parameter Name="rolloverAppearance_" Type="varchar" Mode="In" />
+    <Parameter Name="routedDestination_" Type="varchar" Mode="In" />
+    <Parameter Name="schemaDifference_blob_reserved_" Type="varchar" Mode="In" />
+    <Parameter Name="schemaDifference_reserved_" Type="varchar" Mode="In" />
+    <Parameter Name="startTime_" Type="varchar" Mode="In" />
+    <Parameter Name="trunkId_" Type="varchar" Mode="In" />
+    <Parameter Name="trunkBChannel_" Type="varchar" Mode="In" />
+    <Parameter Name="userId_" Type="varchar" Mode="In" />
+    <Parameter Name="lastModified_" Type="varchar" Mode="In" />
+    <Parameter Name="parentUserCDIId_" Type="varchar" Mode="In" />
+    <Parameter Name="EndTime_" Type="varchar" Mode="In" />
+    <Parameter Name="EffectiveCallDuration_" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="xyp_LoadTickets" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="xynthesis">
+    <Parameter Name="dDate" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="xyp_TransTicketsOXE" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="xynthesis">
+    <Parameter Name="dStartDate" Type="datetime" Mode="In" />
+    <Parameter Name="dEndDate" Type="datetime" Mode="In" />
+  </Function>
   <EntityContainer Name="xynthesisModelStoreContainer">
+    <EntitySet Name="xy_ticketsoxe" EntityType="Self.xy_ticketsoxe" Schema="xynthesis" store:Type="Tables" />
     <EntitySet Name="xy_ipc_communicationhistory" EntityType="Self.xy_ipc_communicationhistory" store:Type="Tables" store:Schema="xynthesis">
       <DefiningQuery>SELECT
 `xy_ipc_communicationhistory`.`id`, 

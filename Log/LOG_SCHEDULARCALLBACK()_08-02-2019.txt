@@ -1,0 +1,32 @@
+
+Se ha generado el siguiente LOG : 
+Ejecutando Servicio Xynthesis Oxe
+
+
+Registrado el : 08/02/2019 10:21:22
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Ejecutando Servicio Xynthesis Oxe
+
+
+Registrado el : 08/02/2019 10:21:32
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Ejecutando Servicio Xynthesis Oxe
+
+
+Registrado el : 08/02/2019 10:21:42
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Ejecutando Servicio Xynthesis Oxe
+
+
+Registrado el : 08/02/2019 10:24:10
+
+=================================================================================================

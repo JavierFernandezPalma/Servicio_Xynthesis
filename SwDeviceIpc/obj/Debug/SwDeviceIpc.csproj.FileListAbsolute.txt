@@ -35,8 +35,48 @@ D:\SwDeviceIpc\SwDeviceIpc\obj\Debug\SwDeviceIpc.ProjectInstaller.resources
 D:\SwDeviceIpc\SwDeviceIpc\obj\Debug\SwDeviceIpc.csproj.GenerateResource.cache
 D:\SwDeviceIpc\SwDeviceIpc\obj\Debug\SwDeviceIpc.exe
 D:\SwDeviceIpc\SwDeviceIpc\obj\Debug\SwDeviceIpc.pdb
-D:\SwDeviceIpc\SwDeviceIpc\bin\Debug\Axede.Xynthesis.ConnectToDBIpc.dll.config
-D:\SwDeviceIpc\SwDeviceIpc\bin\Debug\Axede.Xynthesis.IpcProcess.dll.config
-D:\SwDeviceIpc\SwDeviceIpc\obj\Debug\SwDeviceIpc.csprojAssemblyReference.cache
-D:\SwDeviceIpc\SwDeviceIpc\obj\Debug\SwDeviceIpc.csproj.CoreCompileInputs.cache
-D:\SwDeviceIpc\SwDeviceIpc\obj\Debug\SwDeviceIpc.csproj.CopyComplete
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\SwDeviceIpc\bin\Debug\SwDeviceIpc.exe.config
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\SwDeviceIpc\obj\Debug\SwDeviceIpc.exe
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\SwDeviceIpc\obj\Debug\SwDeviceIpc.pdb
+D:\SwDeviceIpc\SwDeviceIpc\bin\Debug\Modelo.dll
+D:\SwDeviceIpc\SwDeviceIpc\bin\Debug\EntityFramework.dll
+D:\SwDeviceIpc\SwDeviceIpc\bin\Debug\Modelo.pdb
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\SwDeviceIpc\bin\Debug\SwDeviceIpc.exe
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\SwDeviceIpc\bin\Debug\SwDeviceIpc.pdb
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\SwDeviceIpc\bin\Debug\Axede.Xynthesis.ConnectToDBIpc.dll
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\SwDeviceIpc\bin\Debug\Axede.Xynthesis.IpcProcess.dll
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\SwDeviceIpc\bin\Debug\ServicioXynthesis.Utilidades.dll
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\SwDeviceIpc\bin\Debug\Modelo.dll
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\SwDeviceIpc\bin\Debug\log4net.dll
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\SwDeviceIpc\bin\Debug\EntityFramework.dll
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\SwDeviceIpc\bin\Debug\Axede.Xynthesis.ConnectToDBIpc.pdb
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\SwDeviceIpc\bin\Debug\Axede.Xynthesis.IpcProcess.pdb
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\SwDeviceIpc\bin\Debug\Axede.Xynthesis.Log.pdb
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\SwDeviceIpc\bin\Debug\CommonProcessLibrary.pdb
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\SwDeviceIpc\bin\Debug\ServicioXynthesis.Utilidades.pdb
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\SwDeviceIpc\bin\Debug\Modelo.pdb
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\SwDeviceIpc\obj\Debug\SwDeviceIpc.csprojResolveAssemblyReference.cache
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\SwDeviceIpc\obj\Debug\SwDeviceIpc.ProjectInstaller.resources
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\SwDeviceIpc\obj\Debug\SwDeviceIpc.csproj.GenerateResource.Cache
+D:\SwDeviceIpc\SwDeviceIpc\obj\Debug\SwDeviceIpc.csprojResolveAssemblyReference.cache
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\SwDeviceIpc.exe.config
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\SwDeviceIpc.exe
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\SwDeviceIpc.pdb
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\Axede.Xynthesis.ConnectToDBIpc.dll
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\MySql.Data.dll
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\ServicioXynthesis.Utilidades.dll
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\Modelo.dll
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\EntityFramework.dll
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\log4net.dll
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\Axede.Xynthesis.ConnectToDBIpc.pdb
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\Axede.Xynthesis.IpcProcess.pdb
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\Axede.Xynthesis.Log.pdb
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\CommonProcessLibrary.pdb
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\MySql.Data.xml
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\ServicioXynthesis.Utilidades.pdb
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\Modelo.pdb
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\obj\Debug\SwDeviceIpc.csprojResolveAssemblyReference.cache
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\obj\Debug\SwDeviceIpc.ProjectInstaller.resources
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\obj\Debug\SwDeviceIpc.csproj.GenerateResource.Cache
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\obj\Debug\SwDeviceIpc.exe
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\obj\Debug\SwDeviceIpc.pdb

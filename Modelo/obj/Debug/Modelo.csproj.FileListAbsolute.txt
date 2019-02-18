@@ -3,8 +3,23 @@ D:\SwDeviceIpc\Modelo\bin\Debug\Modelo.dll
 D:\SwDeviceIpc\Modelo\bin\Debug\Modelo.pdb
 D:\SwDeviceIpc\Modelo\bin\Debug\EntityFramework.dll
 D:\SwDeviceIpc\Modelo\bin\Debug\EntityFramework.xml
-D:\SwDeviceIpc\Modelo\obj\Debug\Modelo.csprojAssemblyReference.cache
 D:\SwDeviceIpc\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
 D:\SwDeviceIpc\Modelo\obj\Debug\Modelo.csproj.CopyComplete
 D:\SwDeviceIpc\Modelo\obj\Debug\Modelo.dll
 D:\SwDeviceIpc\Modelo\obj\Debug\Modelo.pdb
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\Modelo\bin\Debug\Modelo.dll.config
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\Modelo\bin\Debug\Modelo.dll
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\Modelo\bin\Debug\EntityFramework.dll
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\Modelo\bin\Debug\EntityFramework.xml
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\Modelo\obj\Debug\Modelo.dll
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\Modelo\obj\Debug\Modelo.pdb
+C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\bin\Debug\Modelo.dll.config
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\bin\Debug\Modelo.dll
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\bin\Debug\Modelo.pdb
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\bin\Debug\EntityFramework.dll
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\bin\Debug\EntityFramework.xml
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\obj\Debug\Modelo.dll
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\obj\Debug\Modelo.pdb
