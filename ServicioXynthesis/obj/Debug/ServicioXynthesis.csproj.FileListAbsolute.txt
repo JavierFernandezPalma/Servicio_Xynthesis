@@ -38,15 +38,13 @@ D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\ServicioXy
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\EntityFramework.dll
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\Modelo.dll
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\ServicioXynthesis.Utilidades.dll
-D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\CommonProcessLibrary.dll
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\MySql.Data.dll
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\Modelo.pdb
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\ServicioXynthesis.Utilidades.pdb
-D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\Axede.Xynthesis.IpcProcess.pdb
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\EntityFramework.xml
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\MySql.Data.xml
-D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\obj\Debug\ServicioXynthesis.csprojResolveAssemblyReference.cache
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\obj\Debug\ServicioXynthesis.ProjectInstaller.resources
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\obj\Debug\ServicioXynthesis.csproj.GenerateResource.Cache
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\obj\Debug\ServicioXynthesis.exe
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\obj\Debug\ServicioXynthesis.pdb
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\obj\Debug\ServicioXynthesis.csprojResolveAssemblyReference.cache

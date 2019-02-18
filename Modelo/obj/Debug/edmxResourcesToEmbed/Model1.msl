@@ -75,5 +75,15 @@
     </EntitySetMapping>
     <FunctionImportMapping FunctionImportName="xyp_DelFilasTicketsOld" FunctionName="xynthesisModel.Store.xyp_DelFilasTicketsOld" />
     <FunctionImportMapping FunctionImportName="xyp_FechaMaxTicketsOxe" FunctionName="xynthesisModel.Store.xyp_FechaMaxTicketsOxe" />
+    <EntitySetMapping Name="xy_costcenters">
+      <EntityTypeMapping TypeName="xynthesisModel.xy_costcenters">
+        <MappingFragment StoreEntitySet="xy_costcenters">
+          <ScalarProperty Name="Ide_ParentCostCenter" ColumnName="Ide_ParentCostCenter" />
+          <ScalarProperty Name="Nom_CostCenter" ColumnName="Nom_CostCenter" />
+          <ScalarProperty Name="Cod_CostCenter" ColumnName="Cod_CostCenter" />
+          <ScalarProperty Name="Ide_CostCenter" ColumnName="Ide_CostCenter" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

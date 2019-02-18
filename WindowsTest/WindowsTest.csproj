@@ -99,5 +99,11 @@
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Axede.Xynthesis.Process\Axede.Xynthesis.Process.csproj">
+      <Project>{79ae3c59-549a-4ecc-becd-e19d9eeda411}</Project>
+      <Name>Axede.Xynthesis.Process</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

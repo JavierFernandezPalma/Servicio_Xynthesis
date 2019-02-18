@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwDeviceIpc", "SwDeviceIpc\SwDeviceIpc.csproj", "{9F56D2DA-4EA6-4B44-B43B-A8F82BC601D0}"
 EndProject
@@ -17,13 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicioXynthesis", "Servic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Axede.Xynthesis.Process", "Axede.Xynthesis.Process\Axede.Xynthesis.Process.csproj", "{79AE3C59-549A-4ECC-BECD-E19D9EEDA411}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Servicio_XynthesisOxe", "Servicio_XynthesisOxe\Servicio_XynthesisOxe.vdproj", "{139295ED-01F0-4BCA-8435-7B025D45F2BA}"
-EndProject
 Global
-	GlobalSection(SubversionScc) = preSolution
-		Svn-Managed = True
-		Manager = AnkhSVN - Subversion Support for Visual Studio
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
@@ -117,17 +111,15 @@ Global
 		{79AE3C59-549A-4ECC-BECD-E19D9EEDA411}.Release|x64.Build.0 = Release|Any CPU
 		{79AE3C59-549A-4ECC-BECD-E19D9EEDA411}.Release|x86.ActiveCfg = Release|Any CPU
 		{79AE3C59-549A-4ECC-BECD-E19D9EEDA411}.Release|x86.Build.0 = Release|Any CPU
-		{139295ED-01F0-4BCA-8435-7B025D45F2BA}.Debug|Any CPU.ActiveCfg = Debug
-		{139295ED-01F0-4BCA-8435-7B025D45F2BA}.Debug|x64.ActiveCfg = Debug
-		{139295ED-01F0-4BCA-8435-7B025D45F2BA}.Debug|x86.ActiveCfg = Debug
-		{139295ED-01F0-4BCA-8435-7B025D45F2BA}.Release|Any CPU.ActiveCfg = Release
-		{139295ED-01F0-4BCA-8435-7B025D45F2BA}.Release|x64.ActiveCfg = Release
-		{139295ED-01F0-4BCA-8435-7B025D45F2BA}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A28E16B-A23B-45EB-8B87-CD42E7C3B19C}
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
 	EndGlobalSection
 EndGlobal

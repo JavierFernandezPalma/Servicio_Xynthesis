@@ -1,8 +1,0 @@
-
-Se ha generado el siguiente LOG : 
-Fichero: TAXAYLFH; proceso línea = 2205; Mensaje: Se produjo un error al ejecutar la definición del comando. Vea la excepción interna para obtener detalles.
-
-
-Registrado el : 06/02/2019 04:38:48
-
-=================================================================================================

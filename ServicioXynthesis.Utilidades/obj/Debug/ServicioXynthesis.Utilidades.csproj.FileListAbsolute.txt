@@ -10,6 +10,5 @@ C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\ServicioX
 C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\ServicioXynthesis.Utilidades\obj\Debug\ServicioXynthesis.Utilidades.pdb
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis.Utilidades\bin\Debug\ServicioXynthesis.Utilidades.dll
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis.Utilidades\bin\Debug\ServicioXynthesis.Utilidades.pdb
-D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis.Utilidades\obj\Debug\ServicioXynthesis.Utilidades.csprojResolveAssemblyReference.cache
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis.Utilidades\obj\Debug\ServicioXynthesis.Utilidades.dll
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis.Utilidades\obj\Debug\ServicioXynthesis.Utilidades.pdb

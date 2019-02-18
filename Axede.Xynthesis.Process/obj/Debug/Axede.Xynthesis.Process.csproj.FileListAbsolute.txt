@@ -29,6 +29,6 @@ D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\bin\Debug\Serv
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\bin\Debug\Modelo.pdb
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\bin\Debug\ServicioXynthesis.Utilidades.pdb
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\bin\Debug\MySql.Data.xml
-D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.Process.csprojResolveAssemblyReference.cache
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.IpcProcess.dll
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.IpcProcess.pdb
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.Process.csprojResolveAssemblyReference.cache

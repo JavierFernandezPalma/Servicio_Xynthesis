@@ -5,8 +5,17 @@
     <!-- SSDL content -->
     <edmx:StorageModels>
     <Schema Namespace="xynthesisModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'def.xynthesis.xy_ipc_communicationhistory' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <EntityType Name="xy_costcenters">
+          <Key>
+            <PropertyRef Name="Ide_CostCenter" />
+          </Key>
+          <Property Name="Ide_CostCenter" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Cod_CostCenter" Type="varchar" MaxLength="10" />
+          <Property Name="Nom_CostCenter" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Ide_ParentCostCenter" Type="varchar" MaxLength="10" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'def.xynthesis.xy_ipc_communicationhistory' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="xy_ipc_communicationhistory">
           <Key>
             <PropertyRef Name="cLIName" />
@@ -152,6 +161,7 @@ advertencia 6002: La tabla o vista 'def.xynthesis.xy_ipc_communicationhistory' n
           <Parameter Name="dEndDate" Type="datetime" Mode="In" />
         </Function>
         <EntityContainer Name="xynthesisModelStoreContainer">
+          <EntitySet Name="xy_costcenters" EntityType="Self.xy_costcenters" Schema="xynthesis" store:Type="Tables" />
           <EntitySet Name="xy_ticketsoxe" EntityType="Self.xy_ticketsoxe" Schema="xynthesis" store:Type="Tables" />
           <EntitySet Name="xy_ipc_communicationhistory" EntityType="Self.xy_ipc_communicationhistory" store:Type="Tables" store:Schema="xynthesis">
             <DefiningQuery>SELECT
@@ -272,6 +282,7 @@ FROM `xy_ipc_communicationhistory` AS `xy_ipc_communicationhistory`</DefiningQue
           </FunctionImport>
           <FunctionImport Name="xyp_FechaMaxTicketsOxe" >
           </FunctionImport>
+          <EntitySet Name="xy_costcenters" EntityType="xynthesisModel.xy_costcenters" />
         </EntityContainer>
         <EntityType Name="xy_ipc_communicationhistory">
           <Key>
@@ -346,6 +357,15 @@ FROM `xy_ipc_communicationhistory` AS `xy_ipc_communicationhistory`</DefiningQue
           <Property Name="ChargedCostCenter" Type="Decimal" />
           <Property Name="Taxa" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
           <Property Name="Linea_Taxa" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="xy_costcenters">
+          <Key>
+            <PropertyRef Name="Ide_CostCenter" />
+          </Key>
+          <Property Name="Ide_CostCenter" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Cod_CostCenter" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Nom_CostCenter" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Ide_ParentCostCenter" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -427,6 +447,16 @@ FROM `xy_ipc_communicationhistory` AS `xy_ipc_communicationhistory`</DefiningQue
           </EntitySetMapping>
           <FunctionImportMapping FunctionImportName="xyp_DelFilasTicketsOld" FunctionName="xynthesisModel.Store.xyp_DelFilasTicketsOld" />
           <FunctionImportMapping FunctionImportName="xyp_FechaMaxTicketsOxe" FunctionName="xynthesisModel.Store.xyp_FechaMaxTicketsOxe" />
+          <EntitySetMapping Name="xy_costcenters">
+            <EntityTypeMapping TypeName="xynthesisModel.xy_costcenters">
+              <MappingFragment StoreEntitySet="xy_costcenters">
+                <ScalarProperty Name="Ide_ParentCostCenter" ColumnName="Ide_ParentCostCenter" />
+                <ScalarProperty Name="Nom_CostCenter" ColumnName="Nom_CostCenter" />
+                <ScalarProperty Name="Cod_CostCenter" ColumnName="Cod_CostCenter" />
+                <ScalarProperty Name="Ide_CostCenter" ColumnName="Ide_CostCenter" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>

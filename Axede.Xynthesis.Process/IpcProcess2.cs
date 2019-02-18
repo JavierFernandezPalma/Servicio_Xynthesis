@@ -149,11 +149,13 @@ namespace Axede.Xynthesis.Process
                     StreamReader reader;
                     reader = new StreamReader(rutaArchivoTaxa, Encoding.Default); //Encoding.Default para lectura de caracteres especiales
 
-                    try
+
+                    while (filaTaxa != null)
                     {
 
-                        while (filaTaxa != null)
+                        try
                         {
+
                             decimal ChargedCostCenter = 0;
                             filaTaxa = reader.ReadLine();
 
@@ -171,81 +173,88 @@ namespace Axede.Xynthesis.Process
                                 string[] valuesFila2 = registroSinEspacios.Split(';');
                                 var arrayRegistro2 = valuesFila2.ToArray();
 
-                                string ChargedNumber = arrayRegistro2[2];
-                                string CostCenter = arrayRegistro2[4];
-                                string CalledNumber = arrayRegistro2[1];
-                                int Coverage;
 
-                                if (arrayRegistro2[35] != "" && arrayRegistro2[35] != null)
+                                if (arrayRegistro2[14] != "" && Convert.ToInt32(arrayRegistro2[14]) != 0)
                                 {
-                                    Coverage = IdentificaciónCobertura(arrayRegistro2[35]);
+                                    List<string> UserOxe = ValidarUserOxe(arrayRegistro2); // Valida que el registro tenga asociado un centro de costos, en caso contrario busca el correspondiente
+
+
+                                    string ChargedNumber = UserOxe[0];
+                                    string CostCenter = UserOxe[2];
+                                    string CalledNumber = arrayRegistro2[1];
+                                    int Coverage = 1;
+
+                                    if (arrayRegistro2[35] != "" && arrayRegistro2[35] != null)
+                                    {
+                                        Coverage = IdentificaciónCobertura(arrayRegistro2[35]); // Validar la cobertura de la llamada
+                                    }
+
+                                    if (arrayRegistro2[1] != "" && arrayRegistro2[1] != null && Coverage == 1)
+                                    {
+                                        Coverage = IdentificaciónCobertura(arrayRegistro2[1]);
+                                    }
+
+
+                                    if (CalledNumber == "" || CalledNumber == null)
+                                    {
+                                        CalledNumber = "0";
+                                    }
+
+
+                                    if (CostCenter != "" && CostCenter != null)
+                                    {
+                                        ChargedCostCenter = Convert.ToDecimal(CostCenter);
+                                    }
+
+                                    var horaFinal = Convert.ToDateTime(arrayRegistro2[11].Substring(6, 2) + "/" + arrayRegistro2[11].Substring(4, 2) + "/" + arrayRegistro2[11].Substring(0, 4) + " " + arrayRegistro2[11].Substring(9, 8)).TimeOfDay;
+
+                                    string Ide_TicketsOxe = ChargedNumber + arrayRegistro2[39] + horaFinal + CalledNumber;
+
+                                    bool validarTickets = (from db in bd_Xynthesis.xy_ticketsoxe where db.Ide_TicketsOxe == Ide_TicketsOxe select db).Any();
+
+                                    if (!validarTickets)
+                                    {
+                                        bd_Xynthesis.xyp_Add_xy_ticketsoxe(
+
+                                        /*Ide_TicketsOxe*/ Ide_TicketsOxe,
+                                            /*ChargedUserName*/ UserOxe[1],
+                                            /*ChargedNumber*/ ChargedNumber,
+                                            /*CalledNumber*/ CalledNumber,
+                                            /*CallType*/ Convert.ToSByte(arrayRegistro2[9]),
+                                            /*StartDateTime*/ Convert.ToDateTime(arrayRegistro2[39].Substring(6, 2) + "-" + arrayRegistro2[39].Substring(4, 2) + "-" + arrayRegistro2[39].Substring(0, 4) + " " + arrayRegistro2[39].Substring(9, 8)),
+                                            /*Duration*/ Convert.ToInt32(arrayRegistro2[14]),
+                                            /*PersonalOrBusiness*/ arrayRegistro2[18],
+                                            /*AccessCode*/ arrayRegistro2[19],
+                                            /*TrunkIdentity*/ arrayRegistro2[15],
+                                            /*Ide_Ticket*/ Coverage,
+                                            /*EffectiveCallDuration*/ arrayRegistro2[37],
+                                            /*WaitingDuration*/ arrayRegistro2[36],
+                                            /*CallingNumber*/ arrayRegistro2[8],
+                                            /*ChargedCostCenter*/ ChargedCostCenter,
+                                            /*Taxa*/ nombreFichero,
+                                            /*Linea_Taxa*/ fila
+                                    );
+
+                                    }
+                                    else
+                                    {
+                                        xy_ticketsoxe taxa_linea = (from db in bd_Xynthesis.xy_ticketsoxe where db.Ide_TicketsOxe == Ide_TicketsOxe select db).First();
+                                        Log.EscribaLog("ExtracInfoTaxa_Repetido", "Fichero: " + nombreFichero + "; proceso linea repetido = " + fila + "; Id = " + Ide_TicketsOxe + "\n Con fichero: " + taxa_linea.Taxa + "; linea: " + taxa_linea.Linea_Taxa);
+                                    }
+
                                 }
-                                else
-                                {
-                                    Coverage = 1;
-                                }
-
-                                if (ChargedNumber == "" || ChargedNumber == null)
-                                {
-                                    ChargedNumber = "0";
-                                }
-                                if (CalledNumber == "" || CalledNumber == null)
-                                {
-                                    CalledNumber = "0";
-                                }
-
-
-                                if (CostCenter != "" && CostCenter != null)
-                                {
-                                    ChargedCostCenter = Convert.ToDecimal(CostCenter);
-                                }
-
-                                var horaFinal = Convert.ToDateTime(arrayRegistro2[11].Substring(6, 2) + "/" + arrayRegistro2[11].Substring(4, 2) + "/" + arrayRegistro2[11].Substring(0, 4) + " " + arrayRegistro2[11].Substring(9, 8)).TimeOfDay;
-
-                                string Ide_TicketsOxe = ChargedNumber + arrayRegistro2[39] + horaFinal + CalledNumber;
-
-                                bool validarTickets = (from db in bd_Xynthesis.xy_ticketsoxe where db.Ide_TicketsOxe == Ide_TicketsOxe select db).Any();
-
-                                if (!validarTickets)
-                                {
-                                    bd_Xynthesis.xyp_Add_xy_ticketsoxe(
-
-                                    /*Ide_TicketsOxe*/ Ide_TicketsOxe,
-                                        /*ChargedUserName*/ arrayRegistro2[3],
-                                        /*ChargedNumber*/ ChargedNumber,
-                                        /*CalledNumber*/ arrayRegistro2[1],
-                                        /*CallType*/ Convert.ToSByte(arrayRegistro2[9]),
-                                        /*StartDateTime*/ Convert.ToDateTime(arrayRegistro2[39].Substring(6, 2) + "-" + arrayRegistro2[39].Substring(4, 2) + "-" + arrayRegistro2[39].Substring(0, 4) + " " + arrayRegistro2[39].Substring(9, 8)),
-                                        /*Duration*/ Convert.ToInt32(arrayRegistro2[14]),
-                                        /*PersonalOrBusiness*/ arrayRegistro2[18],
-                                        /*AccessCode*/ arrayRegistro2[19],
-                                        /*TrunkIdentity*/ arrayRegistro2[15],
-                                        /*Ide_Ticket*/ Coverage,
-                                        /*EffectiveCallDuration*/ arrayRegistro2[37],
-                                        /*WaitingDuration*/ arrayRegistro2[36],
-                                        /*CallingNumber*/ arrayRegistro2[8],
-                                        /*ChargedCostCenter*/ ChargedCostCenter,
-                                        /*Taxa*/ nombreFichero,
-                                        /*Linea_Taxa*/ fila
-                                );
-
-                                }
-                                else
-                                {
-                                    xy_ticketsoxe taxa_linea = (from db in bd_Xynthesis.xy_ticketsoxe where db.Ide_TicketsOxe == Ide_TicketsOxe select db).First();
-                                    Log.EscribaLog("ExtracInfoTaxa_Repetido", "Fichero: " + nombreFichero + "; proceso linea repetido = " + fila + "; Id = " + Ide_TicketsOxe + "\n Con fichero: " + taxa_linea.Taxa + "; linea: " + taxa_linea.Linea_Taxa);
-                                }
-
                             }
-                            registroSinEspacios = null;
+
 
                         }
+                        catch (Exception ex)
+                        {
+                            Log.EscribaLog("Error_ExtracInfoTaxa_Fila", "Fichero: " + nombreFichero + "; proceso línea = " + fila + "; Mensaje: " + ex.Message);
+                        }
 
+                        registroSinEspacios = null;
                     }
-                    catch (Exception ex)
-                    {
-                        Log.EscribaLog("Error_ExtracInfoTaxa_Fila", "Fichero: " + nombreFichero + "; proceso línea = " + fila + "; Mensaje: " + ex.Message);
-                    }
+
 
 
                     reader.Close();
@@ -267,15 +276,28 @@ namespace Axede.Xynthesis.Process
         }
 
 
+
         private int IdentificaciónCobertura(string InitialDialledNumber)
         {
-
+            //var resultString = string.Empty;
             int cobertura = 0;
+
+            for (int i = 0; i < InitialDialledNumber.Length; i++) // Validar letras dentro de la cadena
+            {
+                if (!Char.IsDigit(InitialDialledNumber[i]))
+                {
+                    //resultString += InitialDialledNumber[i]; // Guarda los numeros en una cadena con letras y números
+                    cobertura = 1;
+                    return cobertura;
+                }
+            }
+
+
             int verificarNacional = Convert.ToInt32(InitialDialledNumber.Trim().Substring(0, 1));
             int verificarInterNacional = Convert.ToInt32(InitialDialledNumber.Trim().Substring(0, 2));
             decimal InitialDialledNumber_ = Convert.ToDecimal(InitialDialledNumber);
 
-            if (verificarNacional == 3 && InitialDialledNumber.LongCount() == 10)
+            if ((verificarNacional == 3 && InitialDialledNumber.LongCount() == 10) || verificarInterNacional == 66 && InitialDialledNumber.Length == 12)
             {
                 cobertura = 5;  //Llamada a Celular
             }
@@ -283,7 +305,7 @@ namespace Axede.Xynthesis.Process
             {
                 cobertura = 6;
             }
-            else if (verificarInterNacional == 00 && InitialDialledNumber.Length >= 11)
+            else if ((verificarInterNacional == 00 && InitialDialledNumber.Length >= 11))
             {
                 cobertura = 3;
             }
@@ -291,7 +313,7 @@ namespace Axede.Xynthesis.Process
             {
                 cobertura = 4;
             }
-            else if (InitialDialledNumber_ >= 1000000 && InitialDialledNumber_ <= 9999999)
+            else if (InitialDialledNumber_ >= 1000000 && InitialDialledNumber_ <= 9999999 || verificarInterNacional == 66 && InitialDialledNumber.Length == 9)
             {
                 cobertura = 2;
             }
@@ -303,6 +325,124 @@ namespace Axede.Xynthesis.Process
 
             return cobertura;
         }
+
+
+        private List<string> ValidarUserOxe(IList RegistroTaxa)
+        {
+            List<string> UserOxe = new List<string>();
+
+            //Comienzo extensión -----------------------------------
+            if (RegistroTaxa[2].ToString() != "")
+            {
+                UserOxe.Add(RegistroTaxa[2].ToString());
+            }
+            else if (RegistroTaxa[3].ToString() != "")
+            {
+                string ChargedCostCenter = RegistroTaxa[3].ToString();
+                var ValidarChargedNumber = (from db in bd_Xynthesis.xy_costcenters where db.Nom_CostCenter == ChargedCostCenter select db).Any();
+
+                if (ValidarChargedNumber)
+                {
+                    var ChargedNumber = (from db in bd_Xynthesis.xy_costcenters where db.Nom_CostCenter == ChargedCostCenter select db).First();
+
+                    UserOxe.Add(ChargedNumber.Ide_ParentCostCenter);
+
+                }
+
+                else
+                {
+                    UserOxe.Add("0");
+                }
+
+            }
+            else
+            {
+                UserOxe.Add("0");
+            }
+            //Fin extensión -----------------------------------
+
+            //Comienzo Nombre Usuario -----------------------------------
+            if (RegistroTaxa[3].ToString() != "")
+            {
+                UserOxe.Add(RegistroTaxa[3].ToString());
+            }
+            else if (RegistroTaxa[2].ToString() != "")
+            {
+
+                string ChargedNumber = RegistroTaxa[2].ToString();
+                var ValidarUserName = (from db in bd_Xynthesis.xy_costcenters where db.Ide_ParentCostCenter == ChargedNumber select db).Any();
+
+                if (ValidarUserName)
+                {
+                    var UserName = (from db in bd_Xynthesis.xy_costcenters where db.Ide_ParentCostCenter == ChargedNumber select db).First();
+
+                    UserOxe.Add(UserName.Nom_CostCenter);
+                }
+                else
+                {
+                    UserOxe.Add("SIN NOMBRE");
+                }
+
+            }
+            else
+            {
+                UserOxe.Add("SIN NOMBRE");
+            }
+            //Fin Nombre Usuario -----------------------------------
+
+            //Comienzo Centro de costes -----------------------------------
+            if (RegistroTaxa[4].ToString() != "")
+            {
+                UserOxe.Add(RegistroTaxa[4].ToString());
+            }
+            else if (RegistroTaxa[2].ToString() != "")
+            {
+
+                string ChargedNumber = RegistroTaxa[2].ToString();
+                var ValidarCostCenter = (from db in bd_Xynthesis.xy_costcenters where db.Ide_ParentCostCenter == ChargedNumber select db).Any();
+
+
+                if (ValidarCostCenter)
+                {
+                    var CostCenter = (from db in bd_Xynthesis.xy_costcenters where db.Ide_ParentCostCenter == ChargedNumber select db).First();
+                    UserOxe.Add(CostCenter.Cod_CostCenter);
+                }
+                else
+                {
+                    UserOxe.Add("2");
+                }
+
+
+            }
+            else if (RegistroTaxa[3].ToString() != "")
+            {
+
+                string ChargedCostCenter = RegistroTaxa[3].ToString();
+                var ValidarCostCenter = (from db in bd_Xynthesis.xy_costcenters where db.Nom_CostCenter == ChargedCostCenter select db).Any();
+
+                if (ValidarCostCenter)
+                {
+                    var CostCenter = (from db in bd_Xynthesis.xy_costcenters where db.Nom_CostCenter == ChargedCostCenter select db).First();
+
+                    UserOxe.Add(CostCenter.Cod_CostCenter);
+                }
+                else
+                {
+                    UserOxe.Add("2");
+                }
+
+
+            }
+            else
+            {
+                UserOxe.Add("2");
+            }
+            //Fin Centro de costes -----------------------------------
+
+            return UserOxe;
+        }
+
+
 
         public void EliminarFilasTaxaViejas(int MaximaContadorTickets)
         {

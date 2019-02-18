@@ -64,17 +64,8 @@ D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\SwDeviceIpc.exe
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\SwDeviceIpc.pdb
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\Axede.Xynthesis.ConnectToDBIpc.dll
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\MySql.Data.dll
-D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\ServicioXynthesis.Utilidades.dll
-D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\Modelo.dll
-D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\EntityFramework.dll
-D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\log4net.dll
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\Axede.Xynthesis.ConnectToDBIpc.pdb
-D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\Axede.Xynthesis.IpcProcess.pdb
-D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\Axede.Xynthesis.Log.pdb
-D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\CommonProcessLibrary.pdb
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\MySql.Data.xml
-D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\ServicioXynthesis.Utilidades.pdb
-D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\bin\Debug\Modelo.pdb
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\obj\Debug\SwDeviceIpc.csprojResolveAssemblyReference.cache
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\obj\Debug\SwDeviceIpc.ProjectInstaller.resources
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\SwDeviceIpc\obj\Debug\SwDeviceIpc.csproj.GenerateResource.Cache

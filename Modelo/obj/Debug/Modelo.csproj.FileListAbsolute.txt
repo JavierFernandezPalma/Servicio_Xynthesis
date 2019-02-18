@@ -20,6 +20,5 @@ D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\bin\Debug\Modelo.dll
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\bin\Debug\Modelo.pdb
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\bin\Debug\EntityFramework.dll
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\bin\Debug\EntityFramework.xml
-D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\obj\Debug\Modelo.dll
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\obj\Debug\Modelo.pdb
