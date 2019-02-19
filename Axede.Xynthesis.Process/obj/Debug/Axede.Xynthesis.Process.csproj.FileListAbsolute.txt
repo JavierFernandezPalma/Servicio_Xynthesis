@@ -32,3 +32,18 @@ D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\bin\Debug\MySq
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.IpcProcess.dll
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.IpcProcess.pdb
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.Process.csprojResolveAssemblyReference.cache
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.Process.csprojAssemblyReference.cache
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.Process.csproj.CoreCompileInputs.cache
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.IpcProcess.dll
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.IpcProcess.pdb
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Axede.Xynthesis.Process\bin\Debug\Axede.Xynthesis.IpcProcess.dll.config
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Axede.Xynthesis.Process\bin\Debug\Axede.Xynthesis.IpcProcess.dll
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Axede.Xynthesis.Process\bin\Debug\Axede.Xynthesis.IpcProcess.pdb
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Axede.Xynthesis.Process\bin\Debug\Modelo.dll
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Axede.Xynthesis.Process\bin\Debug\MySql.Data.dll
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Axede.Xynthesis.Process\bin\Debug\ServicioXynthesis.Utilidades.dll
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Axede.Xynthesis.Process\bin\Debug\Modelo.pdb
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Axede.Xynthesis.Process\bin\Debug\Modelo.dll.config
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Axede.Xynthesis.Process\bin\Debug\ServicioXynthesis.Utilidades.pdb
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Axede.Xynthesis.Process\bin\Debug\MySql.Data.xml
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.Process.csproj.CopyComplete
