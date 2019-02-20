@@ -48,3 +48,20 @@ D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\obj\Debug\ServicioXy
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\obj\Debug\ServicioXynthesis.exe
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\obj\Debug\ServicioXynthesis.pdb
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\obj\Debug\ServicioXynthesis.csprojResolveAssemblyReference.cache
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\ServicioXynthesis\bin\Debug\ServicioXynthesis.exe.config
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\ServicioXynthesis\bin\Debug\ServicioXynthesis.exe
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\ServicioXynthesis\bin\Debug\ServicioXynthesis.pdb
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\ServicioXynthesis\bin\Debug\EntityFramework.dll
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\ServicioXynthesis\bin\Debug\Modelo.dll
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\ServicioXynthesis\bin\Debug\ServicioXynthesis.Utilidades.dll
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\ServicioXynthesis\bin\Debug\Modelo.pdb
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\ServicioXynthesis\bin\Debug\Modelo.dll.config
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\ServicioXynthesis\bin\Debug\ServicioXynthesis.Utilidades.pdb
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\ServicioXynthesis\bin\Debug\EntityFramework.xml
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\ServicioXynthesis\obj\Debug\ServicioXynthesis.csprojAssemblyReference.cache
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\ServicioXynthesis\obj\Debug\ServicioXynthesis.ProjectInstaller.resources
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\ServicioXynthesis\obj\Debug\ServicioXynthesis.csproj.GenerateResource.cache
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\ServicioXynthesis\obj\Debug\ServicioXynthesis.csproj.CoreCompileInputs.cache
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\ServicioXynthesis\obj\Debug\ServicioXynthesis.csproj.CopyComplete
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\ServicioXynthesis\obj\Debug\ServicioXynthesis.exe
+C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\ServicioXynthesis\obj\Debug\ServicioXynthesis.pdb

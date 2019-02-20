@@ -1,0 +1,16 @@
+
+Se ha generado el siguiente LOG : 
+Inicia el metodo OnStart()
+
+
+Registrado el : 19/02/2019 10:03:12
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Inicia el metodo OnStart()
+
+
+Registrado el : 19/02/2019 10:57:12
+
+=================================================================================================

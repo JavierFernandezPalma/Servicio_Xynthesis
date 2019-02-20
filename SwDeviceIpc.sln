@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicioXynthesis", "Servic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Axede.Xynthesis.Process", "Axede.Xynthesis.Process\Axede.Xynthesis.Process.csproj", "{79AE3C59-549A-4ECC-BECD-E19D9EEDA411}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Servicio_XynthesisOxe", "Servicio_XynthesisOxe\Servicio_XynthesisOxe.vdproj", "{4A94ABF1-5BDB-4D40-AE11-282C8FEEE87E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,12 @@ Global
 		{79AE3C59-549A-4ECC-BECD-E19D9EEDA411}.Release|x64.Build.0 = Release|Any CPU
 		{79AE3C59-549A-4ECC-BECD-E19D9EEDA411}.Release|x86.ActiveCfg = Release|Any CPU
 		{79AE3C59-549A-4ECC-BECD-E19D9EEDA411}.Release|x86.Build.0 = Release|Any CPU
+		{4A94ABF1-5BDB-4D40-AE11-282C8FEEE87E}.Debug|Any CPU.ActiveCfg = Debug
+		{4A94ABF1-5BDB-4D40-AE11-282C8FEEE87E}.Debug|x64.ActiveCfg = Debug
+		{4A94ABF1-5BDB-4D40-AE11-282C8FEEE87E}.Debug|x86.ActiveCfg = Debug
+		{4A94ABF1-5BDB-4D40-AE11-282C8FEEE87E}.Release|Any CPU.ActiveCfg = Release
+		{4A94ABF1-5BDB-4D40-AE11-282C8FEEE87E}.Release|x64.ActiveCfg = Release
+		{4A94ABF1-5BDB-4D40-AE11-282C8FEEE87E}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

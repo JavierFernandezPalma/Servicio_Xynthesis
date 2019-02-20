@@ -17,6 +17,7 @@ namespace Axede.Xynthesis.Process
         LogServicioXynthesis Log = new LogServicioXynthesis();
         readonly string rutaArcplano = ConfigurationManager.AppSettings["ruta_taxa_data"].ToString();
         readonly string rutaTaxaEjecutado = ConfigurationManager.AppSettings["ruta_taxa_ejecutado"].ToString();
+        readonly string fecha_inicial_cargue = ConfigurationManager.AppSettings["fecha_inicial_cargue"].ToString();
         //readonly string nombre_ipc_csv = ConfigurationManager.AppSettings["nombre_ipc_csv"].ToString();
         xynthesisEntities bd_Xynthesis = new xynthesisEntities();
 
@@ -133,7 +134,8 @@ namespace Axede.Xynthesis.Process
         {
             string registroSinEspacios = null;
             string nombreFichero = null;
-            int fila = 0;
+            int fila = 0, maximoCargue = 0;
+           
             int MaximaFechaTickets = 0;
 
             MaximaFechaTickets = (from db in bd_Xynthesis.xy_ticketsoxe select db).Count();
@@ -162,6 +164,7 @@ namespace Axede.Xynthesis.Process
                             if (filaTaxa != null)
                             {
                                 fila = fila + 1;
+                                
                                 string[] valuesFila = filaTaxa.Split(',');
                                 var arrayRegistro = valuesFila.ToArray();
 
@@ -234,17 +237,34 @@ namespace Axede.Xynthesis.Process
                                             /*Taxa*/ nombreFichero,
                                             /*Linea_Taxa*/ fila
                                     );
-
+                                        maximoCargue = maximoCargue + 1;
                                     }
                                     else
                                     {
-                                        xy_ticketsoxe taxa_linea = (from db in bd_Xynthesis.xy_ticketsoxe where db.Ide_TicketsOxe == Ide_TicketsOxe select db).First();
-                                        Log.EscribaLog("ExtracInfoTaxa_Repetido", "Fichero: " + nombreFichero + "; proceso linea repetido = " + fila + "; Id = " + Ide_TicketsOxe + "\n Con fichero: " + taxa_linea.Taxa + "; linea: " + taxa_linea.Linea_Taxa);
+
+                                            xy_ticketsoxe taxa_linea = (from db in bd_Xynthesis.xy_ticketsoxe where db.Ide_TicketsOxe == Ide_TicketsOxe select db).First();
+                                            Log.EscribaLog("ExtracInfoTaxa_Repetido", "Fichero: " + nombreFichero + "; proceso linea repetido = " + fila + "; Id = " + Ide_TicketsOxe + "\n Con fichero: " + taxa_linea.Taxa + "; linea: " + taxa_linea.Linea_Taxa);
+
                                     }
 
                                 }
                             }
 
+                            if(maximoCargue == 500)
+                            {
+                                if (MaximaFechaTickets != 0)
+                                {
+                                    EliminarFilasTaxaViejas(MaximaFechaTickets);
+                                }
+
+                                AgregarUsuarios();
+                                LlenarTickets(Convert.ToDateTime(fecha_inicial_cargue), DateTime.Today);
+                                LlenarCalls(Convert.ToDateTime(DateTime.Today.ToString("yyyy/MM/dd HH:mm:ss")));
+
+                                MaximaFechaTickets = (from db in bd_Xynthesis.xy_ticketsoxe select db).Count();
+
+                                maximoCargue = 0;
+                            }
 
                         }
                         catch (Exception ex)
@@ -261,7 +281,7 @@ namespace Axede.Xynthesis.Process
 
                     File.Move(rutaArchivoTaxa, rutaTaxaEjecutado + "/" + nombreFichero); //Mueve archivo a ruta especificada
                     //File.Move("D:\\SwDeviceIpc\\Archivos_Lectura\\"+ nombreFichero, "D:\\SwDeviceIpc\\Archivos_Lectura\\Ok_"+ nombreFichero); //Cambia de nombre a archivo especificado
-
+                    maximoCargue = 0;
                     //foreach (string sOutput in arrText) Console.WriteLine(sOutput);
                     //Console.ReadLine();
                 }
