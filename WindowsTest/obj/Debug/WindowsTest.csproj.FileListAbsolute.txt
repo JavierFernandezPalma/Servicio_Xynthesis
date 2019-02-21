@@ -85,7 +85,6 @@ D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\WindowsTest\bin\Debug\Modelo.pdb
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\WindowsTest\obj\Debug\WindowsTest.Form1.resources
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\WindowsTest\obj\Debug\WindowsTest.Properties.Resources.resources
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\WindowsTest\obj\Debug\WindowsTest.csproj.GenerateResource.Cache
-D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\WindowsTest\obj\Debug\WindowsTest.csprojResolveAssemblyReference.cache
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\WindowsTest\bin\Debug\CommonProcessLibrary.dll
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\WindowsTest\bin\Debug\Axede.Xynthesis.IpcProcess.pdb
 C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\WindowsTest\bin\Debug\WindowsTest.exe.config
@@ -115,3 +114,9 @@ C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Wi
 C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\WindowsTest\obj\Debug\WindowsTest.csproj.GenerateResource.cache
 C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\WindowsTest\obj\Debug\WindowsTest.csproj.CoreCompileInputs.cache
 C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\WindowsTest\obj\Debug\WindowsTest.csproj.CopyComplete
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\WindowsTest\bin\Debug\Axede.Xynthesis.IpcProcess.dll.config
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\WindowsTest\bin\Debug\ServicioXynthesis.exe.config
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\WindowsTest\bin\Debug\Modelo.dll.config
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\WindowsTest\obj\Debug\WindowsTest.csprojAssemblyReference.cache
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\WindowsTest\obj\Debug\WindowsTest.csproj.CoreCompileInputs.cache
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\WindowsTest\obj\Debug\WindowsTest.csproj.CopyComplete

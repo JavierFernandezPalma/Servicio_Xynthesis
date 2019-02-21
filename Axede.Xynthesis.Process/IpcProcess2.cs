@@ -250,7 +250,7 @@ namespace Axede.Xynthesis.Process
                                 }
                             }
 
-                            if(maximoCargue == 500)
+                            if(maximoCargue == 1000)
                             {
                                 if (MaximaFechaTickets != 0)
                                 {

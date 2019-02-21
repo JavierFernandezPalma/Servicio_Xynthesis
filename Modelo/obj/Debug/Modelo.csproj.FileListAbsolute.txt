@@ -31,3 +31,6 @@ C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Mo
 C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Modelo\obj\Debug\Modelo.csproj.CopyComplete
 C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Modelo\obj\Debug\Modelo.dll
 C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Modelo\obj\Debug\Modelo.pdb
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\obj\Debug\Modelo.csproj.CopyComplete
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\obj\Debug\Modelo.csprojAssemblyReference.cache

@@ -31,7 +31,6 @@ D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\bin\Debug\Serv
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\bin\Debug\MySql.Data.xml
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.IpcProcess.dll
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.IpcProcess.pdb
-D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.Process.csprojResolveAssemblyReference.cache
 C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.Process.csprojAssemblyReference.cache
 C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.Process.csproj.CoreCompileInputs.cache
 C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.IpcProcess.dll
@@ -47,3 +46,7 @@ C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Ax
 C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Axede.Xynthesis.Process\bin\Debug\ServicioXynthesis.Utilidades.pdb
 C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Axede.Xynthesis.Process\bin\Debug\MySql.Data.xml
 C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.Process.csproj.CopyComplete
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\bin\Debug\Modelo.dll.config
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.Process.csprojAssemblyReference.cache
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.Process.csproj.CoreCompileInputs.cache
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.Process.csproj.CopyComplete

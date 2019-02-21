@@ -38,16 +38,13 @@ D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\ServicioXy
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\EntityFramework.dll
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\Modelo.dll
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\ServicioXynthesis.Utilidades.dll
-D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\MySql.Data.dll
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\Modelo.pdb
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\ServicioXynthesis.Utilidades.pdb
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\EntityFramework.xml
-D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\MySql.Data.xml
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\obj\Debug\ServicioXynthesis.ProjectInstaller.resources
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\obj\Debug\ServicioXynthesis.csproj.GenerateResource.Cache
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\obj\Debug\ServicioXynthesis.exe
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\obj\Debug\ServicioXynthesis.pdb
-D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\obj\Debug\ServicioXynthesis.csprojResolveAssemblyReference.cache
 C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\ServicioXynthesis\bin\Debug\ServicioXynthesis.exe.config
 C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\ServicioXynthesis\bin\Debug\ServicioXynthesis.exe
 C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\ServicioXynthesis\bin\Debug\ServicioXynthesis.pdb
@@ -65,3 +62,7 @@ C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Se
 C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\ServicioXynthesis\obj\Debug\ServicioXynthesis.csproj.CopyComplete
 C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\ServicioXynthesis\obj\Debug\ServicioXynthesis.exe
 C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\ServicioXynthesis\obj\Debug\ServicioXynthesis.pdb
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\Modelo.dll.config
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\obj\Debug\ServicioXynthesis.csprojAssemblyReference.cache
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\obj\Debug\ServicioXynthesis.csproj.CoreCompileInputs.cache
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\obj\Debug\ServicioXynthesis.csproj.CopyComplete

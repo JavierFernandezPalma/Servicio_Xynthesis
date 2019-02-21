@@ -1,0 +1,45 @@
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso linea repetido = 366; Id = FS08020181106 07:57:3508:17:509503
+ Con fichero: TAXAXBIA; linea: 1
+
+
+Registrado el : 20/02/2019 10:11:45
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso linea repetido = 2187; Id = FS06520181106 08:52:1408:52:473394999
+ Con fichero: TAXAXBIA; linea: 2186
+
+
+Registrado el : 20/02/2019 10:13:34
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso linea repetido = 366; Id = FS08020181106 07:57:3508:17:509503
+ Con fichero: TAXAXBIA; linea: 1
+
+
+Registrado el : 20/02/2019 12:12:34
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso linea repetido = 2187; Id = FS06520181106 08:52:1408:52:473394999
+ Con fichero: TAXAXBIA; linea: 2186
+
+
+Registrado el : 20/02/2019 12:14:33
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso linea repetido = 1929; Id = 481720181106 08:10:3709:31:334817
+ Con fichero: TAXAXBIB; linea: 1
+
+
+Registrado el : 20/02/2019 12:17:02
+
+=================================================================================================
