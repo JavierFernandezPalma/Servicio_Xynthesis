@@ -1,104 +1,80 @@
 
 Se ha generado el siguiente LOG : 
-Ejecutando Servicio Xynthesis Oxe
+Inicia el metodo OnStart()
 
 
-Registrado el : 21/02/2019 03:05:35
-
-=================================================================================================
-
-Se ha generado el siguiente LOG : 
-Ejecutando Servicio Xynthesis Oxe
-
-
-Registrado el : 21/02/2019 03:05:38
+Registrado el : 22/02/2019 03:32:16
 
 =================================================================================================
 
 Se ha generado el siguiente LOG : 
-Ejecutando Servicio Xynthesis Oxe
+Inicia el metodo OnStart()
 
 
-Registrado el : 21/02/2019 03:05:45
-
-=================================================================================================
-
-Se ha generado el siguiente LOG : 
-Ejecutando Servicio Xynthesis Oxe
-
-
-Registrado el : 21/02/2019 03:05:48
+Registrado el : 22/02/2019 04:03:50
 
 =================================================================================================
 
 Se ha generado el siguiente LOG : 
-Ejecutando Servicio Xynthesis Oxe
+Inicia el metodo OnStart()
 
 
-Registrado el : 21/02/2019 03:05:50
-
-=================================================================================================
-
-Se ha generado el siguiente LOG : 
-Ejecutando Servicio Xynthesis Oxe
-
-
-Registrado el : 21/02/2019 03:05:51
+Registrado el : 22/02/2019 04:17:22
 
 =================================================================================================
 
 Se ha generado el siguiente LOG : 
-Ejecutando Servicio Xynthesis Oxe
+Inicia el metodo OnStart()
 
 
-Registrado el : 21/02/2019 03:05:54
-
-=================================================================================================
-
-Se ha generado el siguiente LOG : 
-Ejecutando Servicio Xynthesis Oxe
-
-
-Registrado el : 21/02/2019 03:05:56
+Registrado el : 22/02/2019 04:17:55
 
 =================================================================================================
 
 Se ha generado el siguiente LOG : 
-Ejecutando Servicio Xynthesis Oxe
+Inicia el metodo OnStart()
 
 
-Registrado el : 21/02/2019 03:05:57
-
-=================================================================================================
-
-Se ha generado el siguiente LOG : 
-Ejecutando Servicio Xynthesis Oxe
-
-
-Registrado el : 21/02/2019 03:05:58
+Registrado el : 22/02/2019 04:19:15
 
 =================================================================================================
 
 Se ha generado el siguiente LOG : 
-Ejecutando Servicio Xynthesis Oxe
+Inicia el metodo OnStart()
 
 
-Registrado el : 21/02/2019 03:06:03
-
-=================================================================================================
-
-Se ha generado el siguiente LOG : 
-Ejecutando Servicio Xynthesis Oxe
-
-
-Registrado el : 21/02/2019 03:06:25
+Registrado el : 22/02/2019 05:14:05
 
 =================================================================================================
 
 Se ha generado el siguiente LOG : 
-Ejecutando Servicio Xynthesis Oxe
+Inicia el metodo OnStart()
 
 
-Registrado el : 21/02/2019 03:06:45
+Registrado el : 22/02/2019 05:15:30
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Inicia el metodo OnStart()
+
+
+Registrado el : 22/02/2019 05:24:51
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Inicia el metodo OnStart()
+
+
+Registrado el : 22/02/2019 05:46:26
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Inicia el metodo OnStart()
+
+
+Registrado el : 22/02/2019 07:00:22
 
 =================================================================================================

@@ -1,8 +1,0 @@
-
-Se ha generado el siguiente LOG : 
-Se produjo un error mientras se ejecutaba el comando. Vea la excepción interna para obtener detalles.
-
-
-Registrado el : 20/02/2019 12:57:58
-
-=================================================================================================

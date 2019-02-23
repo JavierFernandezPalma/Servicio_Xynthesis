@@ -15,13 +15,7 @@ C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\Modelo\bi
 C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\Modelo\obj\Debug\Modelo.dll
 C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\Modelo\obj\Debug\Modelo.pdb
 C:\Users\Javier_Toto\Documents\Visual Studio 2013\Projects\SwDeviceIpc\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
-D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\bin\Debug\Modelo.dll.config
-D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\bin\Debug\Modelo.dll
-D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\bin\Debug\Modelo.pdb
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\bin\Debug\EntityFramework.dll
-D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\bin\Debug\EntityFramework.xml
-D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\obj\Debug\Modelo.dll
-D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\obj\Debug\Modelo.pdb
 C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Modelo\bin\Debug\Modelo.dll.config
 C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Modelo\bin\Debug\Modelo.dll
 C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Modelo\bin\Debug\Modelo.pdb
@@ -31,6 +25,11 @@ C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Mo
 C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Modelo\obj\Debug\Modelo.csproj.CopyComplete
 C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Modelo\obj\Debug\Modelo.dll
 C:\Users\Javier_Toto\Documents\Visual Studio 2015\Projects\Servicio_Xynthesis\Modelo\obj\Debug\Modelo.pdb
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\bin\Debug\Modelo.dll.config
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\bin\Debug\Modelo.dll
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\bin\Debug\Modelo.pdb
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\bin\Debug\EntityFramework.xml
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\obj\Debug\Modelo.csproj.CopyComplete
-D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\obj\Debug\Modelo.csprojAssemblyReference.cache
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\obj\Debug\Modelo.dll
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Modelo\obj\Debug\Modelo.pdb

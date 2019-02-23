@@ -18,6 +18,8 @@ namespace Axede.Xynthesis.Process
         readonly string rutaArcplano = ConfigurationManager.AppSettings["ruta_taxa_data"].ToString();
         readonly string rutaTaxaEjecutado = ConfigurationManager.AppSettings["ruta_taxa_ejecutado"].ToString();
         readonly string fecha_inicial_cargue = ConfigurationManager.AppSettings["fecha_inicial_cargue"].ToString();
+        readonly int cantidad_MaxDatos_Cargue = Convert.ToInt32(ConfigurationManager.AppSettings["cantidad_MaxDatos_Cargue"]);
+
         //readonly string nombre_ipc_csv = ConfigurationManager.AppSettings["nombre_ipc_csv"].ToString();
         xynthesisEntities bd_Xynthesis = new xynthesisEntities();
 
@@ -250,9 +252,9 @@ namespace Axede.Xynthesis.Process
                                 }
                             }
 
-                            if(maximoCargue == 1000)
+                            if(maximoCargue == 1)
                             {
-                                if (MaximaFechaTickets != 0)
+                                if (MaximaFechaTickets != cantidad_MaxDatos_Cargue)
                                 {
                                     EliminarFilasTaxaViejas(MaximaFechaTickets);
                                 }

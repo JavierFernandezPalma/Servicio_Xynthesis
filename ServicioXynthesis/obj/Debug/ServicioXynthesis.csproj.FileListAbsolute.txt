@@ -66,3 +66,9 @@ D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\Modelo.dll
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\obj\Debug\ServicioXynthesis.csprojAssemblyReference.cache
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\obj\Debug\ServicioXynthesis.csproj.CoreCompileInputs.cache
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\obj\Debug\ServicioXynthesis.csproj.CopyComplete
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\Axede.Xynthesis.IpcProcess.dll
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\CommonProcessLibrary.dll
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\Axede.Xynthesis.IpcProcess.pdb
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\Axede.Xynthesis.IpcProcess.dll.config
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\MySql.Data.dll
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\ServicioXynthesis\bin\Debug\MySql.Data.xml
