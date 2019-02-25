@@ -205,6 +205,11 @@ namespace Axede.Xynthesis.Process
                                         CalledNumber = "0";
                                     }
 
+                                    if (ChargedNumber == "" || ChargedNumber == null)
+                                    {
+                                        ChargedNumber = "0";
+                                    }
+
 
                                     if (CostCenter != "" && CostCenter != null)
                                     {
@@ -360,14 +365,14 @@ namespace Axede.Xynthesis.Process
             }
             else if (RegistroTaxa[3].ToString() != "")
             {
-                string ChargedCostCenter = RegistroTaxa[3].ToString();
-                var ValidarChargedNumber = (from db in bd_Xynthesis.xy_costcenters where db.Nom_CostCenter == ChargedCostCenter select db).Any();
+                string ChargedUserName = RegistroTaxa[3].ToString();
+                var ValidarChargedNumber = (from db in bd_Xynthesis.xy_extencionessubcriber where db.nom_subcriber == ChargedUserName select db).Any();
 
                 if (ValidarChargedNumber)
                 {
-                    var ChargedNumber = (from db in bd_Xynthesis.xy_costcenters where db.Nom_CostCenter == ChargedCostCenter select db).First();
+                    var ChargedNumber = (from db in bd_Xynthesis.xy_extencionessubcriber where db.nom_subcriber == ChargedUserName select db).First();
 
-                    UserOxe.Add(ChargedNumber.Ide_ParentCostCenter);
+                    UserOxe.Add(ChargedNumber.extencion);
 
                 }
 
@@ -392,13 +397,13 @@ namespace Axede.Xynthesis.Process
             {
 
                 string ChargedNumber = RegistroTaxa[2].ToString();
-                var ValidarUserName = (from db in bd_Xynthesis.xy_costcenters where db.Ide_ParentCostCenter == ChargedNumber select db).Any();
+                var ValidarUserName = (from db in bd_Xynthesis.xy_extencionessubcriber where db.extencion == ChargedNumber select db).Any();
 
                 if (ValidarUserName)
                 {
-                    var UserName = (from db in bd_Xynthesis.xy_costcenters where db.Ide_ParentCostCenter == ChargedNumber select db).First();
+                    var UserName = (from db in bd_Xynthesis.xy_extencionessubcriber where db.extencion == ChargedNumber select db).First();
 
-                    UserOxe.Add(UserName.Nom_CostCenter);
+                    UserOxe.Add(UserName.nom_subcriber);
                 }
                 else
                 {
@@ -427,25 +432,6 @@ namespace Axede.Xynthesis.Process
                 if (ValidarCostCenter)
                 {
                     var CostCenter = (from db in bd_Xynthesis.xy_costcenters where db.Ide_ParentCostCenter == ChargedNumber select db).First();
-                    UserOxe.Add(CostCenter.Cod_CostCenter);
-                }
-                else
-                {
-                    UserOxe.Add("2");
-                }
-
-
-            }
-            else if (RegistroTaxa[3].ToString() != "")
-            {
-
-                string ChargedCostCenter = RegistroTaxa[3].ToString();
-                var ValidarCostCenter = (from db in bd_Xynthesis.xy_costcenters where db.Nom_CostCenter == ChargedCostCenter select db).Any();
-
-                if (ValidarCostCenter)
-                {
-                    var CostCenter = (from db in bd_Xynthesis.xy_costcenters where db.Nom_CostCenter == ChargedCostCenter select db).First();
-
                     UserOxe.Add(CostCenter.Cod_CostCenter);
                 }
                 else

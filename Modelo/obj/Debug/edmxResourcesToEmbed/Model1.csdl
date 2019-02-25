@@ -74,6 +74,7 @@
     </FunctionImport>
     <FunctionImport Name="xyp_FechaMaxTicketsOxe" />
     <EntitySet Name="xy_costcenters" EntityType="xynthesisModel.xy_costcenters" />
+    <EntitySet Name="xy_extencionessubcriber" EntityType="xynthesisModel.xy_extencionessubcriber" />
   </EntityContainer>
   <EntityType Name="xy_ipc_communicationhistory">
     <Key>
@@ -157,5 +158,13 @@
     <Property Name="Cod_CostCenter" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
     <Property Name="Nom_CostCenter" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
     <Property Name="Ide_ParentCostCenter" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="xy_extencionessubcriber">
+    <Key>
+      <PropertyRef Name="idxy_extencionessubcriber" />
+    </Key>
+    <Property Name="idxy_extencionessubcriber" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nom_subcriber" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="extencion" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
   </EntityType>
 </Schema>

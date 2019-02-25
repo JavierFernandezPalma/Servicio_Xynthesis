@@ -73,6 +73,9 @@
     <Compile Include="xy_costcenters.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="xy_extencionessubcriber.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="xy_ipc_communicationhistory.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>

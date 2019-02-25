@@ -85,5 +85,14 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="xy_extencionessubcriber">
+      <EntityTypeMapping TypeName="xynthesisModel.xy_extencionessubcriber">
+        <MappingFragment StoreEntitySet="xy_extencionessubcriber">
+          <ScalarProperty Name="extencion" ColumnName="extencion" />
+          <ScalarProperty Name="nom_subcriber" ColumnName="nom_subcriber" />
+          <ScalarProperty Name="idxy_extencionessubcriber" ColumnName="idxy_extencionessubcriber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

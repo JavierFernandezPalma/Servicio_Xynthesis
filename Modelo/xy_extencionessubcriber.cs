@@ -12,11 +12,10 @@ namespace Modelo
     using System;
     using System.Collections.Generic;
     
-    public partial class xy_costcenters
+    public partial class xy_extencionessubcriber
     {
-        public int Ide_CostCenter { get; set; }
-        public string Cod_CostCenter { get; set; }
-        public string Nom_CostCenter { get; set; }
-        public string Ide_ParentCostCenter { get; set; }
+        public int idxy_extencionessubcriber { get; set; }
+        public string nom_subcriber { get; set; }
+        public string extencion { get; set; }
     }
 }
