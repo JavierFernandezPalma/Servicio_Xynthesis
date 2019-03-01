@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="xynthesisModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
   <EntityContainer Name="xynthesisEntities" annotation:LazyLoadingEnabled="true">
-    <EntitySet Name="xy_ipc_communicationhistory" EntityType="xynthesisModel.xy_ipc_communicationhistory" />
     <FunctionImport Name="xyp_inscommunicationhistory">
       <Parameter Name="id_" Mode="In" Type="String" />
       <Parameter Name="answeringPartyName_" Mode="In" Type="String" />
@@ -68,64 +67,14 @@
     </FunctionImport>
     <FunctionImport Name="xyp_ExtractionTicketsIPC" />
     <FunctionImport Name="xyp_Execute_ETL_OXE" />
-    <EntitySet Name="xy_ticketsoxe" EntityType="xynthesisModel.xy_ticketsoxe" />
     <FunctionImport Name="xyp_DelFilasTicketsOld">
       <Parameter Name="MaxContador" Mode="In" Type="Int32" />
     </FunctionImport>
     <FunctionImport Name="xyp_FechaMaxTicketsOxe" />
+    <EntitySet Name="xy_ticketsoxe" EntityType="xynthesisModel.xy_ticketsoxe" />
     <EntitySet Name="xy_costcenters" EntityType="xynthesisModel.xy_costcenters" />
     <EntitySet Name="xy_extencionessubcriber" EntityType="xynthesisModel.xy_extencionessubcriber" />
   </EntityContainer>
-  <EntityType Name="xy_ipc_communicationhistory">
-    <Key>
-      <PropertyRef Name="cLIName" />
-      <PropertyRef Name="cLINumber" />
-      <PropertyRef Name="callType" />
-      <PropertyRef Name="connectionId" />
-      <PropertyRef Name="duration" />
-      <PropertyRef Name="eventType" />
-      <PropertyRef Name="pttDuration" />
-      <PropertyRef Name="ringTime" />
-      <PropertyRef Name="startTime" />
-      <PropertyRef Name="EndTime" />
-    </Key>
-    <Property Name="id" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="answeringPartyName" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="buttonNumber" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="cLIName" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="cLINumber" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="callType" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="callUsage" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="connectionId" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="destination" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="deviceChannel" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="deviceChannelType" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="deviceIdId" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="displayInCallHistory" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="duration" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="e164Destination" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="enterpriseCallId" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="eventType" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="personalPointOfContactId" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="pointOfContactId" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="priority" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="pttDuration" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="reasonForDisconnect" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="resourceAORId" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="ringTime" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="rolloverAppearance" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="routedDestination" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="schemaDifference_blob_reserved" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="schemaDifference_reserved" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="startTime" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="trunkId" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="trunkBChannel" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="userId" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="lastModified" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="parentUserCDIId" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
-    <Property Name="EndTime" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="false" />
-    <Property Name="EffectiveCallDuration" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
-  </EntityType>
   <EntityType Name="xy_ticketsoxe">
     <Key>
       <PropertyRef Name="Contador" />
@@ -161,10 +110,13 @@
   </EntityType>
   <EntityType Name="xy_extencionessubcriber">
     <Key>
-      <PropertyRef Name="idxy_extencionessubcriber" />
+      <PropertyRef Name="Id_Extencionessubcriber" />
     </Key>
-    <Property Name="idxy_extencionessubcriber" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="nom_subcriber" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="extencion" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="Id_Extencionessubcriber" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nom_Subscriber" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Extencion" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="Ide_CostCenter" Type="Int32" Nullable="false" />
+    <Property Name="Id_Area" Type="Int32" Nullable="false" />
+    <Property Name="IdSucursal" Type="Int32" Nullable="false" />
   </EntityType>
 </Schema>

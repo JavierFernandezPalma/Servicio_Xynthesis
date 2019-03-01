@@ -11,63 +11,14 @@
   </EntityType>
   <EntityType Name="xy_extencionessubcriber">
     <Key>
-      <PropertyRef Name="idxy_extencionessubcriber" />
+      <PropertyRef Name="Id_Extencionessubcriber" />
     </Key>
-    <Property Name="idxy_extencionessubcriber" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="nom_subcriber" Type="varchar" MaxLength="50" Nullable="false" />
-    <Property Name="extencion" Type="varchar" MaxLength="45" Nullable="false" />
-  </EntityType>
-  <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'def.xynthesis.xy_ipc_communicationhistory' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
-  <EntityType Name="xy_ipc_communicationhistory">
-    <Key>
-      <PropertyRef Name="cLIName" />
-      <PropertyRef Name="cLINumber" />
-      <PropertyRef Name="callType" />
-      <PropertyRef Name="connectionId" />
-      <PropertyRef Name="duration" />
-      <PropertyRef Name="eventType" />
-      <PropertyRef Name="pttDuration" />
-      <PropertyRef Name="ringTime" />
-      <PropertyRef Name="startTime" />
-      <PropertyRef Name="EndTime" />
-    </Key>
-    <Property Name="id" Type="varchar" MaxLength="45" />
-    <Property Name="answeringPartyName" Type="varchar" MaxLength="45" />
-    <Property Name="buttonNumber" Type="varchar" MaxLength="45" />
-    <Property Name="cLIName" Type="varchar" MaxLength="45" Nullable="false" />
-    <Property Name="cLINumber" Type="varchar" MaxLength="45" Nullable="false" />
-    <Property Name="callType" Type="varchar" MaxLength="45" Nullable="false" />
-    <Property Name="callUsage" Type="varchar" MaxLength="45" />
-    <Property Name="connectionId" Type="varchar" MaxLength="45" Nullable="false" />
-    <Property Name="destination" Type="varchar" MaxLength="45" />
-    <Property Name="deviceChannel" Type="varchar" MaxLength="45" />
-    <Property Name="deviceChannelType" Type="varchar" MaxLength="45" />
-    <Property Name="deviceIdId" Type="varchar" MaxLength="45" />
-    <Property Name="displayInCallHistory" Type="varchar" MaxLength="45" />
-    <Property Name="duration" Type="varchar" MaxLength="45" Nullable="false" />
-    <Property Name="e164Destination" Type="varchar" MaxLength="45" />
-    <Property Name="enterpriseCallId" Type="varchar" MaxLength="45" />
-    <Property Name="eventType" Type="varchar" MaxLength="45" Nullable="false" />
-    <Property Name="personalPointOfContactId" Type="varchar" MaxLength="45" />
-    <Property Name="pointOfContactId" Type="varchar" MaxLength="45" />
-    <Property Name="priority" Type="varchar" MaxLength="45" />
-    <Property Name="pttDuration" Type="varchar" MaxLength="45" Nullable="false" />
-    <Property Name="reasonForDisconnect" Type="varchar" MaxLength="45" />
-    <Property Name="resourceAORId" Type="varchar" MaxLength="45" />
-    <Property Name="ringTime" Type="varchar" MaxLength="45" Nullable="false" />
-    <Property Name="rolloverAppearance" Type="varchar" MaxLength="45" />
-    <Property Name="routedDestination" Type="varchar" MaxLength="45" />
-    <Property Name="schemaDifference_blob_reserved" Type="varchar" MaxLength="45" />
-    <Property Name="schemaDifference_reserved" Type="varchar" MaxLength="45" />
-    <Property Name="startTime" Type="varchar" MaxLength="45" Nullable="false" />
-    <Property Name="trunkId" Type="varchar" MaxLength="45" />
-    <Property Name="trunkBChannel" Type="varchar" MaxLength="45" />
-    <Property Name="userId" Type="varchar" MaxLength="45" />
-    <Property Name="lastModified" Type="varchar" MaxLength="45" />
-    <Property Name="parentUserCDIId" Type="varchar" MaxLength="45" />
-    <Property Name="EndTime" Type="varchar" MaxLength="25" Nullable="false" />
-    <Property Name="EffectiveCallDuration" Type="varchar" MaxLength="10" />
+    <Property Name="Id_Extencionessubcriber" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nom_Subscriber" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Extencion" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="Ide_CostCenter" Type="int" Nullable="false" />
+    <Property Name="Id_Area" Type="int" Nullable="false" />
+    <Property Name="IdSucursal" Type="int" Nullable="false" />
   </EntityType>
   <EntityType Name="xy_ticketsoxe">
     <Key>
@@ -93,119 +44,9 @@ advertencia 6002: La tabla o vista 'def.xynthesis.xy_ipc_communicationhistory' n
     <Property Name="Taxa" Type="varchar" MaxLength="10" Nullable="false" />
     <Property Name="Linea_Taxa" Type="int" Nullable="false" />
   </EntityType>
-  <Function Name="xyp_Add_xy_ticketsoxe" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="xynthesis" StoreFunctionName="xyp_Add-xy_ticketsoxe">
-    <Parameter Name="Ide_TicketsOxe_" Type="varchar" Mode="In" />
-    <Parameter Name="ChargedUserName_" Type="varchar" Mode="In" />
-    <Parameter Name="ChargedNumber_" Type="varchar" Mode="In" />
-    <Parameter Name="CalledNumber_" Type="varchar" Mode="In" />
-    <Parameter Name="CallType_" Type="tinyint" Mode="In" />
-    <Parameter Name="StartDateTime_" Type="datetime" Mode="In" />
-    <Parameter Name="Duration_" Type="int" Mode="In" />
-    <Parameter Name="PersonalOrBusiness_" Type="varchar" Mode="In" />
-    <Parameter Name="AccessCode_" Type="varchar" Mode="In" />
-    <Parameter Name="TrunkIdentity_" Type="varchar" Mode="In" />
-    <Parameter Name="Ide_Ticket_" Type="int" Mode="In" />
-    <Parameter Name="EffectiveCallDuration_" Type="varchar" Mode="In" />
-    <Parameter Name="WaitingDuration_" Type="varchar" Mode="In" />
-    <Parameter Name="CallingNumber_" Type="varchar" Mode="In" />
-    <Parameter Name="ChargedCostCenter_" Type="decimal" Mode="In" />
-    <Parameter Name="Taxa_" Type="varchar" Mode="In" />
-    <Parameter Name="Linea_Taxa_" Type="int" Mode="In" />
-  </Function>
-  <Function Name="xyp_DelFilasTicketsOld" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="xynthesis">
-    <Parameter Name="MaxContador" Type="int" Mode="In" />
-  </Function>
-  <Function Name="xyp_Execute_ETL_OXE" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="xynthesis" />
-  <Function Name="xyp_ExtractionTicketsIPC" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="xynthesis" />
-  <Function Name="xyp_FechaMaxTicketsOxe" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="xynthesis" />
-  <Function Name="xyp_inscommunicationhistory" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="xynthesis">
-    <Parameter Name="id_" Type="varchar" Mode="In" />
-    <Parameter Name="answeringPartyName_" Type="varchar" Mode="In" />
-    <Parameter Name="buttonNumber_" Type="varchar" Mode="In" />
-    <Parameter Name="cLIName_" Type="varchar" Mode="In" />
-    <Parameter Name="cLINumber_" Type="varchar" Mode="In" />
-    <Parameter Name="callType_" Type="varchar" Mode="In" />
-    <Parameter Name="callUsage_" Type="varchar" Mode="In" />
-    <Parameter Name="connectionId_" Type="varchar" Mode="In" />
-    <Parameter Name="destination_" Type="varchar" Mode="In" />
-    <Parameter Name="deviceChannel_" Type="varchar" Mode="In" />
-    <Parameter Name="deviceChannelType_" Type="varchar" Mode="In" />
-    <Parameter Name="deviceIdId_" Type="varchar" Mode="In" />
-    <Parameter Name="displayInCallHistory_" Type="varchar" Mode="In" />
-    <Parameter Name="duration_" Type="varchar" Mode="In" />
-    <Parameter Name="e164Destination_" Type="varchar" Mode="In" />
-    <Parameter Name="enterpriseCallId_" Type="varchar" Mode="In" />
-    <Parameter Name="eventType_" Type="varchar" Mode="In" />
-    <Parameter Name="personalPointOfContactId_" Type="varchar" Mode="In" />
-    <Parameter Name="pointOfContactId_" Type="varchar" Mode="In" />
-    <Parameter Name="priority_" Type="varchar" Mode="In" />
-    <Parameter Name="pttDuration_" Type="varchar" Mode="In" />
-    <Parameter Name="reasonForDisconnect_" Type="varchar" Mode="In" />
-    <Parameter Name="resourceAORId_" Type="varchar" Mode="In" />
-    <Parameter Name="ringTime_" Type="varchar" Mode="In" />
-    <Parameter Name="rolloverAppearance_" Type="varchar" Mode="In" />
-    <Parameter Name="routedDestination_" Type="varchar" Mode="In" />
-    <Parameter Name="schemaDifference_blob_reserved_" Type="varchar" Mode="In" />
-    <Parameter Name="schemaDifference_reserved_" Type="varchar" Mode="In" />
-    <Parameter Name="startTime_" Type="varchar" Mode="In" />
-    <Parameter Name="trunkId_" Type="varchar" Mode="In" />
-    <Parameter Name="trunkBChannel_" Type="varchar" Mode="In" />
-    <Parameter Name="userId_" Type="varchar" Mode="In" />
-    <Parameter Name="lastModified_" Type="varchar" Mode="In" />
-    <Parameter Name="parentUserCDIId_" Type="varchar" Mode="In" />
-    <Parameter Name="EndTime_" Type="varchar" Mode="In" />
-    <Parameter Name="EffectiveCallDuration_" Type="varchar" Mode="In" />
-  </Function>
-  <Function Name="xyp_LoadTickets" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="xynthesis">
-    <Parameter Name="dDate" Type="datetime" Mode="In" />
-  </Function>
-  <Function Name="xyp_TransTicketsOXE" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="xynthesis">
-    <Parameter Name="dStartDate" Type="datetime" Mode="In" />
-    <Parameter Name="dEndDate" Type="datetime" Mode="In" />
-  </Function>
   <EntityContainer Name="xynthesisModelStoreContainer">
-    <EntitySet Name="xy_costcenters" EntityType="Self.xy_costcenters" Schema="xynthesis" store:Type="Tables" />
-    <EntitySet Name="xy_extencionessubcriber" EntityType="Self.xy_extencionessubcriber" Schema="xynthesis" store:Type="Tables" />
-    <EntitySet Name="xy_ticketsoxe" EntityType="Self.xy_ticketsoxe" Schema="xynthesis" store:Type="Tables" />
-    <EntitySet Name="xy_ipc_communicationhistory" EntityType="Self.xy_ipc_communicationhistory" store:Type="Tables" store:Schema="xynthesis">
-      <DefiningQuery>SELECT
-`xy_ipc_communicationhistory`.`id`, 
-`xy_ipc_communicationhistory`.`answeringPartyName`, 
-`xy_ipc_communicationhistory`.`buttonNumber`, 
-`xy_ipc_communicationhistory`.`cLIName`, 
-`xy_ipc_communicationhistory`.`cLINumber`, 
-`xy_ipc_communicationhistory`.`callType`, 
-`xy_ipc_communicationhistory`.`callUsage`, 
-`xy_ipc_communicationhistory`.`connectionId`, 
-`xy_ipc_communicationhistory`.`destination`, 
-`xy_ipc_communicationhistory`.`deviceChannel`, 
-`xy_ipc_communicationhistory`.`deviceChannelType`, 
-`xy_ipc_communicationhistory`.`deviceIdId`, 
-`xy_ipc_communicationhistory`.`displayInCallHistory`, 
-`xy_ipc_communicationhistory`.`duration`, 
-`xy_ipc_communicationhistory`.`e164Destination`, 
-`xy_ipc_communicationhistory`.`enterpriseCallId`, 
-`xy_ipc_communicationhistory`.`eventType`, 
-`xy_ipc_communicationhistory`.`personalPointOfContactId`, 
-`xy_ipc_communicationhistory`.`pointOfContactId`, 
-`xy_ipc_communicationhistory`.`priority`, 
-`xy_ipc_communicationhistory`.`pttDuration`, 
-`xy_ipc_communicationhistory`.`reasonForDisconnect`, 
-`xy_ipc_communicationhistory`.`resourceAORId`, 
-`xy_ipc_communicationhistory`.`ringTime`, 
-`xy_ipc_communicationhistory`.`rolloverAppearance`, 
-`xy_ipc_communicationhistory`.`routedDestination`, 
-`xy_ipc_communicationhistory`.`schemaDifference_blob_reserved`, 
-`xy_ipc_communicationhistory`.`schemaDifference_reserved`, 
-`xy_ipc_communicationhistory`.`startTime`, 
-`xy_ipc_communicationhistory`.`trunkId`, 
-`xy_ipc_communicationhistory`.`trunkBChannel`, 
-`xy_ipc_communicationhistory`.`userId`, 
-`xy_ipc_communicationhistory`.`lastModified`, 
-`xy_ipc_communicationhistory`.`parentUserCDIId`, 
-`xy_ipc_communicationhistory`.`EndTime`, 
-`xy_ipc_communicationhistory`.`EffectiveCallDuration`
-FROM `xy_ipc_communicationhistory` AS `xy_ipc_communicationhistory`</DefiningQuery>
-    </EntitySet>
+    <EntitySet Name="xy_costcenters" EntityType="Self.xy_costcenters" Schema="xynthesis2" store:Type="Tables" />
+    <EntitySet Name="xy_extencionessubcriber" EntityType="Self.xy_extencionessubcriber" Schema="xynthesis2" store:Type="Tables" />
+    <EntitySet Name="xy_ticketsoxe" EntityType="Self.xy_ticketsoxe" Schema="xynthesis2" store:Type="Tables" />
   </EntityContainer>
 </Schema>

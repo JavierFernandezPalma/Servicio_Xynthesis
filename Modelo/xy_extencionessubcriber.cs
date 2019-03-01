@@ -14,8 +14,11 @@ namespace Modelo
     
     public partial class xy_extencionessubcriber
     {
-        public int idxy_extencionessubcriber { get; set; }
-        public string nom_subcriber { get; set; }
-        public string extencion { get; set; }
+        public int Id_Extencionessubcriber { get; set; }
+        public string Nom_Subscriber { get; set; }
+        public string Extencion { get; set; }
+        public int Ide_CostCenter { get; set; }
+        public int Id_Area { get; set; }
+        public int IdSucursal { get; set; }
     }
 }

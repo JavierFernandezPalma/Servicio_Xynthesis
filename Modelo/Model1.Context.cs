@@ -28,7 +28,6 @@ namespace Modelo
             throw new UnintentionalCodeFirstException();
         }
     
-        public DbSet<xy_ipc_communicationhistory> xy_ipc_communicationhistory { get; set; }
         public DbSet<xy_ticketsoxe> xy_ticketsoxe { get; set; }
         public DbSet<xy_costcenters> xy_costcenters { get; set; }
         public DbSet<xy_extencionessubcriber> xy_extencionessubcriber { get; set; }

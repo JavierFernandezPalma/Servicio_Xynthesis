@@ -50,3 +50,9 @@ D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\bin\Debug\Mode
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.Process.csprojAssemblyReference.cache
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.Process.csproj.CoreCompileInputs.cache
 D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\obj\Debug\Axede.Xynthesis.Process.csproj.CopyComplete
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\bin\Debug\Xynthesis.Modelo.dll
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\bin\Debug\Xynthesis.Utilidades.dll
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\bin\Debug\Xynthesis.Modelo.pdb
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\bin\Debug\Xynthesis.Modelo.dll.config
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\bin\Debug\Xynthesis.Utilidades.pdb
+D:\Axede.Xynthesis.Device.Oxe\SwDeviceOxe\Axede.Xynthesis.Process\bin\Debug\Xynthesis.Utilidades.dll.config

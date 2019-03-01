@@ -53,6 +53,9 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="Xynthesis.Modelo">
+      <HintPath>..\..\..\XynthesisV3\XynthesisWeb\Xynthesis.Modelo\bin\Debug\Xynthesis.Modelo.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClsBlueWave.cs" />

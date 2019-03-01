@@ -257,9 +257,9 @@ namespace Axede.Xynthesis.Process
                                 }
                             }
 
-                            if(maximoCargue == 1)
+                            if(maximoCargue == cantidad_MaxDatos_Cargue)
                             {
-                                if (MaximaFechaTickets != cantidad_MaxDatos_Cargue)
+                                if (MaximaFechaTickets != 0)
                                 {
                                     EliminarFilasTaxaViejas(MaximaFechaTickets);
                                 }
@@ -366,13 +366,13 @@ namespace Axede.Xynthesis.Process
             else if (RegistroTaxa[3].ToString() != "")
             {
                 string ChargedUserName = RegistroTaxa[3].ToString();
-                var ValidarChargedNumber = (from db in bd_Xynthesis.xy_extencionessubcriber where db.nom_subcriber == ChargedUserName select db).Any();
+                var ValidarChargedNumber = (from db in bd_Xynthesis.xy_extencionessubcriber where db.Nom_Subscriber == ChargedUserName select db).Any();
 
                 if (ValidarChargedNumber)
                 {
-                    var ChargedNumber = (from db in bd_Xynthesis.xy_extencionessubcriber where db.nom_subcriber == ChargedUserName select db).First();
+                    var ChargedNumber = (from db in bd_Xynthesis.xy_extencionessubcriber where db.Nom_Subscriber == ChargedUserName select db).First();
 
-                    UserOxe.Add(ChargedNumber.extencion);
+                    UserOxe.Add(ChargedNumber.Extencion);
 
                 }
 
@@ -397,13 +397,13 @@ namespace Axede.Xynthesis.Process
             {
 
                 string ChargedNumber = RegistroTaxa[2].ToString();
-                var ValidarUserName = (from db in bd_Xynthesis.xy_extencionessubcriber where db.extencion == ChargedNumber select db).Any();
+                var ValidarUserName = (from db in bd_Xynthesis.xy_extencionessubcriber where db.Extencion == ChargedNumber select db).Any();
 
                 if (ValidarUserName)
                 {
-                    var UserName = (from db in bd_Xynthesis.xy_extencionessubcriber where db.extencion == ChargedNumber select db).First();
+                    var UserName = (from db in bd_Xynthesis.xy_extencionessubcriber where db.Extencion == ChargedNumber select db).First();
 
-                    UserOxe.Add(UserName.nom_subcriber);
+                    UserOxe.Add(UserName.Nom_Subscriber);
                 }
                 else
                 {

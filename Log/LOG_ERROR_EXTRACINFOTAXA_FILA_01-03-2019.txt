@@ -1,0 +1,72 @@
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 3; Mensaje: Se produjo un error al ejecutar la definición del comando. Vea la excepción interna para obtener detalles.
+
+
+Registrado el : 01/03/2019 12:02:26
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 4; Mensaje: Se produjo un error al ejecutar la definición del comando. Vea la excepción interna para obtener detalles.
+
+
+Registrado el : 01/03/2019 12:02:27
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 5; Mensaje: Se produjo un error al ejecutar la definición del comando. Vea la excepción interna para obtener detalles.
+
+
+Registrado el : 01/03/2019 12:02:28
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 8; Mensaje: Se produjo un error al ejecutar la definición del comando. Vea la excepción interna para obtener detalles.
+
+
+Registrado el : 01/03/2019 12:02:54
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 10; Mensaje: Se produjo un error al ejecutar la definición del comando. Vea la excepción interna para obtener detalles.
+
+
+Registrado el : 01/03/2019 12:03:27
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 15; Mensaje: Se produjo un error al ejecutar la definición del comando. Vea la excepción interna para obtener detalles.
+
+
+Registrado el : 01/03/2019 12:05:28
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 17; Mensaje: Se produjo un error al ejecutar la definición del comando. Vea la excepción interna para obtener detalles.
+
+
+Registrado el : 01/03/2019 12:07:02
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 23; Mensaje: Se produjo un error al ejecutar la definición del comando. Vea la excepción interna para obtener detalles.
+
+
+Registrado el : 01/03/2019 12:09:09
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 24; Mensaje: Se produjo un error al ejecutar la definición del comando. Vea la excepción interna para obtener detalles.
+
+
+Registrado el : 01/03/2019 12:12:45
+
+=================================================================================================

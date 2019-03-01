@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicioXynthesis", "Servic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Axede.Xynthesis.Process", "Axede.Xynthesis.Process\Axede.Xynthesis.Process.csproj", "{79AE3C59-549A-4ECC-BECD-E19D9EEDA411}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Servicio_XynthesisOxe", "Servicio_XynthesisOxe\Servicio_XynthesisOxe.vdproj", "{E1EE2DE4-0337-4759-9044-4DD3130949F4}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Servicio_XynthesisOxe", "Servicio_XynthesisOxe\Servicio_XynthesisOxe.vdproj", "{FEE90A72-DC75-4851-B5BC-E23FD456F0E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,12 +113,12 @@ Global
 		{79AE3C59-549A-4ECC-BECD-E19D9EEDA411}.Release|x64.Build.0 = Release|Any CPU
 		{79AE3C59-549A-4ECC-BECD-E19D9EEDA411}.Release|x86.ActiveCfg = Release|Any CPU
 		{79AE3C59-549A-4ECC-BECD-E19D9EEDA411}.Release|x86.Build.0 = Release|Any CPU
-		{E1EE2DE4-0337-4759-9044-4DD3130949F4}.Debug|Any CPU.ActiveCfg = Debug
-		{E1EE2DE4-0337-4759-9044-4DD3130949F4}.Debug|x64.ActiveCfg = Debug
-		{E1EE2DE4-0337-4759-9044-4DD3130949F4}.Debug|x86.ActiveCfg = Debug
-		{E1EE2DE4-0337-4759-9044-4DD3130949F4}.Release|Any CPU.ActiveCfg = Release
-		{E1EE2DE4-0337-4759-9044-4DD3130949F4}.Release|x64.ActiveCfg = Release
-		{E1EE2DE4-0337-4759-9044-4DD3130949F4}.Release|x86.ActiveCfg = Release
+		{FEE90A72-DC75-4851-B5BC-E23FD456F0E4}.Debug|Any CPU.ActiveCfg = Debug
+		{FEE90A72-DC75-4851-B5BC-E23FD456F0E4}.Debug|x64.ActiveCfg = Debug
+		{FEE90A72-DC75-4851-B5BC-E23FD456F0E4}.Debug|x86.ActiveCfg = Debug
+		{FEE90A72-DC75-4851-B5BC-E23FD456F0E4}.Release|Any CPU.ActiveCfg = Release
+		{FEE90A72-DC75-4851-B5BC-E23FD456F0E4}.Release|x64.ActiveCfg = Release
+		{FEE90A72-DC75-4851-B5BC-E23FD456F0E4}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
