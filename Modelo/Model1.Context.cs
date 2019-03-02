@@ -281,11 +281,6 @@ namespace Modelo
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("xyp_ExtractionTicketsIPC");
         }
     
-        public virtual int xyp_Execute_ETL_OXE()
-        {
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("xyp_Execute_ETL_OXE");
-        }
-    
         public virtual int xyp_DelFilasTicketsOld(Nullable<int> maxContador)
         {
             var maxContadorParameter = maxContador.HasValue ?
@@ -298,6 +293,11 @@ namespace Modelo
         public virtual int xyp_FechaMaxTicketsOxe()
         {
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("xyp_FechaMaxTicketsOxe");
+        }
+    
+        public virtual int xyp_Execute_ETL_OXE()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("xyp_Execute_ETL_OXE");
         }
     }
 }

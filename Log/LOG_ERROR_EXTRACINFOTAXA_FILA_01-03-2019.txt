@@ -1,72 +1,1120 @@
 
 Se ha generado el siguiente LOG : 
-Fichero: TAXAXBIC; proceso línea = 3; Mensaje: Se produjo un error al ejecutar la definición del comando. Vea la excepción interna para obtener detalles.
+Fichero: TAXAXBHE; proceso línea = 1; Mensaje: La cadena de entrada no tiene el formato correcto.
 
 
-Registrado el : 01/03/2019 12:02:26
-
-=================================================================================================
-
-Se ha generado el siguiente LOG : 
-Fichero: TAXAXBIC; proceso línea = 4; Mensaje: Se produjo un error al ejecutar la definición del comando. Vea la excepción interna para obtener detalles.
-
-
-Registrado el : 01/03/2019 12:02:27
+Registrado el : 01/03/2019 08:06:49
 
 =================================================================================================
 
 Se ha generado el siguiente LOG : 
-Fichero: TAXAXBIC; proceso línea = 5; Mensaje: Se produjo un error al ejecutar la definición del comando. Vea la excepción interna para obtener detalles.
+Fichero: TAXAXBHH; proceso línea = 1; Mensaje: La cadena de entrada no tiene el formato correcto.
 
 
-Registrado el : 01/03/2019 12:02:28
-
-=================================================================================================
-
-Se ha generado el siguiente LOG : 
-Fichero: TAXAXBIC; proceso línea = 8; Mensaje: Se produjo un error al ejecutar la definición del comando. Vea la excepción interna para obtener detalles.
-
-
-Registrado el : 01/03/2019 12:02:54
+Registrado el : 01/03/2019 08:06:55
 
 =================================================================================================
 
 Se ha generado el siguiente LOG : 
-Fichero: TAXAXBIC; proceso línea = 10; Mensaje: Se produjo un error al ejecutar la definición del comando. Vea la excepción interna para obtener detalles.
+Fichero: TAXAXBHK; proceso línea = 1; Mensaje: La cadena de entrada no tiene el formato correcto.
 
 
-Registrado el : 01/03/2019 12:03:27
-
-=================================================================================================
-
-Se ha generado el siguiente LOG : 
-Fichero: TAXAXBIC; proceso línea = 15; Mensaje: Se produjo un error al ejecutar la definición del comando. Vea la excepción interna para obtener detalles.
-
-
-Registrado el : 01/03/2019 12:05:28
+Registrado el : 01/03/2019 08:07:02
 
 =================================================================================================
 
 Se ha generado el siguiente LOG : 
-Fichero: TAXAXBIC; proceso línea = 17; Mensaje: Se produjo un error al ejecutar la definición del comando. Vea la excepción interna para obtener detalles.
+Fichero: TAXAXBHL; proceso línea = 4; Mensaje: La cadena de entrada no tiene el formato correcto.
 
 
-Registrado el : 01/03/2019 12:07:02
-
-=================================================================================================
-
-Se ha generado el siguiente LOG : 
-Fichero: TAXAXBIC; proceso línea = 23; Mensaje: Se produjo un error al ejecutar la definición del comando. Vea la excepción interna para obtener detalles.
-
-
-Registrado el : 01/03/2019 12:09:09
+Registrado el : 01/03/2019 08:07:04
 
 =================================================================================================
 
 Se ha generado el siguiente LOG : 
-Fichero: TAXAXBIC; proceso línea = 24; Mensaje: Se produjo un error al ejecutar la definición del comando. Vea la excepción interna para obtener detalles.
+Fichero: TAXAXBHY; proceso línea = 8; Mensaje: La cadena de entrada no tiene el formato correcto.
 
 
-Registrado el : 01/03/2019 12:12:45
+Registrado el : 01/03/2019 08:07:35
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBHY; proceso línea = 28; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:07:37
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBHY; proceso línea = 52; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:07:37
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBHY; proceso línea = 82; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:07:39
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBHY; proceso línea = 98; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:07:39
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBHY; proceso línea = 107; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:07:39
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBHY; proceso línea = 109; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:07:39
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBHY; proceso línea = 123; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:07:40
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBHY; proceso línea = 147; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:07:41
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBHY; proceso línea = 200; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:07:43
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBHY; proceso línea = 229; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:07:45
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBHZ; proceso línea = 64; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:08:00
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBHZ; proceso línea = 81; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:08:01
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBHZ; proceso línea = 158; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:08:03
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBHZ; proceso línea = 218; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:08:07
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 68; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:08:18
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 119; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:08:21
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 135; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:08:22
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 137; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:08:22
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 190; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:08:25
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 212; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:08:25
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 374; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:08:32
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 385; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:08:33
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 399; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:08:34
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 406; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:08:34
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 415; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:08:34
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 495; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:08:38
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 499; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:08:38
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 546; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:08:40
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 550; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:08:40
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 568; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:08:41
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 608; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:08:43
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 725; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:08:48
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 755; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:08:50
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 836; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:08:53
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 970; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:09:00
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 1018; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:09:02
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 1020; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:09:02
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 1066; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:09:04
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 1086; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:09:04
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 1123; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:09:06
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 1157; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:09:07
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 1173; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:09:08
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 1673; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:10:42
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 1678; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:10:42
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 1721; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:10:44
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 1760; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:10:46
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 1794; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:10:47
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 1863; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:10:51
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 1885; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:10:52
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 1942; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:10:55
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 1981; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:10:56
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 1983; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:10:56
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 2197; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:11:07
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 2200; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:11:07
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 2212; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:11:07
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 2322; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:11:13
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 2426; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:11:19
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 2438; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:11:19
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIA; proceso línea = 2546; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:11:25
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 17; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:11:41
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 24; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:11:42
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 440; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:12:00
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 558; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:12:05
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 928; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:12:23
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 982; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:12:25
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 1238; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:12:38
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 1334; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:12:42
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 1423; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:12:46
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 1554; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:12:53
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 1713; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:13:21
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 1847; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:13:27
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 1924; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:13:30
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 1991; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:13:34
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 2266; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:13:47
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 2314; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:13:49
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 2357; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:13:51
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 2395; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:13:52
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 2408; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:13:53
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 2521; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:13:58
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 2575; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:14:01
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 2590; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:14:02
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 2613; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:14:02
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 2628; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:14:03
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 2797; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:14:12
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 2801; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:14:12
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 2817; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:14:13
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 2835; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:14:13
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 2858; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:14:15
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 2893; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:14:17
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 2913; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:14:18
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 3034; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:14:22
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 3076; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:14:24
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 3144; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:14:28
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 3146; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:14:28
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 3241; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:14:32
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 3244; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:14:45
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 3271; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:14:46
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 3334; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:14:49
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 3440; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:14:55
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 3588; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:15:03
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 3626; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:15:04
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 3634; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:15:04
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 3684; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:15:07
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIB; proceso línea = 3775; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:15:11
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 108; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:15:24
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 151; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:15:26
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 224; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:15:30
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 243; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:15:31
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 281; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:15:33
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 335; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:15:36
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 354; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:15:38
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 435; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:15:42
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 470; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:15:43
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 471; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:15:43
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 601; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:15:50
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 632; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:15:51
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 633; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:15:51
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 641; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:15:51
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 742; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:15:55
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 778; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:15:58
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 800; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:15:59
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 867; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:16:03
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 996; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:16:09
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 1031; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:16:11
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 1050; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:16:12
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 1065; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:16:12
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 1085; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:16:13
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 1089; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:16:13
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 1092; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:16:13
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 1110; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:16:14
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 1131; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:16:15
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 1169; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:16:16
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 1176; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:16:17
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 1278; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:16:22
+
+=================================================================================================
+
+Se ha generado el siguiente LOG : 
+Fichero: TAXAXBIC; proceso línea = 1344; Mensaje: La cadena de entrada no tiene el formato correcto.
+
+
+Registrado el : 01/03/2019 08:16:25
 
 =================================================================================================

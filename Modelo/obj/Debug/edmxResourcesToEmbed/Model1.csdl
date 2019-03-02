@@ -66,7 +66,6 @@
       <Parameter Name="dDate" Mode="In" Type="DateTime" />
     </FunctionImport>
     <FunctionImport Name="xyp_ExtractionTicketsIPC" />
-    <FunctionImport Name="xyp_Execute_ETL_OXE" />
     <FunctionImport Name="xyp_DelFilasTicketsOld">
       <Parameter Name="MaxContador" Mode="In" Type="Int32" />
     </FunctionImport>
@@ -74,6 +73,7 @@
     <EntitySet Name="xy_ticketsoxe" EntityType="xynthesisModel.xy_ticketsoxe" />
     <EntitySet Name="xy_costcenters" EntityType="xynthesisModel.xy_costcenters" />
     <EntitySet Name="xy_extencionessubcriber" EntityType="xynthesisModel.xy_extencionessubcriber" />
+    <FunctionImport Name="xyp_Execute_ETL_OXE" />
   </EntityContainer>
   <EntityType Name="xy_ticketsoxe">
     <Key>

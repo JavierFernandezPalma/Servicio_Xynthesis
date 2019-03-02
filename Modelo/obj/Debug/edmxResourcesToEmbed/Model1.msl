@@ -47,5 +47,12 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="xyp_Add_xy_ticketsoxe" FunctionName="xynthesisModel.Store.xyp_Add_xy_ticketsoxe" />
+    <FunctionImportMapping FunctionImportName="xyp_ExtractionTicketsIPC" FunctionName="xynthesisModel.Store.xyp_ExtractionTicketsIPC" />
+    <FunctionImportMapping FunctionImportName="xyp_FechaMaxTicketsOxe" FunctionName="xynthesisModel.Store.xyp_FechaMaxTicketsOxe" />
+    <FunctionImportMapping FunctionImportName="xyp_LoadTickets" FunctionName="xynthesisModel.Store.xyp_LoadTickets" />
+    <FunctionImportMapping FunctionImportName="xyp_TransTicketsOXE" FunctionName="xynthesisModel.Store.xyp_TransTicketsOXE" />
+    <FunctionImportMapping FunctionImportName="xyp_DelFilasTicketsOld" FunctionName="xynthesisModel.Store.xyp_DelFilasTicketsOld" />
+    <FunctionImportMapping FunctionImportName="xyp_Execute_ETL_OXE" FunctionName="xynthesisModel.Store.xyp_Execute_ETL_OXE" />
   </EntityContainerMapping>
 </Mapping>
